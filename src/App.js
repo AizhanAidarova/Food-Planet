@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react';
+import PagesMenu from "../src/Pages/Menu/PagesMenu";
 
-function App() {
-  return (
-    <div>
-
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <PagesMenu/>
+        </div>
+    );
+};
 
 export default App;
