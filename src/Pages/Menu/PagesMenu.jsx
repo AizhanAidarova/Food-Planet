@@ -28,77 +28,77 @@ const App = () => {
             </div>
             <div className={style.pizza}>
                 <div className={style.margarita}>
-                    <img src={margarita} alt=""/>
+                    <img className={style.pizzaPic} src={margarita} alt=""/>
                     <div>
-                        <h3>Маргарита</h3>
-                        <p>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Маргарита</h3>
+                        <p className={style.recipe}>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
+                        <h3 className={style.price}> 365 сом</h3>
                         <button onClick={()=> setCount (count +1)}> + </button>
-
+                        <p>count:{useState.setCount}</p>
                         <button onClick={()=> setCount (count -1)}> - </button>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={asian} alt=""/>
+                    <img className={style.pizzaPic} src={asian} alt=""/>
                     <div>
-                        <h3>Азиатская</h3>
-                        <p>Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины</p>
-                        <h3> 395 сом</h3>
+                        <h3 className={style.price}>Азиатская</h3>
+                        <p className={style.recipe}>Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины</p>
+                        <h3 className={style.price}> 395 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={italien} alt=""/>
+                    <img className={style.pizzaPic} src={italien} alt=""/>
                     <div>
-                        <h3>Итальянская</h3>
-                        <p> Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Итальянская</h3>
+                        <p className={style.recipe}> Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок</p>
+                        <h3 className={style.price}> 365 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={vegetarien} alt=""/>
+                    <img className={style.pizzaPic} src={vegetarien} alt=""/>
                     <div>
-                        <h3>Веганская</h3>
-                        <p>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Веганская</h3>
+                        <p className={style.recipe}>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
+                        <h3 className={style.price}> 365 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={margarita} alt=""/>
+                    <img className={style.pizzaPic} src={margarita} alt=""/>
                     <div>
-                        <h3>Маргарита</h3>
-                        <p>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Маргарита</h3>
+                        <p className={style.recipe}>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
+                        <h3 className={style.price}> 365 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={asian} alt=""/>
+                    <img className={style.pizzaPic} src={asian} alt=""/>
                     <div>
-                        <h3>Азиатская</h3>
-                        <p>Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины</p>
-                        <h3> 395 сом</h3>
+                        <h3 className={style.price}>Азиатская</h3>
+                        <p className={style.recipe}>Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины</p>
+                        <h3 className={style.price}> 395 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={italien} alt=""/>
+                    <img className={style.pizzaPic} src={italien} alt=""/>
                     <div>
-                        <h3>Итальянская</h3>
-                        <p> Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Итальянская</h3>
+                        <p className={style.recipe}> Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок</p>
+                        <h3 className={style.price}> 365 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
                 <div className={style.margarita}>
-                    <img src={vegetarien} alt=""/>
+                    <img className={style.pizzaPic} src={vegetarien} alt=""/>
                     <div>
-                        <h3>Веганская</h3>
-                        <p>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
-                        <h3> 365 сом</h3>
+                        <h3 className={style.price}>Веганская</h3>
+                        <p className={style.recipe}>Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус</p>
+                        <h3 className={style.price}> 365 сом</h3>
                     </div>
                     <button className={style.btn2}>В КОРЗИНУ</button>
                 </div>
