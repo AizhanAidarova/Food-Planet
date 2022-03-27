@@ -18,27 +18,27 @@
     margin-right: 32px;
 }
 
-h3{
+.price{
     font-family: 'Roboto', sans-serif;;
     font-size: 20px;
     color: #254F4C;
 }
-img{
+.pizzaPic{
     margin-top: -75px;
 }
-p{
+.recipe{
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
     margin: 15px;
 }
-button{
+/*.button{
     background-color: #254F4C;
     border-radius: 40px;
     color: white;
     font-family: 'Roboto';
     font-size: 14px;
-}
+}*/
 .noveltiesBurger {
     text-decoration: underline;
     color:red;
@@ -52,7 +52,7 @@ button{
 .noveltiesNavbar {
     display: flex;
 }
-nav, ul, a {
+/*nav, ul, a {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -61,7 +61,7 @@ nav, ul, a {
     color: #1D3130;
     line-height: 18px;
     margin-right: 30px;
-}
+}*/
 .btn2 {
     padding: 13px 60px;
     color: white;
