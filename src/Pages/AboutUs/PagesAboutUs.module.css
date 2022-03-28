@@ -9,7 +9,6 @@
 
 .aboutUs{
     width: 256px;
-    /* height: 184px; */
     display: flex;
     flex-direction: column; 
     align-items: center;
