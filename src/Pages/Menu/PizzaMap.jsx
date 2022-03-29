@@ -1,10 +1,12 @@
 import React from 'react';
 import {block} from "../../AdminPage/Constant/index";
 import PizzaProps from "./PizzaProps";
+import style from "../Menu/PagesMenu.module.css"
 
 const PizzaMap = () => {
     return (
         <>
+            <div className={style.pizzaMap}>
             {
                 block.map((item) => {
                     return <PizzaProps
@@ -16,6 +18,7 @@ const PizzaMap = () => {
                     />
                 })
             }
+            </div>
         </>
     );
 };

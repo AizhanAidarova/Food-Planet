@@ -11,7 +11,8 @@ header {
     height: 45px;
 }
 
-nav, ul, a {
+
+.navbar, ul, a {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -23,9 +24,9 @@ nav, ul, a {
     padding-top: 0;
 }
 
-.glavnaya {
-    color: red !important;
-    margin-left: 125px;
+.glavnaya:hover {
+    color: red;
+    font-size:  25px;
 }
 
 .phone {

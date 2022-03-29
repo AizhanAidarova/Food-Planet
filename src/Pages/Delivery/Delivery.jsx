@@ -15,7 +15,6 @@ const Delivery = (props) => {
                 <p><img style={{width:"20px"}} src={phone} alt=""/>{props.phone}</p>
             </div>
         </div>
-
     );
 };
 

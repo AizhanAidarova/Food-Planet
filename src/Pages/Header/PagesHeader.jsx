@@ -8,10 +8,10 @@ import cart from '../Media/icon/cart.svg';
 const PagesHeader = () => {
     return (
         <header>
-            <div className={style.Logo}> <img className={style.logoHeader} src={logo} /></div>
+            <div> <img className={style.logoHeader} src={logo} /></div>
             <nav className={style.navbar}>
                 <ul>
-                    <li><a className={style.glavnaya} >Главная </a></li>
+                    <li><a>Главная </a></li>
                     {/* <li>
                         <div className="dropdown-menu">
                             <Link to="/" className='menuBtn'>
@@ -29,7 +29,7 @@ const PagesHeader = () => {
                         </div>
                     </li> */}
                     <li>
-                        <select id="header-menu" class="select">
+                        <select id="header-menu">
                             <option value="0">Меню</option>
                             <option value="1">Бургер</option>
                             <option value="2">Суши</option>
