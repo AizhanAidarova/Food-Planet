@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./PagesMenu.module.css";
 
-const Menu = () => {
+const MenuHeader = () => {
     return (
         <>
             <div  className={style.noveltiesNavbar}>
@@ -22,4 +22,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default MenuHeader;

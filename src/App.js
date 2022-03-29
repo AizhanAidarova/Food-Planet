@@ -1,18 +1,17 @@
 import React from 'react';
-import PagesMenu from "../src/Pages/Menu/PagesMenu";
-import PagesHeader from "./Pages/Header/PagesHeader";
-import PagesMain from "./Pages/Main/PagesMain";
-import Novelties from "./Pages/Novelties/Novelties";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import AllPages from "./Pages/AllPages/AllPages";
+import DeliveryMain from "./Pages/Delivery/DeliveryMain";
+
 
 const App = () => {
     return (
-        <div>
-            <PagesHeader/>
-            <PagesMain/>
-            <Novelties/>
-            <PagesMenu/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="index" element={<AllPages/>}/>
+                <Route path="delivery" element={<DeliveryMain/>}/>
+            </Routes>
+        </BrowserRouter>
     );
 };
-
 export default App;

@@ -11,7 +11,7 @@
     border-right: 1px solid darkgrey;
     width: 264px;
     height: 338px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 40px;
     margin-top: 100px;
@@ -71,4 +71,49 @@
     font-size: 14px;
     margin-left: 8px;
     margin-top: 28px;
+}
+
+.mainMenu{
+    width: 1600px;
+    margin: 0 auto;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divBord{
+    border: 1px solid black;
+    background-color: #254F4C;
+    border-radius: 10px;
+    padding: 20px;
+    width: 430px;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.deliveriImg{
+    border-radius: 10px;
+    width: 270px;
+    height: 250px;
+}
+.delivery{
+    font-size: 38px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    color: black;
+}
+.deliveryh1{
+    color: darkgrey;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.deliveryP{
+    color: darkgrey;
+    font-size: 50px;
+    margin: 0 auto;
 }
