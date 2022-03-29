@@ -12,17 +12,19 @@ const PizzaProps = (props) => {
     }
     return (
         <>
-            <div className={style.pizza}>
+            <div>
                 <div className={style.margarita}>
                     <img className={style.pizzaPic} src={props.imgURL} alt="Pizza"/>
                     <div>
                         <h3 className={style.price}>{props.title}</h3>
                         <p className={style.recipe}>{props.titleDesc}</p>
                         <h3 className={style.price}>{props.desc}</h3>
-                        <button onClick={increment}> + 1</button>
-                        <button onClick={dicrement}> - 1</button>
+                    <div className={style.countBtn}>
+                        <button className={style.countBtn1} onClick={increment}> + </button>
                         <p>{count}</p>
-                    <button className={style.btn2}>В КОРЗИНУ</button>
+                        <button className={style.countBtn2} onClick={dicrement}> - </button>
+                    </div>
+                    <button className={style.basketBtn}>В КОРЗИНУ</button>
                     </div>
                 </div>
             </div>

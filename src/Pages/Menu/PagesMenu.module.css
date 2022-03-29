@@ -52,7 +52,7 @@
 .noveltiesNavbar {
     display: flex;
 }
-/*nav, ul, a {
+.menu{
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -61,8 +61,27 @@
     color: #1D3130;
     line-height: 18px;
     margin-right: 30px;
-}*/
-.btn2 {
+}
+.navbar a:hover{
+    color:red;
+}
+.countBtn{
+     display: flex;
+     color:#317631;
+     font-size: 25px;
+}
+
+.countBtn1{
+    margin-left: 100px;
+}
+.countBtn1, .countBtn2{
+    color:red;
+    border:none;
+    font-size: 20px;
+    background: #FCFCFC;
+
+}
+.basketBtn {
     padding: 13px 60px;
     color: white;
     border: 1px solid #FF583E;
@@ -81,6 +100,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.bord{
+    width: 1400px;
+}
 .divBord{
     border: 1px solid black;
     background-color: #254F4C;
@@ -88,7 +110,7 @@
     padding: 20px;
     width: 430px;
     margin-right: 40px;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 30px;
     justify-content: center;
     text-align: center;
@@ -108,12 +130,21 @@
     color: black;
 }
 .deliveryh1{
-    color: darkgrey;
+    color: #254f4c;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.deliveryP{
+    color: #254f4c;
     font-size: 50px;
     margin: 0 auto;
 }
-.deliveryP{
-    color: darkgrey;
-    font-size: 50px;
+.pizzaMap{
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
 }

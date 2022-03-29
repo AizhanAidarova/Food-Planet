@@ -8,7 +8,7 @@ const PagesMenu = () => {
 
     return (
         <div className={style.novelties}>
-            <div className={style.pizza}>
+            <div>
                 <MenuHeader/>
                 <PizzaMap/>
             </div>
