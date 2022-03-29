@@ -24,7 +24,6 @@ const PagesHeader = () => {
                                 <Link to="/" class="dropdown-item">Салаты</Link>
                                 <Link to="/" class="dropdown-item">Десерты</Link>
                                 <Link to="/" class="dropdown-item">Напитки</Link>
-
                             </div>
                         </div>
                     </li> */}
@@ -51,5 +50,3 @@ const PagesHeader = () => {
 };
 
 export default PagesHeader;
-
-{/* <Link className='menuBtn' href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> */}

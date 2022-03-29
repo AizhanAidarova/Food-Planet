@@ -27,8 +27,11 @@ nav, ul, a {
     padding-top: 0;
 }
 
+.navbar a:hover{
+    color:red;
+}
+
 .glavnaya {
-    color: red !important;
     margin-left: 125px;
 }
 

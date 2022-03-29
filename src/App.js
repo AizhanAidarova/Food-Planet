@@ -1,7 +1,10 @@
 import React from 'react';
 import PagesHeader from './Pages/Header/PagesHeader';
 import PagesMain from './Pages/Main/PagesMain';
-import Novelties from './Pages/Novelties/Novelties';
+// import BurgersMenu from './Pages/NoveltiesMenu/BurgersMenu';
+// import NoveltiesMenu from './Pages/NoveltiesMenu/NoveltiesMenu';
+import Total from './Pages/NoveltiesMenu/Total';
+
 
 
 const App = () => {
@@ -9,8 +12,8 @@ const App = () => {
         <div>
             <PagesHeader/>
             <PagesMain/>
-            <Novelties/>
-        </div>
+            <Total/>
+      </div>
     );
 };
 
