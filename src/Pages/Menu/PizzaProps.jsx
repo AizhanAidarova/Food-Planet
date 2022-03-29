@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import style from "./PagesMenu.module.css";
 
 
-const Pizza = (props) => {
+const PizzaProps = (props) => {
     const [count, setCount] = useState(0);
     const increment = () => {
         setCount(count + 1)
@@ -14,7 +14,7 @@ const Pizza = (props) => {
         <>
             <div className={style.pizza}>
                 <div className={style.margarita}>
-                    <img className={style.pizzaPic} src={props.imgURL}/>
+                    <img className={style.pizzaPic} src={props.imgURL} alt="Pizza"/>
                     <div>
                         <h3 className={style.price}>{props.title}</h3>
                         <p className={style.recipe}>{props.titleDesc}</p>
@@ -29,4 +29,4 @@ const Pizza = (props) => {
         </>
     );
 };
-export default Pizza;
+export default PizzaProps;

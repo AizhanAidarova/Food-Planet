@@ -1,13 +1,13 @@
 import React from 'react';
 import {block} from "../../AdminPage/Constant/index";
-import Pizza from "./Pizza";
+import PizzaProps from "./PizzaProps";
 
-const MenuPizza = () => {
+const PizzaMap = () => {
     return (
         <>
             {
-                block.map((item,index) => {
-                    return <Pizza
+                block.map((item) => {
+                    return <PizzaProps
                         id={item.id}
                         imgUrl={item.imgURL}
                         title={item.title}
@@ -20,4 +20,4 @@ const MenuPizza = () => {
     );
 };
 
-export default MenuPizza;
+export default PizzaMap;

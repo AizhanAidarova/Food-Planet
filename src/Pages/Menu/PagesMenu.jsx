@@ -1,22 +1,21 @@
 import React from "react";
-import {useState} from 'react';
 import style from "../Menu/PagesMenu.module.css";
-import Menu from "./Menu";
-import MenuPizza from "../Menu/MenuPizza"
+import MenuHeader from "./MenuHeader";
+import PizzaMap from "./PizzaMap";
 
 
-const App = () => {
+const PagesMenu = () => {
 
     return (
         <div className={style.novelties}>
             <div className={style.pizza}>
-                <Menu/>
-                <MenuPizza/>
+                <MenuHeader/>
+                <PizzaMap/>
             </div>
         </div>
     )
 }
-export default App;
+export default PagesMenu;
 
 
 

@@ -1,3 +1,8 @@
+import React from 'react';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import AllPages from "./Pages/AllPages/AllPages";
+import DeliveryMain from "./Pages/Delivery/DeliveryMain";
+
 
 import PagesMenu from "../src/Pages/Menu/PagesMenu";
 import React from 'react';
@@ -12,6 +17,12 @@ import Novelties from "./Pages/Novelties/Novelties";
 const App = () => {
     return (
         <>
+        <BrowserRouter>
+            <Routes>
+                <Route path="index" element={<AllPages/>}/>
+                <Route path="delivery" element={<DeliveryMain/>}/>
+            </Routes>
+        </BrowserRouter>
 
             <PagesHeader/>
             <PagesMain/>
