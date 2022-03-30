@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100;400;700&display=swap');
+header {
+    display: flex;
+    align-items:center;
+    height: 45px;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.logoHeader {
+    height: 45px;
+}
+
+
+.navbar, ul, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1D3130;
+    padding-top: 0;
+}
+
+.glavnaya:hover {
+    color: red;
+    font-size:  25px;
+}
+
+.phone {
+    height: 14px;
+    margin-left: 40px;
+}
+
+.cart {
+    height: 14px;
+    margin-left: 40px;
+}
+
+.num {
+    color: red;
+    font-weight: 700;
+
+}
