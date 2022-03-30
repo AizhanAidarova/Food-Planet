@@ -11,7 +11,7 @@
     width: 256px;
     display: flex;
     flex-direction: column; 
-    align-items: center;
+    align-items: center; 
 }
 
 
@@ -23,7 +23,7 @@
 .aboutUs p{
     font-size: 14px;
     text-align: center;
-   margin: 0;
+    margin: 0;
 }
 
 h3{

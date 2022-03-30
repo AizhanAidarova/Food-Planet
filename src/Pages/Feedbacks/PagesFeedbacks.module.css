@@ -15,7 +15,6 @@
 .oneFeedback h3{
     font-size: 25px;
     color: #254F4C ;
-    
 }
 
 .oneFeedback .firstFeedback{
@@ -43,4 +42,10 @@
     color: #3B7976;
     margin: 0;
 }
+
+.oneFeedback p{
+    min-height: 110px;
+}
+
+
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import phone from "../Media/Icons/Vector.svg";
 import logo from "../Media/Icons/LOgo.svg";
 import styles from "./PagesFooter.module.css";

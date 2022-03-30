@@ -9,16 +9,19 @@ export const about = [
     },
     {
         id: 2,
+        img: '../Media/Icons/AboutUs2.svg',
         reasons: "Свежие продукты",
         reasonsInDetail: "Вся продукция хранится в хороших условиях тем самым продливая срок хранения"
     },
     {
         id: 3,
+        img: '../Media/Icons/AboutUs3.svg',
         reasons: "Уникальное меню",
         reasonsInDetail: "Ежедневно мы обновляем наше меню и том числе коктейльное"
     },
     {
         id: 4,
+        img: '../Media/Icons/AboutUs4.svg',
         reasons: "Доставка",
         reasonsInDetail: "Мы быстро доставляем вашу еду по указанному адресу"
     },
