@@ -3,7 +3,6 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import AllPages from "./Pages/AllPages/AllPages";
 import DeliveryMain from "./Pages/Delivery/DeliveryMain";
 
-
 import PagesFooter from './Pages/Footer/PagesFooter';
 import PagesAboutUs from './Pages/AboutUs/PagesAboutUs';
 import PagesFeedbacks from './Pages/Feedbacks/PagesFeedbacks';
