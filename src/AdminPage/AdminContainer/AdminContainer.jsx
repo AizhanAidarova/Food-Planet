@@ -19,10 +19,10 @@ const AdminContainer = () => {
                     </ul>
                 </nav>
             </div>
+            <div>
+                <h2>Главная</h2>
+            </div>
             <div className={style.adminBlock1}>
-                <div>
-                    <h2>Главная</h2>
-                </div>
                 <div className={style.adminBlock}>
                     <h1>Пицца</h1>
                     <p>60</p>
