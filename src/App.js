@@ -11,7 +11,7 @@ const App = () => {
     return (
         <>
         <BrowserRouter>
-          h
+          hffffffd
             <Routes>
                 <Route path="index" element={<AllPages/>}/>
                 <Route path="delivery" element={<DeliveryMain/>}/>
