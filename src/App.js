@@ -6,6 +6,7 @@ import DeliveryMain from "./Pages/Delivery/DeliveryMain";
 import PagesFooter from './Pages/Footer/PagesFooter';
 import PagesAboutUs from './Pages/AboutUs/PagesAboutUs';
 import PagesFeedbacks from './Pages/Feedbacks/PagesFeedbacks';
+import AdminContainer from "./AdminPage/AdminContainer/AdminContainer";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Routes>
                     <Route path="index" element={<AllPages/>}/>
                     <Route path="delivery" element={<DeliveryMain/>}/>
+                    <Route path="admin" element={<AdminContainer/>}/>
                 </Routes>
             </BrowserRouter>
         </>

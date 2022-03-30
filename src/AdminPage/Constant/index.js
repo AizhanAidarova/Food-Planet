@@ -1,14 +1,15 @@
+
 export const block = [
     {
         id:1,
-        imgURL: "../../../public/Media/vageterien.svg",
+        imgURL: "../../../public/Media/asian.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:2,
-        imgURL: "../../Pages/Media/vageterien.svg",
+        imgURL:"../../../public/Media/img/burger1.svg",
         title:"Азиатская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"395 сом",
