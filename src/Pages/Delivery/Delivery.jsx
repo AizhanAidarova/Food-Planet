@@ -9,10 +9,10 @@ const Delivery = (props) => {
                 <img className={style.deliveriImg} src={props.imgUrl} alt=""/>
             </div>
             <div className={style.delivery2}>
-                <h1>{props.title}</h1>
-                <p>{props.titleDesc}</p>
+                <h2 className={style.deliveryBlockH2}>{props.title}</h2>
+                <p className={style.deliveryBlockP}>{props.titleDesc}</p>
                 <p>{props.desc}</p>
-                <p><img style={{width:"20px"}} src={phone} alt=""/>{props.phone}</p>
+                <p><img style={{width:"23px",marginRight:"10px"}} src={phone} alt=""/>{props.phone}</p>
             </div>
         </div>
     );
