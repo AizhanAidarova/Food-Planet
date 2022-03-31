@@ -62,10 +62,10 @@ input, select{
     font-size: 14px;
     font-family: 'Sora', sans-serif;
     padding-left: 10px;
-    /* border:none; */
-    border: 1px solid #2B4241;
+    border:none;
+    border-bottom: 2px solid #2B4241;
     background-color:white;
-    border-radius:5px;
+    /* border-radius:5px; */
 }
 
 .first, .second,.typeOrder2, .city1, .street, .address, .house, .korpus, .addInfo, .pay{
