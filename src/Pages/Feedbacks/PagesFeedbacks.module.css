@@ -1,0 +1,51 @@
+.feedbacks{
+    padding-left: 224px;
+    margin-top: 50px;
+}
+
+.fourFeedbacks{
+    display: flex;
+    height: 350px;
+    
+}
+
+.oneFeedback{
+    margin-right: 34px;
+}
+.oneFeedback h3{
+    font-size: 25px;
+    color: #254F4C ;
+}
+
+.oneFeedback .firstFeedback{
+    position: relative;
+    top: -300px;
+    left: 12px;
+    width: 216px;
+    text-align: center;
+}
+.oneFeedback .firstFeedback img{
+     align-self: center;
+}
+
+.oneFeedback .firstFeedback{
+    margin: 8px;
+}
+
+.oneFeedback .name{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.oneFeedback h4{
+    font-size: 14px;
+    color: #3B7976;
+    margin: 0;
+}
+
+.oneFeedback p{
+    min-height: 110px;
+}
+
+
+
