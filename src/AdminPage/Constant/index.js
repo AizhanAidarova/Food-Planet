@@ -2,7 +2,7 @@
 export const block = [
     {
         id:1,
-        imgURL: "../../../public/Media/asian.svg",
+        imgURL: "../../../public/Media/vageterien.svg",
         title:"Маргарита",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",

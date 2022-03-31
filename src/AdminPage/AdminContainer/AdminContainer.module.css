@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .adminBlock{
     border: 1px solid black;
     width: 200px;
@@ -6,18 +9,58 @@
     border-radius: 10px;
    text-align: center;
     justify-content: center;
+    font-family: "Roboto";
 }
 .adminBlock1{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-
+    padding-top: 18px;
+}
+.adminBlock:hover{
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.adminBlock1 p{
+    font-size: 50px;
+    margin-top: 0;
 }
 .adminBlock2{
+    display: flex;
     width: 233px;
     height: 100vh;
-    background: #2B4241;
+    background: #363740;
 }
 .container{
     display: flex;
+}
+.adminBlockLi{
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+    color: #DDE2FF;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;;
+}
+.adminBlockLogo{
+    font-family: "Roboto";
+    color: #A4A6B3;
+}
+.adminBlockDiv{
+    display: flex;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    width: 233px;
+}
+.adminBlockDiv:hover{
+    background: #9FA2B4;
+;
+}
+.adminBlockImg{
+    padding-right: 22px;
+    margin-left: 20px;
+}
+.search{
+
 }
