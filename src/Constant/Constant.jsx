@@ -1,4 +1,4 @@
-
+import "/img/asia.svg"
 //ПОЧЕМУ ВЫБИРАЮТ НАС
 export const about = [
     {

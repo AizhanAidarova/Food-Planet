@@ -42,7 +42,7 @@ const PagesHeader = () => {
                     <li><a href="#">Контакты</a></li>
                     <img className="phone" src={phone} />
                     <li><a href="#">+996500405988</a></li>
-                    <p className={style.num}><img className={style.cart} src={cart} />1</p>
+                    <li className={style.num}><span><img className={style.cart} src={cart} /></span>1</li>
                 </ul>
             </nav>
         </header>
