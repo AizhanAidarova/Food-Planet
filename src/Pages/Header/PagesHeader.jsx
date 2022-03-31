@@ -28,7 +28,7 @@ const PagesHeader = () => {
                         </div>
                     </li> */}
                     <li>
-                        <select id="header-menu" class="select">
+                        <select id="header-menu" className="select">
                             <option value="0">Меню</option>
                             <option value="1">Бургер</option>
                             <option value="2">Суши</option>
@@ -43,6 +43,7 @@ const PagesHeader = () => {
                     <img className="phone" src={phone} />
                     <li><a href="#">+996500405988</a></li>
                     <p className={style.num}><img className={style.cart} src={cart} />1</p>
+                   
                 </ul>
             </nav>
         </header>

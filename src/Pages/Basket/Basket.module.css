@@ -1,0 +1,93 @@
+.container {
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    border:5px solid rebeccapurple;
+   
+   
+}
+
+button {
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.info {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.info p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+.left{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin-right: 200px;
+    border: 1 px solid #2B4241;
+    border-radius:10px;
+}
+
+.right {
+    width: 700px;
+    height: 800px;
+    border: 1px solid #2B4241;
+    border-radius:10px;
+    padding-left: 20px;
+    margin-top: 100px;
+    /* background-color:#2B4241; */
+}
+
+input, select{
+    width: 400px;
+    height: 35px;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    padding-left: 10px;
+    /* border:none; */
+    border: 1px solid #2B4241;
+    background-color:white;
+    border-radius:5px;
+}
+
+.first, .second,.typeOrder2, .city1, .street, .address, .house, .korpus, .addInfo, .pay{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+
+.inputStreet, .korpus{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+.checkBox{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.lLeft{
+    margin-right: 70px;
+}

@@ -1,19 +1,18 @@
 import React from 'react';
-import PagesHeader from './Pages/Header/PagesHeader';
-import PagesMain from './Pages/Main/PagesMain';
-// import BurgersMenu from './Pages/NoveltiesMenu/BurgersMenu';
-// import NoveltiesMenu from './Pages/NoveltiesMenu/NoveltiesMenu';
-import Total from './Pages/NoveltiesMenu/Total';
-
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AllPages from './Pages/AllPages/AllPages'
+import Basket from './Pages/Basket/Basket';
 
 const App = () => {
     return (
-        <div>
-            <PagesHeader/>
-            <PagesMain/>
-            <Total/>
-      </div>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="index" element = {<AllPages/>} />
+                    <Route path="basket" element = {<Basket/>} />
+                </Routes>
+            </BrowserRouter>
+        </>
     );
 };
 
