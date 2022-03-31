@@ -1,0 +1,23 @@
+.adminBlock{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+   text-align: center;
+    justify-content: center;
+}
+.adminBlock1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.adminBlock2{
+    width: 233px;
+    height: 100vh;
+    background: #2B4241;
+}
+.container{
+    display: flex;
+}

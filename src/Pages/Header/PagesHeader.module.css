@@ -4,18 +4,15 @@ header {
     align-items:center;
     height: 45px;
     margin-left: 180px;
-
+    margin-top: 40px;
 }
 
- header .Logo {
-    height: 100px;
-}
-
-.logo-header {
+.logoHeader {
     height: 45px;
 }
 
-nav, ul, a {
+
+.navbar{
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -30,14 +27,6 @@ nav, ul, a {
 .glavnaya:hover {
     color: red;
     font-size:  25px;
-
-.navbar a:hover{
-    color:red;
-}
-
-.glavnaya {
-    margin-left: 125px;
-
 }
 
 .phone {
@@ -54,4 +43,4 @@ nav, ul, a {
     color: red;
     font-weight: 700;
 
-
+}
