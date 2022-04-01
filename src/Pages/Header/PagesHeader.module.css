@@ -13,9 +13,9 @@
 .logo-header {
     height: 45px;  
 }
-/*
 
-nav, ul, a {
+
+.navbar, ul,li, a {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -26,7 +26,7 @@ nav, ul, a {
     color: #1D3130;
     padding-top: 0;
 }
-*/
+
 
 .navbar a:hover{
     color:red;
