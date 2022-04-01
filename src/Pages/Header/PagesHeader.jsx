@@ -28,8 +28,8 @@ const PagesHeader = () => {
                         </div>
                     </li> */}
                     <li>
-                        <select id="header-menu" class="select">
-                            <option value="0">Меню</option>
+                        <select id="header-menu" >
+                            <option className={style.selectMenu} value="0">Меню</option>
                             <option value="1">Бургер</option>
                             <option value="2">Суши</option>
                             <option value="3">Роллы</option>

@@ -18,7 +18,7 @@ const Burgers = (props) => {
                 <div className={style.cheeseburger}>
                     <img className={style.burger} src={props.imageUrl} alt="" />
                     <div>
-                        <h3>{props.title}</h3>
+                        <h3 className={style.burgerH3}>{props.title}</h3>
                         <p className={style.noveltiesMenuP}>{props.titleDesc}</p>
                         <p><b>{props.desc}</b></p>
                     </div>
