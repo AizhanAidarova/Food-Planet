@@ -5,6 +5,7 @@ import Total from '../NoveltiesMenu/Total';
 import PagesFeedbacks from '../Feedbacks/PagesFeedbacks';
 import PagesFooter from '../Footer/PagesFooter';
 import PagesAboutUs from '../AboutUs/PagesAboutUs';
+import PagesMenu from '../Menu/PagesMenu';
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
             <PagesHeader/>
             <PagesMain/>
             <Total/>
+            <PagesMenu/>
             <PagesAboutUs/>
             <PagesFeedbacks/>
             <PagesFooter/>
