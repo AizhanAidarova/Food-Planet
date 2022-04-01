@@ -38,7 +38,7 @@ nav, ul, a, select {
 }
 
 
-h3 {
+.burgerH3 {
   
     color:white;
     text-align: center;
@@ -74,7 +74,7 @@ h3 {
     display: flex;
     align-items:center;
     margin-left: 90px;
-    margin-bottom: 36px;
+    margin-bottom: 18px;
 }
 
 .btn1, .btn2 {

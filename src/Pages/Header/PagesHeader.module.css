@@ -3,7 +3,6 @@ header {
     display: flex;
     align-items:center;
     height: 45px;
-<<<<<<< HEAD
     margin-left: 325px;
     
 }
@@ -17,18 +16,6 @@ header {
 }
 
 nav, ul, a {
-=======
-    margin-left: 180px;
-    margin-top: 40px;
-}
-
-.logoHeader {
-    height: 45px;
-}
-
-
-.navbar, ul, a {
->>>>>>> origin/Meerim
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -40,18 +27,12 @@ nav, ul, a {
     padding-top: 0;
 }
 
-<<<<<<< HEAD
 .navbar a:hover{
     color:red;
 }
 
 .glavnaya {
     margin-left: 125px;
-=======
-.glavnaya:hover {
-    color: red;
-    font-size:  25px;
->>>>>>> origin/Meerim
 }
 
 .phone {
@@ -69,7 +50,3 @@ nav, ul, a {
     font-weight: 700;
 
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/Meerim

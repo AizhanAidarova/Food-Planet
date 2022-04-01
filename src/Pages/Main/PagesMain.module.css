@@ -1,8 +1,4 @@
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/Meerim
 .main{
     justify-content: center;
     display: flex;
@@ -24,21 +20,12 @@
 
 }
 
-<<<<<<< HEAD
 p{
     font-size: 16px;
     font-weight: 400;
     color:#1D3130;
     line-height: 23px;
 }
-=======
-/*p{*/
-/*    font-size: 16px;*/
-/*    font-weight: 400;*/
-/*    color:#1D3130;*/
-/*    line-height: 23px;*/
-/*}*/
->>>>>>> origin/Meerim
 
 .mainImg{
     margin-top: 65px;
@@ -51,21 +38,10 @@ p{
     background-color: #FF583E;
     border-radius: 30px;
     font-size: 14px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> origin/Meerim
 }
 
 .arrow2{
     margin-left: 5px;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> origin/Meerim
