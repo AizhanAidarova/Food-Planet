@@ -3,9 +3,9 @@ import PagesHeader from "../Header/PagesHeader";
 import PagesMain from "../Main/PagesMain";
 import Novelties from "../Novelties/Novelties";
 import PagesMenu from "../Menu/PagesMenu";
-import PagesFooter from "../Footer/PagesFooter";
-import PagesAboutUs from "../AboutUs/PagesAboutUs";
-import PagesFeedbacks from "../Feedbacks/PagesFeedbacks";
+import PagesAboutUs from '../AboutUs/PagesAboutUs';
+import PagesFeedbacks from '../Feedbacks/PagesFeedbacks';
+import PagesFooter from '../Footer/PagesFooter';
 
 const AllPages = () => {
     return (
