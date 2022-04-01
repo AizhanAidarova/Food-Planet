@@ -9,8 +9,10 @@ const DeliveryMain = () => {
         <>
             <PagesHeader/>
             <div className={style.mainMenu}>
-                <h1 className={style.deliveryh1}>Службы доставки</h1>
-                <p className={style.deliveryP}>Можете заказать доставку нашей продукции любым для Вас способом</p>
+                <div className={style.deliveryService}>
+                    <h1 className={style.deliveryh1}>Службы доставки</h1>
+                    <p className={style.deliveryP}>Можете заказать доставку нашей продукции любым для Вас способом</p>
+                </div>
                 <div className={style.display}>
                     {
                         delivery.map((item) => {
