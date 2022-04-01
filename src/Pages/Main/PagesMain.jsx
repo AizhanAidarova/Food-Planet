@@ -1,7 +1,12 @@
 import React from 'react';
 import style from '../Main/PagesMain.module.css';
+<<<<<<< HEAD
 import combo from '../Media/img/combo.svg';
 import arrow2 from '../Media/icon/arrow2.svg'
+=======
+import arrow2 from '../Media/icon/arrow2.svg';
+import combo from "../Media/img/combo.svg";
+>>>>>>> origin/Meerim
 
 const PagesMain = () => {
     return (
@@ -13,9 +18,17 @@ const PagesMain = () => {
             </div>
             <div className={style.mainImg}>
                 <img className={style.combo} src={combo} alt="" />
+<<<<<<< HEAD
             </div>            
+=======
+            </div>
+>>>>>>> origin/Meerim
         </div>
     );
 };
 
+<<<<<<< HEAD
 export default PagesMain;
+=======
+export default PagesMain;
+>>>>>>> origin/Meerim

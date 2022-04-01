@@ -1,0 +1,49 @@
+.logo{
+    margin-right: 200px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 152px;
+    justify-content: center; 
+    margin-top: 50px;
+    
+}
+
+footer nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+}
+
+nav{
+    margin-left: 60px;
+}
+
+ ul{
+     margin: 0;
+ }
+.phone{
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+  
+}
+
+.phone img{
+    margin-right: 8px;
+}
+
+.phone p{
+      padding: 0;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+   
+    justify-content: center;
+}
