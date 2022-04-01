@@ -83,6 +83,11 @@
     display: flex;
 }
 
+
+.hoverEffect:hover{
+    color:#FF583E;
+}
+
 .complaintsAndFeedbacks input{
     padding: 10px;
     width: 455px;
@@ -90,6 +95,7 @@
     border: none;
     border-bottom: 1px solid #2B4241;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .complaintsAndFeedbacks input:hover{
@@ -98,6 +104,7 @@
 }
 
 .complaintsAndFeedbacks input:focus{
+    border: none;
     border: 3px solid #FF583E;
     font-size: 15px;
     border-radius: 20px;

@@ -86,26 +86,30 @@ const Contacts = () => {
         </h6>
         <div className={styles.complainantsInformation}>
           <div>
-            <p>Имя:</p>
+          <label className={styles.hoverEffect} htmlFor=""> Имя:
             <input type="text" />
+            </label>
           </div>
           <div>
-            <p>Фамилие:</p>
+          <label className={styles.hoverEffect} htmlFor="">Фамилие:
             <input type="text" />
+            </label>
           </div>
         </div>
         <div className={styles.complainantsInformation}>
           <div>
-            <p>Номер:</p>
+          <label className={styles.hoverEffect} htmlFor="">Номер:
             <input type="text" />
+            </label>
           </div>
           <div>
-            <p>Почта:</p>
+          <label className={styles.hoverEffect} htmlFor="">Почта:
             <input type="text" />
+            </label>
           </div>
         </div>
-        <p>Отзывы/жалобы:</p>
-        <input className={styles.complaints} type="text" /> <br />
+        <label className={styles.hoverEffect} htmlFor="">Отзывы/жалобы:
+        <input className={styles.complaints} type="text" />   </label> <br />
         <div className={styles.button}>
           <button>оставить</button>
         </div>
