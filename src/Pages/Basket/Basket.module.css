@@ -26,8 +26,7 @@
     padding-left: 20px;
 }
 
-button {
-    padding: 15px 30px;
+btnOrder {
     color: white;
     border: 1px solid blue;
     background-color: blue;
@@ -198,5 +197,5 @@ input{
     background-color: #FF583E;
     border-radius: 30px;
     font-size: 14px;
-    margin-left: 450px;
+    justify-content: center;
 }
