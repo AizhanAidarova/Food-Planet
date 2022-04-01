@@ -5,8 +5,8 @@ import styles from "./PagesFooter.module.css";
 
 const PagesFooter = () => {
   return (
-    <div style={{maxWidth: "1600px", backgroundColor: "#254F4C"}}>
-    <footer>
+    <>
+    <footer className={styles.footer} style={{backgroundColor: "#254F4C"}}>
       <div className={styles.logo}>
         <img src={logo} alt="" />
       </div>
@@ -25,7 +25,7 @@ const PagesFooter = () => {
         </ul>
       </nav>
     </footer>
-    </div>
+    </>
   );
 };
 

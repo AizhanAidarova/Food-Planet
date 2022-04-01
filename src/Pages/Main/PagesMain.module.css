@@ -20,12 +20,12 @@
 
 }
 
-/*p{*/
-/*    font-size: 16px;*/
-/*    font-weight: 400;*/
-/*    color:#1D3130;*/
-/*    line-height: 23px;*/
-/*}*/
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#1D3130;
+    line-height: 23px;
+}
 
 .mainImg{
     margin-top: 65px;
@@ -38,14 +38,10 @@
     background-color: #FF583E;
     border-radius: 30px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .arrow2{
     margin-left: 5px;
 }
-
-
-
-
-
 

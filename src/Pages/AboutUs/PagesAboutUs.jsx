@@ -5,9 +5,8 @@ import { about } from "../../Constant/Constant";
 const PagesAboutUs = () => {
   return (
     <>
-      <div style={{ maxWidth: "1600px" }} className={styles.aboutUsWidth}>
-        <div style={{ maxWidth: "1120px" }}>
-          <h3>Почему выбирают нас:</h3>
+        <div className={styles.aboutUsWidth} style={{ maxWidth: "1200px" }}>
+          <h5>Почему выбирают нас:</h5>
           <div className={styles.fourAboutUs}>
             {about.map((item) => {
               return (
@@ -18,7 +17,6 @@ const PagesAboutUs = () => {
                   </div>
               );
             })}
-          </div>
         </div>
       </div>
     </>

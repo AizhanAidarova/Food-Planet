@@ -37,16 +37,15 @@ nav, ul, a, select {
     border:none
 }
 
-/* .noveltiesMenu {
-    display: flex;
-    margin-top: 90px;
-} */
 
-
-h3 {
+.burgerH3 {
   
     color:white;
     text-align: center;
+}
+
+.noveltiesMenuP{
+    height: 65px;
 }
 
 .novelties p {
@@ -73,9 +72,9 @@ h3 {
 
 .btn {
     display: flex;
-}
-.btn1{
-    margin-left: 80px;
+    align-items:center;
+    margin-left: 90px;
+    margin-bottom: 18px;
 }
 
 .btn1, .btn2 {
@@ -84,7 +83,6 @@ h3 {
     border:none;
     font-size: 20px;
     font-weight: 100;
-  
 }
 
 .btn3 {
@@ -95,7 +93,7 @@ h3 {
     border-radius: 30px;
     font-size: 14px;
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: -30px;
 }
 
 .burger1, .burger2, .burger3, .burger4{
