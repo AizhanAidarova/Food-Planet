@@ -2,29 +2,18 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import AllPages from "./Pages/AllPages/AllPages";
 import DeliveryMain from "./Pages/Delivery/DeliveryMain";
-
-import PagesFooter from './Pages/Footer/PagesFooter';
-import PagesAboutUs from './Pages/AboutUs/PagesAboutUs';
-import PagesFeedbacks from './Pages/Feedbacks/PagesFeedbacks';
+import Contacts from './Pages/Contacts/Contacts';
 
 const App = () => {
     return (
         <>
         <BrowserRouter>
-          hffffffd
             <Routes>
                 <Route path="index" element={<AllPages/>}/>
                 <Route path="delivery" element={<DeliveryMain/>}/>
+                <Route path="contacts" element={<Contacts/>}/>
             </Routes>
         </BrowserRouter>
-
-
-
-    <div style={{maxWidth: "1600px"}}>
-        <PagesAboutUs/>
-        <PagesFeedbacks/>
-        <PagesFooter/>
-    </div>
           </>
   );
 }

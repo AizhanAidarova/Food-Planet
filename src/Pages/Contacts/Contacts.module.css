@@ -1,0 +1,141 @@
+.contactsMain{
+    background-color: #254F4C;
+    border-radius: 40px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 315px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.contactDetails{
+    display: flex;
+    align-items: center;
+}
+
+.contactDetails img{
+    padding-right: 10px;
+}
+
+.socialMedia {
+    display: flex;
+    margin-top: 20px;
+}
+
+.socialMedia img{
+   padding-right: 45px;
+}
+
+.contactsMain h2{
+    font-size: 22px;
+}
+
+.contactsMain h4{
+    font-size: 17px;
+}
+
+.contactsMain p{
+    font-size: 12px;
+    width: 450px;
+}
+
+.contactsText{
+    width: 500px;
+    line-height: 20px;
+}
+
+.contactDetails p{
+    font-size: 16px!important;
+}
+.lineVertical{
+    margin-top: 30px;
+    
+}
+
+.lineVertical img{
+    height: 490px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.map img{
+    width: 400px;
+    padding-bottom: 120px;
+}
+
+/* ЖУРНАЛ ЖАЛОБ */
+.complaintsAndFeedbacks{
+    margin-top: 70px;
+    margin: 0 auto;
+}
+
+.complaintsAndFeedbacks h2{
+    margin-top: 70px;
+}
+
+.complainantsInformation{
+    display: flex;
+}
+
+.complaintsAndFeedbacks input{
+    padding: 10px;
+    width: 455px;
+    margin-right: 75px;
+    border: none;
+    border-bottom: 1px solid #2B4241;
+    margin-bottom: 30px;
+}
+
+.complaintsAndFeedbacks input:hover{
+    border-bottom: 3px solid #FF583E;
+    cursor: pointer;
+}
+
+.complaintsAndFeedbacks input:focus{
+    border: 3px solid #FF583E;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.complaintsAndFeedbacks h2{
+    color:#FF583E;
+    font-size: 25px;
+}
+
+.complaintsAndFeedbacks p{
+    color: #254F4C;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.complaintsAndFeedbacks h6{
+    font-size: 15px;
+}
+
+.complaints {
+    width: 1005px!important;
+}
+
+.complaintsAndFeedbacks button{
+    margin-top: 50px;
+    background-color:#FF583E;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+
