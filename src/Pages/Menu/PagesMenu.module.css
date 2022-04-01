@@ -10,7 +10,6 @@
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
     width: 264px;
-    height: 338px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 40px;
@@ -31,7 +30,7 @@
     font-size: 14px;
     line-height: 16px;
     margin: 15px;
-    height: 39px;
+ /*   height: 39px;*/
 }
 /*.button{
     background-color: #254F4C;
