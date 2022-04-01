@@ -14,7 +14,7 @@ const PizzaProps = (props) => {
         <>
             <div>
                 <div className={style.margarita}>
-                    <img className={style.pizzaPic} src={props.imgURL} alt="Pizza"/>
+                    <img className={style.pizzaPic} src={props.imgUrl} alt="Pizza"/>
                     <div>
                         <h3 className={style.price}>{props.title}</h3>
                         <p className={style.recipe}>{props.titleDesc}</p>

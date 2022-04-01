@@ -7,12 +7,13 @@ import cart from '../Media/icon/cart.svg';
 
 const PagesHeader = () => {
     return (
-        <header>
-            <div className="Logo"> <img className={style.logoHeader} src={logo} /></div>
-            <nav className={style.navbar}>
-                <ul>
-                    <li><a className={style.glavnaya} >Главная </a></li>
-                    {/* <li>
+        <>
+            <header className={style.header}>
+                <div className="Logo"> <img className={style.logoHeader} src={logo} /></div>
+                <nav className={style.navbar}>
+                    <ul>
+                        <li><a className={style.glavnaya} >Главная </a></li>
+                        {/* <li>
                         <div className="dropdown-menu">
                             <Link to="/" className='menuBtn'>
                                 Меню
@@ -27,26 +28,27 @@ const PagesHeader = () => {
                             </div>
                         </div>
                     </li> */}
-                    <li>
-                        <select id="header-menu" >
-                            <option className={style.selectMenu} value="0">Меню</option>
-                            <option value="1">Бургер</option>
-                            <option value="2">Суши</option>
-                            <option value="3">Роллы</option>
-                            <option value="3">Салаты</option>
-                            <option value="3">Десерты</option>
-                            <option value="3">Напитки</option>
-                        </select>
-                    </li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <img className="phone" src={phone} />
-                    <li><a href="#">+996500405988</a></li>
-                    <li className={style.num}><span><img className={style.cart} src={cart} /></span>1</li>
-                   
-                </ul>
-            </nav>
-        </header>
+                        <li>
+                            <select id="header-menu" >
+                                <option className={style.selectMenu} value="0">Меню</option>
+                                <option value="1">Бургер</option>
+                                <option value="2">Суши</option>
+                                <option value="3">Роллы</option>
+                                <option value="3">Салаты</option>
+                                <option value="3">Десерты</option>
+                                <option value="3">Напитки</option>
+                            </select>
+                        </li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <img className="phone" src={phone} />
+                        <li><a href="#">+996500405988</a></li>
+                        <li className={style.num}><span><img className={style.cart} src={cart} /></span>1</li>
+
+                    </ul>
+                </nav>
+            </header>
+        </>
     );
 };
 

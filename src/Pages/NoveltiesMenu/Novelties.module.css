@@ -1,11 +1,12 @@
 .novelties{
-    width: 1200px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
-
+    width: 1200px;
+    justify-content: space-around;
+   
 }
 
 .noveltiesNavbar {
@@ -46,6 +47,7 @@ nav, ul, a, select {
 
 .noveltiesMenuP{
     height: 65px;
+    
 }
 
 .novelties p {
@@ -62,13 +64,15 @@ nav, ul, a, select {
     margin-top: -62px;
 }
 
-.cheeseburger{
+
+
+.cheeseburger {
     width: 265px;
     height: 350px;
     background-color: #2B4241;
-    margin-right: 35px;
     border-radius: 30px;
 }
+
 
 .btn {
     display: flex;

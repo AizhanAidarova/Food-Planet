@@ -1,14 +1,14 @@
 export const block = [
     {
         id:1,
-        imgURL: "../../../public/Media/vageterien.svg",
+        imgURL: "../Media/margarita.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:2,
-        imgURL: "../../Pages/Media/vageterien.svg",
+        imgURL: "../Media/asian.svg",
         title:"Азиатская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"395 сом",
@@ -16,7 +16,7 @@ export const block = [
 
     {
         id:3,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/chicken.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"375 сом",
@@ -24,28 +24,28 @@ export const block = [
 
     {
         id:4,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/margarita.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:5,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/italien.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:6,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/chicken.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:7,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/asian.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
