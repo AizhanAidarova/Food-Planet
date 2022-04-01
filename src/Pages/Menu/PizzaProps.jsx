@@ -14,11 +14,11 @@ const PizzaProps = (props) => {
         <>
             <div>
                 <div className={style.margarita}>
-                    <img className={style.pizzaPic} src={props.imgUrl}/>
+                    <img className={style.pizzaPic} src={props.imgUrl} alt="Pizza"/>
                     <div>
                         <h3 className={style.price}>{props.title}</h3>
                         <p className={style.recipe}>{props.titleDesc}</p>
-                        <h3 className={style.price}>{props.desc}</h3>
+                        <h3 className={style.price1}>{props.desc}</h3>
                     <div className={style.countBtn}>
                         <button className={style.countBtn1} onClick={increment}> + </button>
                         <p>{count}</p>
