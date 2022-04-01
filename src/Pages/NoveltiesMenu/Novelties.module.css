@@ -25,7 +25,7 @@
     margin-right: 170px;
 }
 
-nav, ul, a, select {
+/*nav, ul, a, select {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -35,7 +35,7 @@ nav, ul, a, select {
     line-height: 18px;
     margin-right: 60px;
     border:none
-}
+}*/
 
 
 .burgerH3 {

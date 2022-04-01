@@ -124,7 +124,7 @@
     background-color: #254F4C;
     border-radius: 20px;
     padding: 20px;
-    width: 598px;
+    width: 540px;
     height: 215px;
     margin-right: 40px;
     margin-left: 20px;
@@ -173,5 +173,6 @@
 }
 .delivery2{
     font-size: 23px;
-    color: #FF583E;
+    position: relative;
+    left: 20px;
 }

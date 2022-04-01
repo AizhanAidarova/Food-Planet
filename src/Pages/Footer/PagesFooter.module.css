@@ -2,7 +2,7 @@
     margin-left: 110px;
 }
 
-
+/*
 footer{
     display: flex;
     align-items: center;
@@ -25,10 +25,9 @@ footer ul  {
 nav{
     margin-left: 60px;
 }
-
  ul{
      margin: 0;
- }
+ }*/
 .phone{
     display: flex;
     align-items:center;

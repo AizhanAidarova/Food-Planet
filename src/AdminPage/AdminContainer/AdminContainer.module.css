@@ -55,6 +55,8 @@
 }
 .adminBlockDiv:hover{
     background: #9FA2B4;
+    width: 20px;
+    height: 15px;
 ;
 }
 .adminBlockImg{
