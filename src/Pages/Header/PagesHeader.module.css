@@ -15,7 +15,7 @@
 }
 
 
-nav, ul, a {
+.navbar, ul,li, a {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -33,7 +33,7 @@ nav, ul, a {
 }
 
 .glavnaya {
-    margin-left: 80px;
+    margin-left: 145px;
 }
 
 .phone {

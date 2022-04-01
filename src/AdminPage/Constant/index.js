@@ -9,7 +9,7 @@ export const block = [
     },
     {
         id:2,
-        imgURL:"/Media/asian.svg",
+        imgURL: "../Media/asian.svg",
         title:"Азиатская",
         titleDesc:"Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус",
         desc:"395 сом",
