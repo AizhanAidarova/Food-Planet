@@ -1,9 +1,13 @@
 import React from 'react';
-import Basket from './Pages/Basket/Basket';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import AllPages from "./Pages/AllPages/AllPages";
+
 import DeliveryMain from "./Pages/Delivery/DeliveryMain";
 import Contacts from './Pages/Contacts/Contacts';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AllPages from './Pages/AllPages/AllPages'
+import Basket from './Pages/Basket/Basket';
+
+import AdminContainer from "./AdminPage/AdminContainer/AdminContainer";
 
 const App = () => {
     return (
@@ -12,8 +16,9 @@ const App = () => {
             <Routes>
                 <Route path="index" element={<AllPages/>}/>
                 <Route path="delivery" element={<DeliveryMain/>}/>
+                <Route path="admin" element={<AdminContainer/>}/>
                 <Route path="contacts" element={<Contacts/>}/>
-                <Route path ="basket" element ={<Basket/>}/>
+                <Route path="basket" element={<Basket/>}/>
             </Routes>
         </BrowserRouter>
           </>

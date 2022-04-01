@@ -21,7 +21,7 @@
 
 .socialMedia {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .socialMedia img{
@@ -83,13 +83,19 @@
     display: flex;
 }
 
+
+.hoverEffect:hover{
+    color:#FF583E;
+}
+
 .complaintsAndFeedbacks input{
     padding: 10px;
     width: 455px;
-    margin-right: 75px;
+    margin-right: 40px;
     border: none;
     border-bottom: 1px solid #2B4241;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .complaintsAndFeedbacks input:hover{
@@ -98,6 +104,7 @@
 }
 
 .complaintsAndFeedbacks input:focus{
+    border: none;
     border: 3px solid #FF583E;
     font-size: 15px;
     border-radius: 20px;
@@ -119,7 +126,7 @@
 }
 
 .complaints {
-    width: 1005px!important;
+    width: 971px!important;
 }
 
 .complaintsAndFeedbacks button{
@@ -136,6 +143,6 @@
 .button{
     display: flex;
     justify-content: end;
-    margin-bottom: 100px;
+    width: 994px;
 }
 

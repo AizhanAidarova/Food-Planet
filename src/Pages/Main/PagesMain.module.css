@@ -20,12 +20,12 @@
 
 }
 
-p{
-    font-size: 16px;
-    font-weight: 400;
-    color:#1D3130;
-    line-height: 23px;
-}
+/*p{*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    color:#1D3130;*/
+/*    line-height: 23px;*/
+/*}*/
 
 .mainImg{
     margin-top: 65px;
@@ -44,4 +44,9 @@ p{
 .arrow2{
     margin-left: 5px;
 }
+
+
+
+
+
 

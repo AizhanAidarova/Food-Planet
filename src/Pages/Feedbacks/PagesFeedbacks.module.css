@@ -2,6 +2,7 @@
     /* padding-left: 360px; */
     margin: 0 auto;
     margin-top: 50px;
+    
 }
 
 /* .fourFeedbacks{
@@ -14,6 +15,12 @@
 .oneFeedback{
     margin-right: 34px;
     position: relative;
+}
+
+
+.oneFeedback:last-child{
+    margin: 0;
+
 }
 .oneFeedback h3{
     font-size: 25px;

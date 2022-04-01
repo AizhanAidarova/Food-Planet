@@ -10,7 +10,7 @@
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
     width: 264px;
-    height: 338px;
+    height: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 40px;
@@ -22,6 +22,12 @@
     font-family: 'Roboto', sans-serif;;
     font-size: 20px;
     color: #254F4C;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.price1{
+    margin-top: 52px;
+    margin-bottom: -11px;
 }
 .pizzaPic{
     margin-top: -75px;
@@ -30,7 +36,11 @@
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
-    margin: 15px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 39px;
+
 }
 /*.button{
     background-color: #254F4C;
@@ -47,10 +57,12 @@
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     width: 1200px;
+    justify-content: space-around;
 
 }
 .noveltiesNavbar {
     display: flex;
+    margin-top: 50px;
 }
 .menu{
     display: flex;
@@ -69,6 +81,10 @@
      display: flex;
      color:#317631;
      font-size: 25px;
+     height: 50px;
+    align-items: center;
+    position: relative;
+    top: 20px;
 }
 
 .countBtn1{
@@ -79,7 +95,7 @@
     border:none;
     font-size: 20px;
     background: #FCFCFC;
-
+    align-items: center;
 }
 .basketBtn {
     padding: 13px 60px;
@@ -93,7 +109,7 @@
 }
 
 .mainMenu{
-    width: 1600px;
+    width: 1400px;
     margin: 0 auto;
 }
 .display{
@@ -104,24 +120,28 @@
     width: 1400px;
 }
 .divBord{
-    border: 1px solid black;
+    border: 1px solid #254F4C;
     background-color: #254F4C;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
-    width: 430px;
+    width: 540px;
+    height: 215px;
     margin-right: 40px;
     margin-left: 20px;
     margin-top: 30px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     font-family: "Roboto";
     font-size: 20px;
+    display: flex;
 }
 .deliveriImg{
-    border-radius: 10px;
-    width: 270px;
-    height: 250px;
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
 }
 .delivery{
     font-size: 38px;
@@ -131,13 +151,13 @@
 }
 .deliveryh1{
     color: #254f4c;
-    font-size: 50px;
-    margin: 0 auto;
+    font-size: 55px;
+    margin-bottom: 0;
     padding-top: 40px;
 }
 .deliveryP{
     color: #254f4c;
-    font-size: 50px;
+    font-size: 25px;
     margin: 0 auto;
 }
 .pizzaMap{
@@ -146,5 +166,13 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
+}
+.deliveryService{
+    margin-left: 80px;
+    font-family: "Roboto";
+}
+.delivery2{
+    font-size: 23px;
+    position: relative;
+    left: 20px;
 }
