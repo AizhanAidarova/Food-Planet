@@ -1,9 +1,9 @@
 .logo{
-    margin-left: 110px;
+    margin-left: 70px;
 }
 
 
-footer{
+ .footer{
     display: flex;
     align-items: center;
     height: 152px;
@@ -12,21 +12,21 @@ footer{
     
 }
 
-footer nav ul li {
+.footer  li {
     list-style: none;
     display: inline-block;
     margin-right: 40px;
     color: white;
 }
-footer ul  {
+.footer ul  {
     margin-left: 260px;
 }
 
-nav{
-    margin-left: 60px;
+.footer nav{
+    margin-left: 330px;
 }
 
- ul{
+.footer ul{
      margin: 0;
  }
 .phone{
@@ -41,12 +41,11 @@ nav{
 }
 
 .phone p{
-      padding: 0;
+    padding: 0;
     margin: 0;
 }
 
 .footer{
     display: flex;
-   
     justify-content: center;
 }

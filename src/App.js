@@ -18,6 +18,7 @@ const App = () => {
                 <Route path="delivery" element={<DeliveryMain/>}/>
                 <Route path="admin" element={<AdminContainer/>}/>
                 <Route path="contacts" element={<Contacts/>}/>
+                <Route path="basket" element={<Basket/>}/>
             </Routes>
         </BrowserRouter>
           </>
