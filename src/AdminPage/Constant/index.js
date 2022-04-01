@@ -2,14 +2,14 @@
 export const block = [
     {
         id:1,
-        imgURL: "../../../public/Media/vageterien.svg",
+        imgURL: "/Media/margarita.svg",
         title:"Маргарита",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:2,
-        imgURL:"../../../public/Media/img/burger1.svg",
+        imgURL:"/Media/asian.svg",
         title:"Азиатская",
         titleDesc:"Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус",
         desc:"395 сом",
@@ -17,7 +17,7 @@ export const block = [
 
     {
         id:3,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/chicken.svg",
         title:"Чикен комби",
         titleDesc:"Соус альфредо, моцарелла, лук красный, перец, смесь сыров чеддер и пармезан, куриные кусочки, соус сладкий чили",
         desc:"375 сом",
@@ -25,35 +25,35 @@ export const block = [
 
     {
         id:4,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "/Media/margarita.svg",
         title:"Пепперони",
         titleDesc:"Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
         desc:"365 сом",
     },
     {
         id:5,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/italien.svg",
         title:"Карбонара",
         titleDesc:"Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок, соус альфредо, итальянские травы, томаты",
         desc:"365 сом",
     },
     {
         id:6,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/chicken.svg",
         title:"Двойной цыпленок",
         titleDesc:"Цыпленок, моцарелла, альфредо соус",
         desc:"365 сом",
     },
     {
         id:7,
-        imgURL: "../Media/vageterien.svg",
+        imgURL: "../Media/asian.svg",
         title:"Мексиканская",
         titleDesc:"Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
         desc:"365 сом",
     },
     {
         id:8,
-        imgURL: "https://dodopizza-a.akamaihd.net/static/Img/Products/596181578602410dbd9e9f75d66ee61d_760x760.jpeg",
+        imgURL: "../Media/vageterien.svg",
         title:"Деревенская",
         titleDesc:"Картофель из печи, соленые огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус",
         desc:"365 сом",
