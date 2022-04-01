@@ -8,9 +8,9 @@
 
 .zakaz{
     color:#FF583E;
+    margin: 0 auto;
     margin-left: 190px;
     font-size: 30px;
-    margin: 0 auto ;
     border-bottom: 3px solid #2B4241;;
     width: 1175px;
     margin-bottom: 50px;
@@ -26,7 +26,7 @@
     padding-left: 20px;
 }
 
-btnOrder {
+.btnOrder {
     color: white;
     border: 1px solid blue;
     background-color: blue;
