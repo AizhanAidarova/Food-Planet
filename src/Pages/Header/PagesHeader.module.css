@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100;400;700&display=swap');
-header {
+.header {
     display: flex;
     align-items:center;
     height: 45px;
-    margin-left: 180px;
-    
+    margin-left: 100px;
 }
 
  header .Logo {
@@ -34,7 +33,7 @@ nav, ul, a {
 }
 
 .glavnaya {
-    margin-left: 125px;
+    margin-left: 80px;
 }
 
 .phone {
