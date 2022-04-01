@@ -3,6 +3,7 @@ header {
     display: flex;
     align-items:center;
     height: 45px;
+<<<<<<< HEAD
     margin-left: 180px;
     margin-top: 40px;
 }
@@ -13,6 +14,21 @@ header {
 
 
 .navbar, ul, a {
+=======
+    margin-left: 325px;
+    
+}
+
+ header .Logo {
+    height: 100px;
+}
+
+.logo-header {
+    height: 45px;  
+}
+
+nav, ul, a {
+>>>>>>> origin/Aigerim
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -24,9 +40,18 @@ header {
     padding-top: 0;
 }
 
+<<<<<<< HEAD
 .glavnaya:hover {
     color: red;
     font-size:  25px;
+=======
+.navbar a:hover{
+    color:red;
+}
+
+.glavnaya {
+    margin-left: 125px;
+>>>>>>> origin/Aigerim
 }
 
 .phone {
@@ -44,3 +69,7 @@ header {
     font-weight: 700;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Aigerim
