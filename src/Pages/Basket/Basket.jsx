@@ -85,12 +85,12 @@ const Basket = () => {
                     </div>
                     <div className={style.addInfo}>
                         <div className={style.dopInfo}>Дополнительная  информация:</div>
-                        <div> <input type="text" /></div>
+                        <div className={style.inputDopInfo}> <input type="text" /></div>
                     </div>
                     <div className={style.pay}>
                         <div className={style.typePay}>Способ оплаты:</div>
                         <div className={style.city}>
-                            <select className={style.city2}>
+                            <select className={style.city3}>
                                 <option>Наличные</option>
                                 <option>Элсом</option>
                                 <option>OptimaBank</option>
@@ -99,9 +99,7 @@ const Basket = () => {
                             </select>
                         </div>
                     </div>
-                    <div className={style.addInfo}>
-                        <div >Вносимая сумма:<input className={style.total} type="text" /></div>
-                    </div>
+                    <div className={style.addInfo}>Вносимая сумма:<input className={style.total} type="text" /></div>
                     <div className={style.condition}><p>укажите купюру, которой Вы будете вносить оплату, чтобы курьер заранее взял с собой сдачу</p></div>
                     
                     <div className={style.rule}>
