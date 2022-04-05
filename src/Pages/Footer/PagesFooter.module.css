@@ -1,5 +1,5 @@
 .logo{
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 
@@ -20,6 +20,7 @@
 }
 .footer ul  {
     margin-left: 260px;
+    margin: 0;
 }
 
 .footer nav{
@@ -27,7 +28,7 @@
 }
 
 .footer ul{
-     margin: 0;
+     /* margin: 0; */
  }
 .phone{
     display: flex;
