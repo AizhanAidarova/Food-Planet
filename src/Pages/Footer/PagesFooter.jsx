@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import phone from "../Media/Icons/Vector.svg";
 import logo from "../Media/Icons/LOgo.svg";
 import styles from "./PagesFooter.module.css";
+import { Link } from "react-router-dom";
 
 const PagesFooter = () => {
   return (
@@ -12,10 +13,10 @@ const PagesFooter = () => {
       </div>
       <nav>
         <ul>
-          <li>Главная</li>
+        <Link to={`/index`}><li className={styles.main}>Главная</li></Link>
           <li>Меню</li>
-          <li>Доставка</li>
-          <li>Контакты</li>
+          <Link to={`/delivery`}> <li className={styles.delivery}>Доставка</li></Link>
+          <Link to={`/contacts`}> <li className={styles.contacts}>Контакты</li></Link>
           <li>
             <div className={styles.phone}>
               <img src={phone} alt="" />

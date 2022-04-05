@@ -4,8 +4,10 @@ import border from "../Media/Icons/FeedbackBorder.svg";
 import greyEllipse from "../Media/Icons/GreyEllipse.svg";
 import pencil from "../Media/Icons/Pencil.svg";
 import { feedbacks } from "../../Constant/Constant";
-import "slick-carousel/slick/slick.css";
+
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 
 //https://github.com/akiran/react-slick
