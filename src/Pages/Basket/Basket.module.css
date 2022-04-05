@@ -9,16 +9,17 @@
 .zakaz{
     color:#FF583E;
     margin: 0 auto;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-size: 30px;
     border-bottom: 3px solid #2B4241;;
     width: 1175px;
     margin-bottom: 50px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .left{
-    width: 500px;
+    width: 550px;
     height: 800px;
     border: 5px solid #2B4241;
     box-shadow: 0 0 10px rgb(148, 148, 151);
@@ -53,7 +54,7 @@
 }
 
 .right {
-    width: 500px;
+    width: 550px;
     border: 5px solid #2B4241;
     box-shadow: 0 0 10px rgb(148, 148, 151);
     border-radius:30px;
