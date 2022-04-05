@@ -1,5 +1,5 @@
 .container {
-    width: 1600px;
+    width: 1200px;
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
@@ -9,7 +9,7 @@
 .zakaz{
     color:#FF583E;
     margin: 0 auto;
-    margin-left: 190px;
+    margin-left: 100px;
     font-size: 30px;
     border-bottom: 3px solid #2B4241;;
     width: 1175px;
@@ -18,7 +18,7 @@
 }
 
 .left{
-    width: 700px;
+    width: 500px;
     height: 800px;
     border: 5px solid #2B4241;
     box-shadow: 0 0 10px rgb(148, 148, 151);
@@ -53,7 +53,7 @@
 }
 
 .right {
-    width: 700px;
+    width: 500px;
     border: 5px solid #2B4241;
     box-shadow: 0 0 10px rgb(148, 148, 151);
     border-radius:30px;
