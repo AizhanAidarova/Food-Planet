@@ -9,7 +9,18 @@
     height: 152px;
     justify-content: center; 
     margin-top: 50px;
-    
+}
+
+.delivery:hover{
+    color:#FF583E;
+}
+
+.main:hover{
+    color:#FF583E;
+}
+
+.contacts:hover{
+    color:#FF583E;
 }
 
 .footer  li {
