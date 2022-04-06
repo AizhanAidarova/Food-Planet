@@ -62,11 +62,9 @@
     /* background-color:#2B4241; */
 }
 
-input{
+.input1{
     width: 400px;
     height: 25px;
-    font-size: 14px;
-    font-family: 'Sora', sans-serif;
     padding-left: 10px;
     /* border:none; */
     border: 1px solid #2B4241;
@@ -84,6 +82,8 @@ input{
 .inputStreet, .korpus{
     width: 120px;
     margin-left: 30px;
+    padding-left: 10px;
+    width: 110px;
 }
 
 .checkBox{
@@ -123,48 +123,83 @@ input{
 .inputStreet{
     margin-left: 52px;
     margin-right: 57px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
 }
 
 .inputKorpus{
     margin-left: 20px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputOffice{
     margin-left: 23px;
     margin-right: 56px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputPorch{
     margin-left: 16px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputFloor{
     margin-left: 43px;
     margin-right: 58px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputPhone{
     margin-left: 8px ;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputGet{
     margin-left: 15px;
     margin-right: 5px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 .inputTime{
     margin-left: 107px;
     margin-right: 5px;
-    width: 120px;
+    width: 110px;
+    border: 1px solid #2B4241;  
+    border-radius:12px;
+    height: 25px;
+    padding-left: 10px;
 }
-.inputDopInfo input {
-    width: 252px;
+.inputDopInfo  {
+    width: 229px;
+    height: 30px;
+    border-radius:12px;
+    border: 1px solid #2B4241; 
+    padding-left: 10px;
 }
 
 .dopInfo{
@@ -176,7 +211,11 @@ input{
 }
 .total{
     margin-left:10px;
-    width: 350px;
+    width: 340px;
+    height: 30px;
+    border-radius:12px;
+    border: 1px solid #2B4241;
+    padding-left: 10px;
 }
 
 .condition{
@@ -188,13 +227,10 @@ input{
 }
 
 .checkBox2{
-    margin-right: -180px;
     height: 20px;
+    margin-left: 130px;
 }
 
-.rule{
-    margin-left: -65px;
-}
 
 .btnOrder{
     padding: 13px 60px;

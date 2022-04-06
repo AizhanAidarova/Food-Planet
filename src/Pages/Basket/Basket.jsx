@@ -16,11 +16,11 @@ const Basket = () => {
                 <form className={style.right}>
                     <div className={style.first}>
                         <div className={style.name}>Имя:</div>
-                        <div className={style.divLeft}> <input type="text" /></div>
+                        <div className={style.divLeft}> <input className={style.input1} type="text" /></div>
                     </div>
                     <div className={style.second}>
                         <div className={style.phone}>Телефон:</div>
-                        <div> <input type="number" placeholder='Введите ваш номер телефона' /> </div>
+                        <div> <input className={style.input1} type="number" placeholder='Введите ваш номер телефона' /> </div>
                     </div>
                     <div className={style.typeOrder2}>
                         <p>Тип заказа:</p>
@@ -85,7 +85,7 @@ const Basket = () => {
                     </div>
                     <div className={style.addInfo}>
                         <div className={style.dopInfo}>Дополнительная  информация:</div>
-                        <div className={style.inputDopInfo}> <input type="text" /></div>
+                        <div><input  className={style.inputDopInfo}type="text" /></div>
                     </div>
                     <div className={style.pay}>
                         <div className={style.typePay}>Способ оплаты:</div>
@@ -101,7 +101,6 @@ const Basket = () => {
                     </div>
                     <div className={style.addInfo}>Вносимая сумма:<input className={style.total} type="text" /></div>
                     <div className={style.condition}><p>укажите купюру, которой Вы будете вносить оплату, чтобы курьер заранее взял с собой сдачу</p></div>
-                    
                     <div className={style.rule}>
                         <p><input className={style.checkBox2} type="checkbox"/> условиями доставки согласен</p>
                     </div>
