@@ -8,6 +8,7 @@ import AllPages from './Pages/AllPages/AllPages'
 import Basket from './Pages/Basket/Basket';
 
 import AdminContainer from "./AdminPage/AdminContainer/AdminContainer";
+import LogInAndLogOut from './AdminPage/LogInAndLogOut/LogInAndLogOut';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="admin" element={<AdminContainer/>}/>
                 <Route path="contacts" element={<Contacts/>}/>
                 <Route path="basket" element={<Basket/>}/>
+                <Route path="login" element={<LogInAndLogOut/>}/>
             </Routes>
         </BrowserRouter>
           </>
