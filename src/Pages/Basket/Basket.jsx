@@ -10,7 +10,28 @@ const Basket = () => {
             <div className={style.zakaz}>Заказ</div>
             <div className={style.container}>
                 <div className={style.left}>
+                    <table class="table table-hover table-bordered">
+                        <tbody>
+                            <tr>
+                                <td className={style.imgBasket}></td>
+                                <td className={style.postBasket}></td>
+                                <td className={style.amBasket}>Кол-во</td>
+                                <td className={style.sumBasket} >Итого</td>
+                                <td className={style.delBasket} >Убрать</td>
+                            </tr>
+                            <tr>
+                                <td colSpan={5} className={style.vyZakazali}> Вы заказали</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div>Итого: <span id="total-cart-summa">0</span> руб.</div>
+
+                    <button id="order" class="btn btn-info">Оформить заказ</button>
                     <div className={style.order}>
+                        <table class={style.table}>
+
+                        </table>
                     </div>
                 </div>
                 <form className={style.right}>
@@ -85,7 +106,7 @@ const Basket = () => {
                     </div>
                     <div className={style.addInfo}>
                         <div className={style.dopInfo}>Дополнительная  информация:</div>
-                        <div><input  className={style.inputDopInfo}type="text" /></div>
+                        <div><input className={style.inputDopInfo} type="text" /></div>
                     </div>
                     <div className={style.pay}>
                         <div className={style.typePay}>Способ оплаты:</div>
@@ -102,10 +123,10 @@ const Basket = () => {
                     <div className={style.addInfo}>Вносимая сумма:<input className={style.total} type="text" /></div>
                     <div className={style.condition}><p>укажите купюру, которой Вы будете вносить оплату, чтобы курьер заранее взял с собой сдачу</p></div>
                     <div className={style.rule}>
-                        <p><input className={style.checkBox2} type="checkbox"/> условиями доставки согласен</p>
+                        <p><input className={style.checkBox2} type="checkbox" /> условиями доставки согласен</p>
                     </div>
                     <button className={style.btnOrder}>Заказать</button>
-                    
+
 
 
                 </form>

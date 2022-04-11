@@ -37,6 +37,9 @@
     margin-right: 60px;
     border:none
 }*/
+.noveltiesNavbar ul {
+    display: flex;
+}
 
 
 .burgerH3 {
