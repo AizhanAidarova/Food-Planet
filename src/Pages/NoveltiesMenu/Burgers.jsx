@@ -23,9 +23,9 @@ const Burgers = (props) => {
                         <p><b>{props.desc}</b></p>
                     </div>
                     <div className={style.btn}>
-                        <button className={style.btn1} onClick={increment}>-</button>
+                        <button className={style.btn1} onClick={decrement}>-</button>
                         <p>{number}</p>
-                        <button className={style.btn2} onClick={decrement}>+</button>
+                        <button className={style.btn2} onClick={increment}>+</button>
                     </div>
                     <button className={style.btn3}>В КОРЗИНУ</button>
                 </div>
