@@ -1,5 +1,5 @@
 import React from 'react';
-import { burgers } from '../Constant/Index';
+import { burgers } from '../../AdminPage/Constant/index';
 import Burgers from './Burgers';
 import style from '../NoveltiesMenu/Novelties.module.css'
 
