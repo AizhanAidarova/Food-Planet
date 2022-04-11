@@ -32,6 +32,7 @@
 .footer ul  {
     margin-left: 260px;
     margin: 0;
+    display: flex;
 }
 
 .footer nav{

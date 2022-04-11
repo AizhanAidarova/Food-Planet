@@ -7,8 +7,9 @@ import { feedbacks } from "../../Constant/Constant";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
 import Slider from "react-slick";
+
+import { getCurrentDate } from "../../helpers/index.js";
 
 //https://github.com/akiran/react-slick
 
@@ -38,7 +39,8 @@ const PagesFeedbacks = () => {
                   <img src={pencil} alt="" />
                 </div>
                 <p>{item.feedback}</p>
-                <h4>{item.dateOfPublication}</h4>            
+                <h4>{getCurrentDate()}</h4>            
+                {/* <h4>{item.dateOfPublication}</h4>             */}
               </div>
             </div> 
             })}

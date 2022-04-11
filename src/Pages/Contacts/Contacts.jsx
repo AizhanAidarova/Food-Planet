@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../Contacts/Contacts.module.css";
 import phone from "../Media/Icons/phone.svg";
 import message from "../Media/Icons/message.svg";
@@ -11,8 +11,70 @@ import lineVertical from "../Media/Icons/LineVertical.svg";
 import map from "../Media/Icons/map.svg";
 import PagesHeader from "../Header/PagesHeader";
 import PagesFooter from "../Footer/PagesFooter";
+import toast from "react-hot-toast";
+import { LOCALHOST_URL } from "../../AdminPage/Constant";
+import { getCurrentDate } from "../../helpers";
 
-const Contacts = () => {
+const Contacts = (props) => {
+  const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
+  const [number, setNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [comment, setComment] = useState("");
+
+  const getName = (event) => {
+    setName(event.currentTarget.value);
+  };
+
+  const getSurname = (event) => {
+    setSurname(event.currentTarget.value);
+  };
+
+  const getNumber = (event) => {
+    setNumber(event.currentTarget.value);
+  };
+
+  const getEmail = (event) => {
+    setEmail(event.currentTarget.value);
+  };
+
+  const getComment = (event) => {
+    setComment(event.currentTarget.value);
+  };
+
+  const addComment = () => {
+    const obj = {
+      name: name,
+      surname: surname,
+      number: number,
+      email: email,
+      feedback: comment,
+      postId: props.postId,
+      date: getCurrentDate(),
+    };
+
+    const url = LOCALHOST_URL + "/feedbacks";
+
+    console.log(url);
+
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(obj),
+    };
+
+    fetch(url, options).then((response) => {
+      if (response.status === 201) {
+        toast.success("Спасибо большое за ваш отзыв");
+      } else {
+        toast.error("Произошла ошибка");
+      }
+    });
+  };
+
+
   return (
     <div>
       <PagesHeader />
@@ -79,6 +141,7 @@ const Contacts = () => {
         className={styles.complaintsAndFeedbacks}
         style={{ maxWidth: "1030px" }}
       >
+        {/* ОТЗЫВЫ И ЖАЛОБЫ */}
         <h2>Журнал жалоб</h2>
         <h6>
           Пожалуйста, помогите нам улучшить свои услуги оставив свои комментарии
@@ -86,32 +149,44 @@ const Contacts = () => {
         </h6>
         <div className={styles.complainantsInformation}>
           <div>
-          <label className={styles.hoverEffect} htmlFor=""> Имя:
-            <input type="text" />
+            <label className={styles.hoverEffect} htmlFor="">
+              {" "}
+              Имя:
+              <input onChange={getName} type="text" />
             </label>
           </div>
           <div>
-          <label className={styles.hoverEffect} htmlFor="">Фамилие:
-            <input type="text" />
+            <label className={styles.hoverEffect} htmlFor="">
+              Фамилие:
+              <input onChange={getSurname} type="text" />
             </label>
           </div>
         </div>
         <div className={styles.complainantsInformation}>
           <div>
-          <label className={styles.hoverEffect} htmlFor="">Номер:
-            <input type="text" />
+            <label className={styles.hoverEffect} htmlFor="">
+              Номер:
+              <input onChange={getNumber} type="number" />
             </label>
           </div>
           <div>
-          <label className={styles.hoverEffect} htmlFor="">Почта:
-            <input type="text" />
+            <label className={styles.hoverEffect} htmlFor="">
+              Почта:
+              <input onChange={getEmail} type="email" />
             </label>
           </div>
         </div>
-        <label className={styles.hoverEffect} htmlFor="">Отзывы/жалобы:
-        <input className={styles.complaints} type="text" />   </label> <br />
+        <label className={styles.hoverEffect} htmlFor="">
+          Отзывы/жалобы:
+          <input
+            onChange={getComment}
+            className={styles.complaints}
+            type="text"
+          />{" "}
+        </label>{" "}
+        <br />
         <div className={styles.button}>
-          <button>оставить</button>
+          <button onClick={addComment}>оставить</button>
         </div>
       </div>
       <PagesFooter />
