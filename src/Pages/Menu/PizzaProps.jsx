@@ -7,7 +7,7 @@ const PizzaProps = (props) => {
     const increment = () => {
         setCount(count + 1)
     }
-    const dicrement = () => {
+    const decrement = () => {
         setCount(count - 1)
     }
     return (
@@ -22,7 +22,7 @@ const PizzaProps = (props) => {
                     <div className={style.countBtn}>
                         <button className={style.countBtn1} onClick={increment}> + </button>
                         <p>{count}</p>
-                        <button className={style.countBtn2} onClick={dicrement}> - </button>
+                        <button className={style.countBtn2} onClick={decrement}> - </button>
                     </div>
                     <button className={style.basketBtn}>В КОРЗИНУ</button>
                     </div>
