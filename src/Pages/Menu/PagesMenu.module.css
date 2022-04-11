@@ -88,7 +88,7 @@
 }
 
 .countBtn1{
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .countBtn1, .countBtn2{
     color:red;
@@ -175,4 +175,12 @@
     font-size: 23px;
     position: relative;
     left: 20px;
+}
+
+.countP{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px 16px 10px 16px;
+    line-height: 15px;
 }

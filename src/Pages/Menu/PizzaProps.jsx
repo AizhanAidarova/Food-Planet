@@ -20,9 +20,9 @@ const PizzaProps = (props) => {
                         <p className={style.recipe}>{props.titleDesc}</p>
                         <h3 className={style.price1}>{props.desc}</h3>
                     <div className={style.countBtn}>
-                        <button className={style.countBtn1} onClick={increment}> + </button>
-                        <p>{count}</p>
-                        <button className={style.countBtn2} onClick={decrement}> - </button>
+                        <button className={style.countBtn1} onClick={decrement}> - </button>
+                        <p className={style.countP}>{count}</p>
+                        <button className={style.countBtn2} onClick={increment}> + </button>
                     </div>
                     <button className={style.basketBtn}>В КОРЗИНУ</button>
                     </div>
