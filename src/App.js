@@ -10,6 +10,8 @@ import Basket from './Pages/Basket/Basket';
 import AdminContainer from "./AdminPage/AdminContainer/AdminContainer";
 import LogInAndLogOut from './AdminPage/LogInAndLogOut/LogInAndLogOut';
 
+import "./index.css";
+
 const App = () => {
     return (
         <>
