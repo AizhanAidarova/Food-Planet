@@ -105,6 +105,7 @@ const Basket = () => {
                         <p><input className={style.checkBox2} type="checkbox"/> условиями доставки согласен</p>
                     </div>
                     <button className={style.btnOrder}>Заказать</button>
+                    
 
 
                 </form>
