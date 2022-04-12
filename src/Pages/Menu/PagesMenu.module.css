@@ -64,6 +64,10 @@
     display: flex;
     margin-top: 50px;
 }
+
+.noveltiesNavbar ul {
+    display: flex;
+}
 .menu{
     display: flex;
     list-style: none;
