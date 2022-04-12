@@ -1,0 +1,27 @@
+.mainAbouUs{
+    display: flex;
+}
+
+.abouUs th{
+    border: 1px solid black;
+    padding: 10px 32px;
+}
+
+.abouUs table{
+     border-collapse:collapse;
+     margin-left: 25px;  
+}
+
+.abouUs button{
+    padding: 10px 40px;
+    border:none;
+    border-radius: 18px;
+    background-color: #3751FF;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    left: 1014px; 
+    margin: 10px;
+}
+

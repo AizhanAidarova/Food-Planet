@@ -74,7 +74,6 @@ const Contacts = (props) => {
     });
   };
 
-
   return (
     <div>
       <PagesHeader />

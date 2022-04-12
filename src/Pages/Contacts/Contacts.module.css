@@ -96,6 +96,7 @@
     border-bottom: 1px solid #2B4241;
     margin-bottom: 30px;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .complaintsAndFeedbacks input:hover{
@@ -130,7 +131,7 @@
 }
 
 .complaintsAndFeedbacks button{
-    margin-top: 50px;
+    margin-top: 20px;
     background-color:#FF583E;
     border: none;
     color: white;

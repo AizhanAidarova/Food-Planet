@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.containerContacts{
+    display: flex; 
+}
+
+.mainContacts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.contacts{
+    border: 1px solid black;
+    width: 280px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Roboto";
+    padding: 20px;
+}
+
+.contacts img{
+    width: 20px;
+    position: absolute;
+    left: 550px;  
+}
+
+.contacts img:hover{
+    cursor: pointer;
+}
+
+.contacts:hover{
+    color: blue;
+    border: 1px solid blue;
+    
+}
+
+.containerContacts h4{
+    margin: 0;
+    margin-left: 40px;
+    font-size: 25px;
+}
