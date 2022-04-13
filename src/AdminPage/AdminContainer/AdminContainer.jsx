@@ -13,9 +13,9 @@ const AdminContainer = () => {
     return (
         <div className={style.container}>
             <div>
-                <div>
+                {/* <div>
                     <img src="" alt=""/>
-                </div>
+                </div> */}
                 <nav className={style.adminBlock2}>
                     <ul>
                         <div className={style.container}>
@@ -49,7 +49,7 @@ const AdminContainer = () => {
                     </ul>
                 </nav>
             </div>
-            <div>
+            {/* <div>
                 <div className={style.container}>
                     <h2>Главная</h2>
                     <div>
@@ -91,7 +91,7 @@ const AdminContainer = () => {
                         <p>6</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -716,6 +716,24 @@
       "email": "aijan@gmail.com",
       "feedback": "test",
       "id": 8
+    },
+    {
+      "name": "Aigerim",
+      "surname": "Bekbolotova",
+      "number": "707767676",
+      "email": "aigerim@gmail.com",
+      "feedback": "testing feedbacks",
+      "id": 9
+    }
+  ],
+  "contacts": [
+    {
+      "number": "+996500405988",
+      "email": "food-planet@gmail.com",
+      "adress": "Суюмбаева 123, Бишкек, Кыргызстан",
+      "telegram": "food-planet",
+      "instagram": "food-planet",
+      "facebook": "food-planet"
     }
   ]
 }
