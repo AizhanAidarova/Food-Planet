@@ -57,6 +57,15 @@
     margin-left: 862px;
     margin-top: 30px;
 }
+.editButton:hover{
+    background-color: #51ba4f;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: #3751FF;
+    cursor: pointer;
+}
 
 .deleteButton{
     padding: 10px 20px;
@@ -68,4 +77,5 @@
     font-size: 16px;
     margin: 10px; 
 }
+
 
