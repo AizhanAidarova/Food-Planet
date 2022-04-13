@@ -735,5 +735,43 @@
       "instagram": "food-planet",
       "facebook": "food-planet"
     }
+  ],
+  "administrators": [
+    { 
+      "id": 1,
+      "name": "admin",
+      "number": "0500000000",
+      "position": "admin",
+      "email": "admin@gmail.com",
+      "login": "admin",
+      "password": "admin"
+    },
+    { 
+      "id": 2,
+      "name": "Aigerim Bekbolotova",
+      "position": "admin",
+      "number": "0707767676",
+      "email": "aigerim@gmail.com",
+      "login": "aigerim",
+      "password": "aigerim"
+    },
+    { 
+      "id": 3,
+      "name": "Aijan Aidarova",
+      "position": "admin",
+      "number": "0500000110",
+      "email": "aijan@gmail.com",
+      "login": "aijan",
+      "password": "aijan"
+    },
+    { 
+      "id": 4,
+      "name": "Meerim Egemberdieva",
+      "position": "admin",
+      "number": "0707777777",
+      "email": "meerim@gmail.com",
+      "login": "meerim",
+      "password": "meerim"
+    }
   ]
 }

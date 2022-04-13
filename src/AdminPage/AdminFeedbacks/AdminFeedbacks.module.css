@@ -33,6 +33,11 @@
     margin: 10px;
 }
 
+.addButton:hover{
+    background-color: #51ba4f;
+    cursor: pointer;
+}
+
 .editButton{
     padding: 10px 20px;
     border:none;
@@ -55,3 +60,12 @@
     margin: 10px; 
 }
 
+.editButton:hover{
+    background-color: #51ba4f;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: #3751FF;
+    cursor: pointer;
+}
