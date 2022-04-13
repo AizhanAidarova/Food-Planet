@@ -7,6 +7,7 @@ import style from '../NoveltiesMenu/Novelties.module.css'
 
 
 const BurgersMenu = () => {
+    
     return (
         <>
         <div className={style.novelties}>

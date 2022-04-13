@@ -19,6 +19,7 @@ const App = () => {
             <PagesAboutUs/>
             <PagesFeedbacks/>
             <PagesFooter/>
+            
          </div>
     );
 };
