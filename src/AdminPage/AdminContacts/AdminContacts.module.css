@@ -16,6 +16,7 @@
     border: 1px solid black;
     width: 280px;
     margin: 20px;
+    margin-right: 50px;
     border-radius: 10px;
     text-align: center;
     font-family: "Roboto";
@@ -43,3 +44,28 @@
     margin-left: 40px;
     font-size: 25px;
 }
+
+.editButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #363740;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 862px;
+    margin-top: 30px;
+}
+
+.deleteButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #ff4e4e;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px; 
+}
+

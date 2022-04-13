@@ -7,16 +7,18 @@
     /* padding: 10px 32px; */
 }
 
+.abouUs td{
+    border: 1px solid black;
+    /* padding: 10px 32px; */
+}
+
 .background{
     background-color:#363740;
     color: white;
     padding: 10px;
 }
 
-.abouUs td{
-    border: 1px solid black;
-    /* padding: 10px 32px; */
-}
+
 
 .abouUs table{
      border-collapse:collapse;

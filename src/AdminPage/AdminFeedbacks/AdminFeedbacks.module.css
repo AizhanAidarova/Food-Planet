@@ -1,10 +1,18 @@
 .mainFeedbacks{
     display: flex;
 }
+.background{
+    background-color:#363740;
+    color: white;
+    padding: 10px;
+}
 
 .feedback th{
     border: 1px solid black;
-    padding: 10px 32px;
+}
+.feedback td{
+    border: 1px solid black;
+    padding: 10px ;
 }
 
 .feedback table{
@@ -12,7 +20,7 @@
      margin-left: 25px;  
 }
 
-.feedback button{
+.addButton {
     padding: 10px 40px;
     border:none;
     border-radius: 18px;
@@ -21,7 +29,29 @@
     font-weight: 700;
     font-size: 16px;
     position: relative;
-    left: 1014px; 
+    left: 990px; 
     margin: 10px;
+}
+
+.editButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #363740;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.deleteButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #ff4e4e;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px; 
 }
 
