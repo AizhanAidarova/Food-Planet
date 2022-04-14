@@ -23,22 +23,22 @@ const MenuHeader = () => {
         }
 
         useEffect(() => {
-            getFood('/pizza');
+            getFood('/newburger');
         }, [])
     return (
         <>
             <div className={style.noveltiesNavbar}>
-                <h2 className={style.noveltiesH2}>Меню</h2>
+                <div><h2 className={style.noveltiesH2}>Меню</h2></div>
                 <div className={style.menu}>
                 <nav>
                     <ul>
-                        <li onClick={() => "/pizza"}>Пицца</li>
-                        <li onClick={() => "/burger"}>Бургер</li>
-                        <li onClick={() => "/sushi"}>Суши</li>
-                        <li onClick={() => "/roll"}>Роллы</li>
-                        <li onClick={() => "/salad"}>Салаты</li>
-                        <li onClick={() => "/desert"}>Десерты</li>
-                        <li onClick={() => "/drinks"}>Напитки</li>
+                        <li onClick={() => getFood("/newpizza") }>Пицца</li>
+                        <li onClick={() => getFood("/newburger")}>Бургер</li>
+                        <li onClick={() => getFood("/newsushi")}>Суши</li>
+                        <li onClick={() => getFood("/newroll")}>Роллы</li>
+                        <li onClick={() => getFood("/newpizza")}>Салаты</li>
+                        <li onClick={() => getFood("/newpizza")}>Десерты</li>
+                        <li onClick={() => getFood("/newpizza")}>Напитки</li>
                     </ul>
                 </nav>
                 </div>
@@ -48,20 +48,18 @@ const MenuHeader = () => {
                     food.map((item) => {
                         return(
                             <div className={style.margarita}>
-                                <div>
-                                    <img className={style.pizzaPic} src={item.imgUrl} alt="Pizza"/>
-                                </div>
+                                <img className={style.pizzaPic} src={item.imgUrl} alt="Pizza"/>
                                 <div>
                                     <h3 className={style.price}>{item.title}</h3>
                                     <p className={style.recipe}>{item.titleDesc}</p>
-                                    <h3 className={style.price1}>{item.desc}</h3>
-                                    <div className={style.countBtn}>
-                                        <button className={style.countBtn1} onClick={decrement}> - </button>
-                                        <p className={style.countP}>{count}</p>
-                                        <button className={style.countBtn2} onClick={increment}> + </button>
-                                    </div>
-                                    <button className={style.basketBtn}>В КОРЗИНУ</button>
+                                    <p><b>{item.desc}</b></p>
                                 </div>
+                                <div className={style.countBtn}>
+                                    <button className={style.countBtn1} onClick={decrement}> - </button>
+                                    <p className={style.countP}>{count}</p>
+                                    <button className={style.countBtn2} onClick={increment}> + </button>
+                                </div>
+                                <button className={style.basketBtn}>В КОРЗИНУ</button>
                             </div>
                         )
                     })

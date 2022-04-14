@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 .margarita{
-    border: none;
+   /* border: none;
     border-bottom: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
@@ -15,7 +15,19 @@
     text-align: center;
     border-radius: 40px;
     margin-top: 100px;
+    margin-right: 32px;*/
+    width: 265px;
+    height: 350px;
+    background-color: #2B4241;
+    border-radius: 30px;
     margin-right: 32px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .price{
@@ -30,7 +42,10 @@
     margin-bottom: -11px;
 }
 .pizzaPic{
-    margin-top: -75px;
+    margin-top: -90px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
 }
 .recipe{
     font-family: 'Roboto';
@@ -91,13 +106,18 @@
     color:red;
 }
 .countBtn{
-     display: flex;
+     /*display: flex;
      color:#317631;
      font-size: 25px;
      height: 50px;
     align-items: center;
     position: relative;
-    top: 20px;
+    top: 20px;*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: -16px;
 }
 
 .countBtn1{
@@ -111,14 +131,24 @@
     align-items: center;
 }
 .basketBtn {
-    padding: 13px 60px;
+  /*  padding: 13px 60px;
     color: white;
     border: 1px solid #FF583E;
     background-color: #FF583E;
     border-radius: 30px;
     font-size: 14px;
     margin-left: 8px;
-    margin-top: 28px;
+    margin-top: 28px;*/
+
+    padding: 13px 60px;
+    color: white;
+    border: 1px solid #FF583E;
+    background-color: #FF583E;
+    border-radius: 30px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 33px;
 }
 
 .mainMenu{
