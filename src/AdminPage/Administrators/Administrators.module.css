@@ -1,28 +1,26 @@
-.mainAbouUs{
+.mainAdministrators{
     display: flex;
 }
 
-.abouUs th{
+.administrators th{
     border: 1px solid black;
     /* padding: 10px 32px; */
 }
 
-.abouUs td{
+.administrators td{
     border: 1px solid black;
     /* padding: 10px 32px; */
+}
+
+.administrators table{
+    border-collapse:collapse;
+    margin-left: 25px;  
 }
 
 .background{
     background-color:#363740;
     color: white;
     padding: 10px;
-}
-
-
-
-.abouUs table{
-     border-collapse:collapse;
-     margin-left: 25px;  
 }
 
 .addButton {
@@ -34,7 +32,7 @@
     font-weight: 700;
     font-size: 16px;
     position: relative;
-    left: 990px; 
+    left: 1017px; 
     margin: 10px;
 }
 

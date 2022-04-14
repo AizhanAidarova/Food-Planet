@@ -12,6 +12,7 @@ import LogInAndLogOut from './AdminPage/LogInAndLogOut/LogInAndLogOut';
 import AdminAboutUs from './AdminPage/AdminAboutUs/AdminAboutUs';
 import AdminContacts from './AdminPage/AdminContacts/AdminContacts';
 import AdminFeedbacks from './AdminPage/AdminFeedbacks/AdminFeedbacks';
+import Administrators from './AdminPage/Administrators/Administrators';
 
 import "./index.css";
 
@@ -29,6 +30,7 @@ const App = () => {
                 <Route path="contacts" element={<Contacts/>}/>
                 <Route path="basket" element={<Basket/>}/>
                 <Route path="login" element={<LogInAndLogOut/>}/>
+                <Route path="administrators" element={<Administrators/>}/>
             </Routes>
         </BrowserRouter>
           </>

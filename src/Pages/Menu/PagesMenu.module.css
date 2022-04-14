@@ -73,6 +73,10 @@
 .noveltiesNavbar ul {
     display: flex;
 }
+
+.noveltiesNavbar ul {
+    display: flex;
+}
 .menu{
     display: flex;
     list-style: none;

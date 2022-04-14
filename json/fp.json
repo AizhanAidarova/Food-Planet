@@ -1,44 +1,261 @@
-{
-  "pizza": [
+{ 
+  "newpizza": [
     {
       "id": 1,
       "name": "Маргарита",
-      "img": "../Media/img/burger1.svg",
-      "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+      "img": "../Media/pizza/margarita.svg",
+      "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус смесь сыров чеддер и пармезан",
       "price": 365
     },
     {
       "id": 2,
       "name": "Азиатская",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/a5fbe87430b943b7833e632e94807355_760x760.jpeg",
-      "desc": "Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус",
+      "img": "../Media/pizza/asian.svg",
+      "desc": "Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус ",
       "price": 395
     },
     {
       "id": 3,
       "name": "Чикен комби",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/3401546fe43c42e9a05325a74c937ce4_760x760.jpeg",
+      "img": "../Media/pizza/margarita.svg",
       "desc": "Соус альфредо, моцарелла, лук красный, перец, смесь сыров чеддер и пармезан, куриные кусочки, соус сладкий чили",
       "price": 375
     },
     {
       "id": 4,
       "name": "Пепперони",
-      "img": "typicode",
+      "img": "../Media/pizza/chicken.svg",
+      "desc": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+      "price": 365
+    }
+  ],
+  "newburger": [
+    {
+      "id": 1,
+      "name": "Двойной чизбургер",
+      "img": "../Media/img/burger1.svg",
+      "desc": "Булка, котлета, сыр,  соленый огурец, жаренный лук, ломтики помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез ",
+      "price": 250
+    },
+    {
+      "id": 2,
+      "name": "Чизбургер",
+      "img": "../Media/img/burger2.svg",
+      "desc": "Жаренный лук, маринованный огурец,майонез, соус лондон, сыр, ломтики помидор, свежий салат, соус гриль, кетчуп",
+      "price": 230
+    },
+    {
+      "id": 3,
+      "name": "Шеф Бургер",
+      "img": "../Media/img/burger3.svg",
+      "desc": "Острая курочка, листья салата, маринованные огурчики,кетчуп, майонез, лук, соус «Бургер» и булочка",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "name": "Чизбургер Де Люкс",
+      "img": "../Media/img/burger4.svg",
+      "desc": "Горчичный соус, кетчуп, филе в панировке, лук, сыр Чеддер, огурцы, булочка, свежий салат и ломтики помидора",
+      "price": 280
+    }
+  ],
+  "newsushi": [
+    {
+      "id": 1,
+      "name": "Сашими",
+      "img": "https://sushirai.kz/wp-content/uploads/2020/12/583e61bce4b0cb96763a0ff4.png",
+      "desc": "Рыба или моллюски, подаваемые отдельно (без риса)",
+      "price": 270
+    },
+    {
+      "id": 2,
+      "name": "Маки",
+      "img": "https://bluefin.com.ua/content/avatars/img92769503255.png",
+      "desc": "Рис и начинка, завернутые в морские водоросли",
+      "price": 170
+    },
+    {
+      "id": 3,
+      "name": "Урамаки",
+      "img": "https://x100-venus-vs-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A1%D1%83%D1%88%D1%96%20%D1%82%D0%B0%20%D0%BC%D0%B0%D0%BA%D1%96%20%D1%80%D0%BE%D0%BB%D0%B8/95882CF1-22B4-11EC-B1AA-15534DD3993E-2.png?alt=media&token=becb725a-ce1e-4e64-b21b-155fa187c3de&w=800&format=webp&mode=fit&q=70",
+      "desc": "Рис находится снаружи, а морские водоросли обволакивают начинку",
+      "price": 270
+    },
+    {
+      "id": 4,
+      "name": "Хамачи",
+      "img": "https://x100-venus-vs-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A1%D1%83%D1%88%D1%96%20%D1%82%D0%B0%20%D0%BC%D0%B0%D0%BA%D1%96%20%D1%80%D0%BE%D0%BB%D0%B8/E2B170E1-22B4-11EC-B6EE-4123FE68788A-1.png?alt=media&token=4b1140cc-0a1d-4507-a27a-a43825ea3154&w=800&format=webp&mode=fit&q=70",
+      "desc": "Рыба желтохвост, или японская лакедра (сырая)",
+      "price": 220
+    }
+  ],
+  "newroll": [
+    {
+      "id": 1,
+      "name": "Тигровый ролл",
+      "img": "https://instafood.com.ua/images/full_blog/washington-roll-ish-5c5addcf95a49-min-5d56b77e0f4dc.png?1609925666",
+      "desc": "Угорь, лосось, унаги соус, сыр, огурец, кунжут 280гр",
+      "price": 270
+    },
+    {
+      "id": 2,
+      "name": "Ролл «Филадельфия»",
+      "img": "https://instafood.com.ua/images/full_blog/filadelfia-roll-ish-5c5b058ae5914-min-5cde89580ee29.png?1609925660",
+      "desc": "Лосось, сливочный сыр, огурец 270гр",
+      "price": 170
+    },
+    {
+      "id": 3,
+      "name": "Ролл «Динамит»",
+      "img": "https://wok.od.ua/storage/app/uploads/public/621/cce/c61/621ccec612bfc934704117.png",
+      "desc": "Креветки темпура, желтохвост, ростки фасоли, морковь, авокадо, огурец, чили, острый майонез",
+      "price": 270
+    },
+    {
+      "id": 4,
+      "name": "Ролл Калифорния",
+      "img": "https://instafood.com.ua/images/full_blog/instafood01249-copy-5c7feb8f73eba-min-5cde726395794.png?1609925658",
+      "desc": "Краб или имитация краба, авокадо, огурец, семена кунжута",
+      "price": 220
+    }
+  ],
+  "newdesert": [
+    {
+      "id": 1,
+      "name": "Карамельное мороженное",
+      "img": "https://i.pinimg.com/originals/d0/b6/c0/d0b6c0de76722dc58f59b486b61fcd41.png",
+      "desc": "Карамельный с кусочками арахиса",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Ягодный чизкейк",
+      "img": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-Pic.png",
+      "desc": "Мягкий творожный десерт на основе сыра Филадельфия со свежим сливочным ароматом и нежным кисловатым вкусом.",
+      "price": 350
+    },
+    {
+      "id": 3,
+      "name": "Клубничное мороженное",
+      "img": "https://images.squarespace-cdn.com/content/v1/538500e4e4b0fa9e95efc7b9/1610646521300-TDYZES3IAN49R4611WRQ/CadillacXTC_Slice2.png?format=1000w",
+      "desc": "Клубничный с мармеладом и клубнычным сиропом",
+      "price": 190
+    },
+    {
+      "id": 4,
+      "name": "Шоколадный чизкейк",
+      "img": "https://www.pngall.com/wp-content/uploads/5/Cheesecake-Slice-PNG-File.png",
+      "desc": "Мягкий творожный десерт на основе сыра Филадельфия со свежим сливочным ароматом и нежным шоколаднымвкусом. ",
+      "price": 190
+    }
+  ],
+  "newsalad": [
+    {
+      "id": 1,
+      "name": "Салат «Нисуаз»",
+      "img": "https://s3.amazonaws.com/media.justsalad.com/assets/OJS_IMG_MAR22_Wasabi_Caesar.png",
+      "desc": "Салат айсберг, соус нисуаз, помидоры черри, стручковая фасоль, перепелиные яйца, маслины, жареный картофель.",
+      "price": 350
+    },
+    {
+      "id": 2,
+      "name": "Салат с креветками и авокадо",
+      "img": "https://s3.amazonaws.com/media.justsalad.com/assets/OJS_The_Keto.png",
+      "desc": "Полезный салат из овощей и зелени с киноа и кусочками жаренный форели, заправленный апельсиновым соусом.",
+      "price": 450
+    },
+    {
+      "id": 3,
+      "name": "Салат цезарь с нежной грудинкой",
+      "img": "https://s3.amazonaws.com/media.justsalad.com/assets/OJS_IMG_MAR22_Spicy_Tofu_Crunch.png",
+      "desc": "Тёплый салат с куриной печенью и грибами,репчатый лук, микс из листьев салата, помидоры, обжаренные семена кунжута",
+      "price": 380
+    },
+    {
+      "id": 4,
+      "name": "Салат из запеченной свеклы и сыром",
+      "img": "https://s3.amazonaws.com/media.justsalad.com/assets/OJS_IMG_MAR22_The_Mezze.png",
+      "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
+      "price": 450
+    }
+  ],
+  "newdrinks": [
+    {
+      "id": 1,
+      "name": "Coca-Cola ligth 1 л",
+      "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/HJ00278_Diet_Coke_WEB_800x600px.png",
+      "desc": "Диетическая Кола",
+
+      "price": 120
+    },
+    {
+      "id": 2,
+      "name": "Fanta",
+      "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/2008_LargeFanta.png",
+      "desc": "Классическая фанта",
+
+      "price": 120
+    },
+    {
+      "id": 3,
+      "name": "Coca-Cola 1 л",
+      "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Mobile/HJ00278_Coke_WEB_800x600px.png",
+      "desc": "Классическая кола",
+
+      "price": 150
+    },
+    {
+      "id": 4,
+      "name": "Fanta respberry",
+      "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/Product/Thumbnail/raspberry-fanta-sm_1.png",
+      "desc": "Малиновая фанта",
+
+      "price": 190
+    }
+  ],
+
+
+
+  "pizza": [
+    {
+      "id": 1,
+      "name": "Маргарита",
+      "img": "../Media/pizza/asian.svg",
+      "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+      "price": 365
+    },
+    {
+      "id": 2,
+      "name": "Азиатская",
+      "img": "../Media/pizza/chiken.svg",
+      "desc": "Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус",
+      "price": 395
+    },
+    {
+      "id": 3,
+      "name": "Чикен комби",
+      "img": "../Media/pizza/italien.svg",
+      "desc": "Соус альфредо, моцарелла, лук красный, перец, смесь сыров чеддер и пармезан, куриные кусочки, соус сладкий чили",
+      "price": 375
+    },
+    {
+      "id": 4,
+      "name": "Пепперони",
+      "img": "t../Media/pizza/margarita.svg",
       "desc": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
       "price": 365
     },
     {
       "id": 5,
       "name": "Карбонара",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/fae69c6fc9e848c6a4003a8011fd5259_760x760.jpeg",
+      "img": "../Media/pizza/papperony.svg",
       "desc": "Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок, соус альфредо, итальянские травы, томаты",
       "price": 365
     },
     {
       "id": 6,
       "name": "Двойной цыпленок",
-      "img": "",
+      "img": "../Media/pizza/vageterien.svg",
       "desc": "Цыпленок, моцарелла, альфредо соус",
       "price": 365
     },
@@ -507,6 +724,54 @@
       "email": "aigerim@gmail.com",
       "feedback": "testing feedbacks",
       "id": 9
+    }
+  ],
+  "contacts": [
+    {
+      "number": "+996500405988",
+      "email": "food-planet@gmail.com",
+      "adress": "Суюмбаева 123, Бишкек, Кыргызстан",
+      "telegram": "food-planet",
+      "instagram": "food-planet",
+      "facebook": "food-planet"
+    }
+  ],
+  "administrators": [
+    { 
+      "id": 1,
+      "name": "admin",
+      "number": "0500000000",
+      "position": "admin",
+      "email": "admin@gmail.com",
+      "login": "admin",
+      "password": "admin"
+    },
+    { 
+      "id": 2,
+      "name": "Aigerim Bekbolotova",
+      "position": "admin",
+      "number": "0707767676",
+      "email": "aigerim@gmail.com",
+      "login": "aigerim",
+      "password": "aigerim"
+    },
+    { 
+      "id": 3,
+      "name": "Aijan Aidarova",
+      "position": "admin",
+      "number": "0500000110",
+      "email": "aijan@gmail.com",
+      "login": "aijan",
+      "password": "aijan"
+    },
+    { 
+      "id": 4,
+      "name": "Meerim Egemberdieva",
+      "position": "admin",
+      "number": "0707777777",
+      "email": "meerim@gmail.com",
+      "login": "meerim",
+      "password": "meerim"
     }
   ]
 }
