@@ -1,7 +1,7 @@
 import React from 'react';
 import {block} from "../../AdminPage/Constant/index";
-import PizzaProps from "./PizzaProps";
 import style from "../Menu/PagesMenu.module.css"
+import MenuHeader from "./MenuHeader";
 
 const PizzaMap = () => {
     return (
@@ -9,7 +9,7 @@ const PizzaMap = () => {
             <div className={style.pizzaMap}>
             {
                 block.map((item) => {
-                    return <PizzaProps
+                    return <MenuHeader
                         id={item.id}
                         imgUrl={item.imgURL}
                         title={item.title}

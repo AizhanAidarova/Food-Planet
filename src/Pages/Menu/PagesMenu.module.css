@@ -57,12 +57,17 @@
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     width: 1200px;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 .noveltiesNavbar {
     display: flex;
     margin-top: 50px;
+    margin-left: 170px;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-around;
 }
 
 .noveltiesNavbar ul {
@@ -119,6 +124,12 @@
 .display{
     display: flex;
     flex-wrap: wrap;
+}
+.menuHead{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
 }
 .bord{
     width: 1400px;

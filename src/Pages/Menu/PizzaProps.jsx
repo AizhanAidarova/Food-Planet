@@ -1,20 +1,23 @@
+/*
 import React, {useState,useEffect} from 'react';
 import style from "./PagesMenu.module.css";
 import {LOCALHOST_URL} from "../../AdminPage/Constant/index";
 
 
-const PizzaProps = () => {
+/!*const PizzaProps = () => {
     const [count, setCount] = useState(0);
     const increment = () => {
         setCount(count + 1)
     }
     const decrement = () => {
-        setCount(count - 1)
+        if (count >1){
+            setCount(count - 1)
+        }
     }
     const [food, setFood] = useState([]);
 
     const getFood = (foodUrl) => {
-        const url = LOCALHOST_URL + foodUrl
+        const url = LOCALHOST_URL + foodUrl;
 
         fetch(url)
             .then((response) => response.json())
@@ -22,8 +25,8 @@ const PizzaProps = () => {
     }
 
     useEffect(() => {
-        getFood('cheeseburger');
-    }, [])
+        getFood('pizza');
+    }, [])*!/
     return (
         <>
             <div>
@@ -51,4 +54,4 @@ const PizzaProps = () => {
         </>
     );
 };
-export default PizzaProps;
+export default PizzaProps;*/

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Маргарита",
-      "img": "typicode",
+      "img": "../Media/img/burger1.svg",
       "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
       "price": 365
     },
@@ -499,6 +499,14 @@
       "email": "aijan@gmail.com",
       "feedback": "test",
       "id": 8
+    },
+    {
+      "name": "Aigerim",
+      "surname": "Bekbolotova",
+      "number": "707767676",
+      "email": "aigerim@gmail.com",
+      "feedback": "testing feedbacks",
+      "id": 9
     }
   ]
 }
