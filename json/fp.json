@@ -1,4 +1,4 @@
-{ 
+{
   "newpizza": [
     {
       "id": 1,
@@ -185,7 +185,6 @@
       "name": "Coca-Cola zero 1 л",
       "img": "../Media/drinks/drink2.svg",
       "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
-
       "price": 120
     },
     {
@@ -193,7 +192,6 @@
       "name": "Coca-Cola 1 л",
       "img": "../Media/drinks/drink3.svg",
       "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
-
       "price": 120
     },
     {
@@ -201,7 +199,6 @@
       "name": "Shweppes 0,33 л.",
       "img": "../Media/drinks/drink4.svg",
       "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
-
       "price": 150
     },
     {
@@ -209,13 +206,9 @@
       "name": "Shweppes",
       "img": "../Media/drinks/drink5.svg",
       "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
-
       "price": 190
     }
   ],
-
-
-
   "pizza": [
     {
       "id": 1,
@@ -724,6 +717,14 @@
       "email": "aigerim@gmail.com",
       "feedback": "testing feedbacks",
       "id": 9
+    },
+    {
+      "name": "",
+      "surname": "",
+      "number": "",
+      "email": "",
+      "feedback": "",
+      "id": 10
     }
   ],
   "contacts": [
@@ -731,13 +732,13 @@
       "number": "+996500405988",
       "email": "food-planet@gmail.com",
       "adress": "Суюмбаева 123, Бишкек, Кыргызстан",
-      "telegram": "food-planet",
-      "instagram": "food-planet",
-      "facebook": "food-planet"
+      "telegram": "https://web.telegram.org/z/",
+      "instagram": "https://www.instagram.com/",
+      "facebook": "https://www.facebook.com/"
     }
   ],
   "administrators": [
-    { 
+    {
       "id": 1,
       "name": "admin",
       "number": "0500000000",
@@ -746,7 +747,7 @@
       "login": "admin",
       "password": "admin"
     },
-    { 
+    {
       "id": 2,
       "name": "Aigerim Bekbolotova",
       "position": "admin",
@@ -755,7 +756,7 @@
       "login": "aigerim",
       "password": "aigerim"
     },
-    { 
+    {
       "id": 3,
       "name": "Aijan Aidarova",
       "position": "admin",
@@ -764,7 +765,7 @@
       "login": "aijan",
       "password": "aijan"
     },
-    { 
+    {
       "id": 4,
       "name": "Meerim Egemberdieva",
       "position": "admin",
