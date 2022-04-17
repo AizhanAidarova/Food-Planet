@@ -644,6 +644,7 @@
   "feedbacks": [
     {
       "id": 1,
+      "status": 0,
       "img": "https://i.shgcdn.com/3c1205d5-73aa-46a6-bae9-a4bd7ee2efe0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
       "name": "Сергей",
       "surname": "Васильев",
@@ -654,6 +655,7 @@
     },
     {
       "id": 2,
+      "status": 0,
       "img": "https://images.saatchiart.com/saatchi/1777306/art/8435222/7499406-HSC00001-7.jpg",
       "name": "Ольга",
       "surname": "Васильева",
@@ -664,6 +666,7 @@
     },
     {
       "id": 3,
+      "status": 0,
       "img": "https://i.shgcdn.com/e92002c0-0e2d-4b57-a960-a4a1f44a4169/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
       "name": "Елизавета",
       "surname": "Баярская",
@@ -674,6 +677,7 @@
     },
     {
       "id": 4,
+      "status": 0,
       "img": "https://i.shgcdn.com/3046b075-235a-4aae-af1e-47b35879b021/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
       "name": "Игорь",
       "surname": "Понамаренко",
@@ -684,6 +688,7 @@
     },
     {
       "id": 5,
+      "status": 0,
       "img": "https://i5.walmartimages.com/asr/0097c3c7-e6b1-4516-9c61-897b71116557_1.964ca1cc4f05e539df54ba67769c22be.jpeg",
       "name": "Сергей",
       "surname": "Васильев",
@@ -694,6 +699,7 @@
     },
     {
       "id": 6,
+      "status": 0,
       "img": "https://i.shgcdn.com/015387a4-2f5c-47ca-802a-49086703998e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
       "name": "Ольга",
       "surname": "Гарская",
@@ -708,6 +714,7 @@
       "number": "0707797979",
       "email": "meerim@gmail.com",
       "feedback": "test",
+      "status": 0,
       "id": 7
     },
     {
@@ -716,6 +723,7 @@
       "number": "0707777777",
       "email": "aijan@gmail.com",
       "feedback": "test",
+      "status": 0,
       "id": 8
     },
     {
@@ -724,6 +732,7 @@
       "number": "707767676",
       "email": "aigerim@gmail.com",
       "feedback": "testing feedbacks",
+      "status": 0,
       "id": 9
     }
   ],
