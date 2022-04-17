@@ -11,7 +11,7 @@ import lineVertical from "../Media/Icons/LineVertical.svg";
 import map from "../Media/Icons/map.svg";
 import PagesHeader from "../Header/PagesHeader";
 import PagesFooter from "../Footer/PagesFooter";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import { LOCALHOST_URL } from "../../AdminPage/Constant";
 import { getCurrentDate } from "../../helpers";
 
@@ -49,7 +49,6 @@ const Contacts = (props) => {
       number: number,
       email: email,
       feedback: comment,
-      postId: props.postId,
       date: getCurrentDate(),
     };
 
@@ -65,14 +64,30 @@ const Contacts = (props) => {
       body: JSON.stringify(obj),
     };
 
-    fetch(url, options).then((response) => {
-      if (response.status === 201) {
-        toast.success("Спасибо большое за ваш отзыв");
-      } else {
-        toast.error("Произошла ошибка");
-      }
-    });
+    fetch(url, options)
+      .then((response) => {
+        if (response.status === 200) {
+          toast.success("Спасибо большое за ваш отзыв");
+        } else {
+          toast.error("Что-то пошло не так. Обновите страницу");
+        }
+      })
+      .then((data) => setName(data));
   };
+  // contact information
+  const [data, setData] = useState([]);
+
+  const getData = () => {
+    const url = LOCALHOST_URL + "/contacts";
+
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div>
@@ -81,51 +96,65 @@ const Contacts = (props) => {
         <div className="contactsText">
           <h2>Контакты</h2>
           <h4>Свяжитесь с нами</h4>
-          {/* number */}
-          <p>Доставим заказанную вами еду за 30 минут + напиток в подарок</p>
-          <div className={styles.contactDetails}>
-            <div>
-              <img src={phone} alt="" />
-            </div>
-            <div>
-              <p>+996500405988</p>
-            </div>
-          </div>
-          <img src={line} alt="" />
-          {/* mail */}
-          <p>Доставим заказанную вами еду за 30 минут + напиток в подарок</p>
-          <div className={styles.contactDetails}>
-            <div>
-              <img src={message} alt="" />
-            </div>
-            <div>
-              <p>food-planet@gmail.com</p>
-            </div>
-          </div>
-          <img src={line} alt="" />
-          {/* location */}
-          <h4>Посетите нас</h4>
-          <p>Доставим заказанную вами еду за 30 минут + напиток в подарок</p>
-          <div className={styles.contactDetails}>
-            <div>
-              <img src={location} alt="" />
-            </div>
-            <div>
-              <p>Суюмбаева 123, Бишкек, Кыргызстан</p>
-            </div>
-          </div>
-          {/* social media */}
-          <div className={styles.socialMedia}>
-            <div>
-              <img src={telegram} />
-            </div>
-            <div>
-              <img src={facebook} />
-            </div>
-            <div>
-              <img src={instagram} />
-            </div>
-          </div>
+          {data.map((item) => {
+            return (
+              <>
+                <p>
+                  Доставим заказанную вами еду за 30 минут + напиток в подарок
+                </p>
+                {/* number */}
+                <div className={styles.contactDetails}>
+                  <div>
+                    <img src={phone} alt="" />
+                  </div>
+                  <div>
+                    <p>{item.number}</p>
+                  </div>
+                </div>
+                <img src={line} alt="" />
+                {/* mail */}
+                <p>
+                  Доставим заказанную вами еду за 30 минут + напиток в подарок
+                </p>
+                <div className={styles.contactDetails}>
+                  <div>
+                    <img src={message} alt="" />
+                  </div>
+                  <div>
+                    <p>{item.email}</p>
+                  </div>
+                </div>
+                <img src={line} alt="" />
+                {/* location */}
+                <h4>Посетите нас</h4>
+                <p>
+                  Доставим заказанную вами еду за 30 минут + напиток в подарок
+                </p>
+                <div className={styles.contactDetails}>
+                  <div>
+                    <img src={location} alt="" />
+                  </div>
+                  <div>
+                    <p>{item.adress}</p>
+                  </div>
+                </div>
+                {/* social media */}
+                <div className={styles.socialMedia}>
+                  <div>
+                    <a href={item.telegram}><img src={telegram} /></a>
+                  </div>
+                  <div>
+                    <a href={item.facebook}><img src={facebook} /></a>
+          
+                  </div>
+                  <div>
+                    <a href={item.instagram}> <img src={instagram} /></a>
+                   
+                  </div>
+                </div>
+              </>
+            );
+          })}
         </div>
         <div className={styles.lineVertical}>
           {" "}
@@ -136,6 +165,7 @@ const Contacts = (props) => {
           <img src={map} alt="" />
         </div>
       </div>
+      {/* feedbacks */}
       <div
         className={styles.complaintsAndFeedbacks}
         style={{ maxWidth: "1030px" }}
@@ -186,6 +216,7 @@ const Contacts = (props) => {
         <br />
         <div className={styles.button}>
           <button onClick={addComment}>оставить</button>
+          <Toaster />
         </div>
       </div>
       <PagesFooter />
