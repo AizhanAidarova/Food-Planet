@@ -37,7 +37,7 @@
 }
 .adminBlockLi{
     list-style-type: none;
-    padding: 10px 5px 10px 5px;
+    padding: 20px 5px 10px 5px;
     color: #DDE2FF;
     font-size: 20px;
     font-family: 'Mulish', sans-serif;;
@@ -53,11 +53,10 @@
     right: 40px;
     width: 233px;
 }
-.adminBlockDiv:hover{
+.adminBlockLi:hover{
     background: #9FA2B4;
-    width: 20px;
-    height: 15px;
-;
+    width: 233px;
+    height: 30px;
 }
 .adminBlockImg{
     padding-right: 22px;

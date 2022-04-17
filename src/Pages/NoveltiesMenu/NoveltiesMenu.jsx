@@ -54,7 +54,7 @@ const NoveltiesMenu = () => {
                             <div className={style.cheeseburger}>
                                 {/* key={item.id} */}
                                 <img className={style.burger} src={item.img} />
-                                <div>
+                                <div className={style.divchese}>
                                     <h3 className={style.burgerH3}>{item.name}</h3>
                                     <p className={style.noveltiesMenuP}>{item.desc}</p>
                                     <p><b>{item.price}</b></p>
