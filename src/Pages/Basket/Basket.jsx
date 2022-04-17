@@ -16,6 +16,100 @@ const Basket = () => {
         setNumber(number - 1);
     }
 
+    const [name,setName] = useState("");
+    const [phonenumber, setName] = useState("");
+    const [city, setName] = useState("");
+    const [street, setName] = useState("");
+    const [house, setName] = useState("");
+    const [corpus, setName] = useState("");
+    const [flat, setName] = useState("");
+    const [porch, setName] = useState("");
+    const [floor, setName] = useState("");
+    const [intercom, setName] = useState("");
+    const [deliveryhour, setName] = useState("");
+    const [deliveryminut, setName] = useState("");
+    const [addinfo, setName] = useState("");
+    const [typepay, setName] = useState("");
+    const [deposit, setName] = useState("");
+
+    const getName = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getPhonenumber = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getCity = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getStreet = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getHouse = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getCorpus = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getFlat = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getPorch = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getFloor = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getIntercom = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeliveryhour = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeliveryminut = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getAddinfo = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getTypepay = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeposit = (event) => {
+        setName(event.currentTarget.value);
+    };
+
+    const addOrderinfo = () => {
+        const obj = {
+            name: name,
+            phonenumber: phonenumber,
+            city: city,
+            street: street,
+            house: house,
+            corpus: corpus,
+            flat:flat,
+            porch:porch,
+            floor: floor,
+            intercom: intercom,
+            deliveryhour: deliveryhour,
+            deliveryminut:deliveryminut,
+            addinfo:addinfo,
+            typepay:typepay,
+            deposit:deposit,
+            date: getCurrentDate(),
+        }
+    }
+
+    const url = LOCALHOST_URL + "/orderform";
+
+    const getData = () => {
+        const url = BASE_URL + "/users";
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => setData(data));
+      };
+
+
+
     return (
         <>
             <PagesHeader />
@@ -24,14 +118,6 @@ const Basket = () => {
                 <div className={style.left}>
                     <h3 className={style.cartH3}>Корзина</h3>
                     <table>
-                        {/* <tr className={style.thead}>
-                            <th className={style.cartImg}>img</th>
-                            <th className={style.cartFoodName}>food name</th>
-                            <th className={style.price}>price</th>
-                            <th className={style.cartNum}>count</th>
-                            <th>total</th>
-                            <th className={style.cartDelete}>remove</th>
-                        </tr> */}
                         <tr className={style.tbody}>
                             <td className={style.cartImg}><img className={style.asian} src={asian} /></td>
                             <td className={style.cartFoodName}>Маргарита</td>
@@ -47,34 +133,6 @@ const Basket = () => {
                             <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
                         </tr>
                     </table>
-                    {/* <table className={style.tableCart}>
-                        <thead>
-                            <tr>
-                                <td className={style.cartImg}>Image</td>
-                                <td>Food Name</td>
-                                <td>Price</td>
-                                <td className={style.btn1}>count</td>
-                                <td>Sub Total</td>
-                                <td className={style.cartDelete}>Remove</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td className={style.cartImg}></td>
-                                <td className={style.cartFoodName}>Burger</td>
-                                <td className={style.price}>270</td>
-                                <td>
-                                    <div className={style.btnCart}>
-                                        <button className={style.btn5} onClick={decrement}>-</button>
-                                        <p>{number}</p>
-                                        <button className={style.btn5} onClick={increment}>+</button>
-                                    </div>
-                                </td>
-                                <td>$270</td>
-                                <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
-                            </tr>
-                        </tbody>
-                    </table> */}
                 </div>
                 <form className={style.right}>
                     <div className={style.first}>
@@ -167,7 +225,7 @@ const Basket = () => {
                     <div className={style.rule}>
                         <p><input className={style.checkBox2} type="checkbox" /> условиями доставки согласен</p>
                     </div>
-                    <button className={style.btnOrder}>Заказать</button>
+                    <button onClick = {getData} className={style.btnOrder}>Заказать</button>
                 </form>
             </div>
         </>
