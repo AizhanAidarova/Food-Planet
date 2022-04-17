@@ -2,16 +2,35 @@ import React, {useEffect, useState} from 'react';
 import style from "./PagesMenu.module.css";
 import {LOCALHOST_URL} from "../../AdminPage/Constant";
 
+const GoodsCard = ({item}) => {
+    const [count, setCount] = useState(0);
+    const increment = () => {
+        setCount(count + 1)
+    }
+    const decrement = () => {
+        if (count >0){
+            setCount(count - 1)
+        }
+    }
+    return (
+        <div key={item.id} className={style.margarita}>
+            <img className={style.pizzaPic} src={item.img} alt="Pizza"/>
+            <div>
+                <h3 className={style.price}>{item.name}</h3>
+                <p className={style.recipe}>{item.desc}</p>
+                <p className={style.price1}>{item.price}</p>
+            </div>
+            <div className={style.countBtn}>
+                <button className={style.countBtn1} onClick={decrement}> - </button>
+                <p className={style.countP}>{count}</p>
+                <button className={style.countBtn2} onClick={increment}> + </button>
+            </div>
+            <button className={style.basketBtn}>В КОРЗИНУ</button>
+        </div>
+    )
+}
 const MenuHeader = () => {
-        const [count, setCount] = useState(0);
-        const increment = () => {
-            setCount(count + 1)
-        }
-        const decrement = () => {
-            if (count >1){
-                setCount(count - 1)
-            }
-        }
+
         const [food, setFood] = useState([]);
 
         const getFood = (foodUrl) => {
@@ -46,22 +65,7 @@ const MenuHeader = () => {
             <div className={style.menuHead}>
                 {
                     food.map((item) => {
-                        return(
-                            <div className={style.margarita}>
-                                <img className={style.pizzaPic} src={item.img} alt="Pizza"/>
-                                <div>
-                                    <h3 className={style.price}>{item.name}</h3>
-                                    <p className={style.recipe}>{item.desc}</p>
-                                    <p className={style.price1}>{item.price}</p>
-                                </div>
-                                <div className={style.countBtn}>
-                                    <button className={style.countBtn1} onClick={decrement}> - </button>
-                                    <p className={style.countP}>{count}</p>
-                                    <button className={style.countBtn2} onClick={increment}> + </button>
-                                </div>
-                                <button className={style.basketBtn}>В КОРЗИНУ</button>
-                            </div>
-                        )
+                        return <GoodsCard item = {item}/>
                     })
                 }
             </div>

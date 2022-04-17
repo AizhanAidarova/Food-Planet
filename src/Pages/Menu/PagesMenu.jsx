@@ -5,11 +5,9 @@ import PizzaMap from "./PizzaMap";
 
 
 const PagesMenu = () => {
-
     return (
-        <div /*className={style.novelties}*/>
+        <div>
                 <MenuHeader/>
-                {/*<PizzaMap/>*/}
         </div>
     )
 }
