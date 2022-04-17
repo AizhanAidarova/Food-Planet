@@ -4,7 +4,7 @@ import style from '../NoveltiesMenu/Novelties.module.css';
 import { LOCALHOST_URL } from '../../AdminPage/Constant';
 
 
-const GoodsCard = (item) => {
+const GoodsCard = ({item}) => {
     const [number, setNumber] = useState(0);
 
     const increment = () => {
