@@ -20,38 +20,23 @@
 
 .left{
     width: 550px;
-    height: 800px;
+    /* height: 250px; */
     margin-right: 100px;
     box-shadow: 0 0 10px rgb(148, 148, 151);
     border-radius:30px;
-    padding-left: 20px;
 }
 
-.btnOrder {
-    color: white;
-    border: 1px solid blue;
-    background-color: blue;
-    margin-right: 10px;
-    margin-left: 100px;
-    font-size: 20px;
-    margin-top: 20px;
+.cartH3{
+    margin: 20px 20px;
+    border-bottom:1px solid #FF583E;
+}
+
+table {
+    width: 550px;
+    padding: 10px 5px;
 }
 
 
-.info {
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-    background-color: white;
-    border: 1px solid blue;
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-.info p{
-    margin-top: 20px;
-    margin-left: 10px;
-}
 
 .right {
     width: 550px;
@@ -261,3 +246,74 @@ td {
     font-weight: 400;
 }
 
+
+
+
+
+.asian{
+    width: 45px;
+}
+
+
+.cartImg{
+    height: 65px;
+    width: 50px;
+}
+
+.cartNum{
+    width: 70px;
+}
+.cartFoodName, .price {
+    font-size: 14px;
+    width: 70px;
+}
+
+
+.btnCart{
+    display: flex;
+}
+
+.btnCart p{
+    border: 1px solid #d3cccb;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn5 {
+    color:#FF583E;
+    background-color:transparent;
+    border:none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.tableCart thead tr {
+	border-bottom: 1px solid #C2C2C2;
+	padding-bottom: 0;
+    font-size: 0.875em;
+	background: #f5f5f5;
+	border-top: 10px solid #fff;
+	vertical-align: middle;
+	padding: 12px 8px;
+}
+.tableCart tbody td {
+	border-bottom: 1px solid #C2C2C2;
+	padding-bottom: 0;
+    font-size: 0.875em;
+	/* border-top: 10px solid #fff;
+	vertical-align: middle; */
+	padding: 12px 8px;
+}
+
+.trash{
+    height: 15px;
+}
+
+
+.cartDelete{
+    width: 20px;
+}
+
+/* .thead{
+    background-color:#2B4241;
+} */

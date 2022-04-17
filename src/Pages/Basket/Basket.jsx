@@ -1,38 +1,80 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import style from '../Basket/Basket.module.css'
 import PagesHeader from '../Header/PagesHeader';
+import { LOCALHOST_URL } from '../../AdminPage/Constant';
+import deleteImg from '../Media/icon/bin.png'
+import asian from '../Media/pizza/asian.svg'
 
 
 const Basket = () => {
+    const [number, setNumber] = useState(0);
+
+    const increment = () => {
+        setNumber(number + 1);
+    }
+    const decrement = () => {
+        setNumber(number - 1);
+    }
+
     return (
         <>
             <PagesHeader />
             <div className={style.zakaz}>Заказ</div>
             <div className={style.container}>
                 <div className={style.left}>
-                    <table class="table table-hover table-bordered">
+                    <h3 className={style.cartH3}>Корзина</h3>
+                    <table>
+                        {/* <tr className={style.thead}>
+                            <th className={style.cartImg}>img</th>
+                            <th className={style.cartFoodName}>food name</th>
+                            <th className={style.price}>price</th>
+                            <th className={style.cartNum}>count</th>
+                            <th>total</th>
+                            <th className={style.cartDelete}>remove</th>
+                        </tr> */}
+                        <tr className={style.tbody}>
+                            <td className={style.cartImg}><img className={style.asian} src={asian} /></td>
+                            <td className={style.cartFoodName}>Маргарита</td>
+                            <td className={style.price}>270</td>
+                            <td className={style.cartNum}>
+                                <div className={style.btnCart}>
+                                    <button className={style.btn5} onClick={decrement}>-</button>
+                                    <p>{number}</p>
+                                    <button className={style.btn5} onClick={increment}>+</button>
+                                </div>
+                            </td>
+                            <td className={style.price}>270</td>
+                            <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
+                        </tr>
+                    </table>
+                    {/* <table className={style.tableCart}>
+                        <thead>
+                            <tr>
+                                <td className={style.cartImg}>Image</td>
+                                <td>Food Name</td>
+                                <td>Price</td>
+                                <td className={style.btn1}>count</td>
+                                <td>Sub Total</td>
+                                <td className={style.cartDelete}>Remove</td>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
-                                <td className={style.imgBasket}></td>
-                                <td className={style.postBasket}></td>
-                                <td className={style.amBasket}>Кол-во</td>
-                                <td className={style.sumBasket} >Итого</td>
-                                <td className={style.delBasket} >Убрать</td>
-                            </tr>
-                            <tr>
-                                <td colSpan={5} className={style.vyZakazali}> Вы заказали</td>
+                                <td className={style.cartImg}></td>
+                                <td className={style.cartFoodName}>Burger</td>
+                                <td className={style.price}>270</td>
+                                <td>
+                                    <div className={style.btnCart}>
+                                        <button className={style.btn5} onClick={decrement}>-</button>
+                                        <p>{number}</p>
+                                        <button className={style.btn5} onClick={increment}>+</button>
+                                    </div>
+                                </td>
+                                <td>$270</td>
+                                <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
                             </tr>
                         </tbody>
-                    </table>
-
-                    <div>Итого: <span id="total-cart-summa">0</span> руб.</div>
-
-                    <button id="order" class="btn btn-info">Оформить заказ</button>
-                    <div className={style.order}>
-                        <table class={style.table}>
-
-                        </table>
-                    </div>
+                    </table> */}
                 </div>
                 <form className={style.right}>
                     <div className={style.first}>
@@ -126,12 +168,8 @@ const Basket = () => {
                         <p><input className={style.checkBox2} type="checkbox" /> условиями доставки согласен</p>
                     </div>
                     <button className={style.btnOrder}>Заказать</button>
-
-
-
                 </form>
             </div>
-
         </>
     );
 };
