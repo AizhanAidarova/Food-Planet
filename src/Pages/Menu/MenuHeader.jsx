@@ -23,7 +23,7 @@ const MenuHeader = () => {
         }
 
         useEffect(() => {
-            getFood('/newburger');
+            getFood('/burger');
         }, [])
     return (
         <>
@@ -32,13 +32,13 @@ const MenuHeader = () => {
                 <div className={style.menu}>
                 <nav>
                     <ul>
-                        <li onClick={() => getFood("/newpizza") }>Пицца</li>
-                        <li onClick={() => getFood("/newburger")}>Бургер</li>
-                        <li onClick={() => getFood("/newsushi")}>Суши</li>
-                        <li onClick={() => getFood("/newroll")}>Роллы</li>
-                        <li onClick={() => getFood("/newpizza")}>Салаты</li>
-                        <li onClick={() => getFood("/newpizza")}>Десерты</li>
-                        <li onClick={() => getFood("/newpizza")}>Напитки</li>
+                        <li onClick={() => getFood("/pizza") }>Пицца</li>
+                        <li onClick={() => getFood("/burger")}>Бургер</li>
+                        <li onClick={() => getFood("/sushi")}>Суши</li>
+                        <li onClick={() => getFood("/roll")}>Роллы</li>
+                        <li onClick={() => getFood("/salad")}>Салаты</li>
+                        <li onClick={() => getFood("/desert")}>Десерты</li>
+                        <li onClick={() => getFood("/drinks")}>Напитки</li>
                     </ul>
                 </nav>
                 </div>
@@ -48,11 +48,11 @@ const MenuHeader = () => {
                     food.map((item) => {
                         return(
                             <div className={style.margarita}>
-                                <img className={style.pizzaPic} src={item.imgUrl} alt="Pizza"/>
+                                <img className={style.pizzaPic} src={item.img} alt="Pizza"/>
                                 <div>
-                                    <h3 className={style.price}>{item.title}</h3>
-                                    <p className={style.recipe}>{item.titleDesc}</p>
-                                    <p><b>{item.desc}</b></p>
+                                    <h3 className={style.price}>{item.name}</h3>
+                                    <p className={style.recipe}>{item.desc}</p>
+                                    <p className={style.price1}>{item.price}</p>
                                 </div>
                                 <div className={style.countBtn}>
                                     <button className={style.countBtn1} onClick={decrement}> - </button>

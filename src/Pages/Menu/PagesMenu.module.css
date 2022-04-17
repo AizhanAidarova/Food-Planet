@@ -5,23 +5,25 @@
     flex-wrap: wrap;
 }
 .margarita{
-   /* border: none;
-    border-bottom: 1px solid darkgrey;
-    border-left: 1px solid darkgrey;
-    border-right: 1px solid darkgrey;
+   /*
     width: 264px;
     height: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 40px;
-    margin-top: 100px;
+
     margin-right: 32px;*/
+    border: none;
+    margin-top: 100px;
+    border-bottom: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 265px;
     height: 350px;
-    background-color: #2B4241;
+    background-color: #FFFFFF;
     border-radius: 30px;
     margin-right: 32px;
-    margin-top: 88px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,10 +38,14 @@
     color: #254F4C;
     margin-top: 0;
     margin-bottom: 5px;
+    text-align: center;
 }
 .price1{
     margin-top: 52px;
-    margin-bottom: -11px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 20px;
+    color: #254F4C;
+    text-align: center;
 }
 .pizzaPic{
     margin-top: -90px;
@@ -55,6 +61,7 @@
     margin-left: 10px;
     margin-right: 10px;
     height: 39px;
+    text-align: center;
 
 }
 /*.button{
@@ -114,10 +121,11 @@
     position: relative;
     top: 20px;*/
     display: flex;
+    position: relative;
+    right: 15px;
     align-items:center;
-    justify-content: center;
     margin-bottom: 45px;
-    margin-top: -16px;
+
 }
 
 .countBtn1{

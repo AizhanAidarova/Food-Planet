@@ -185,7 +185,6 @@
       "name": "Coca-Cola ligth 1 л",
       "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/HJ00278_Diet_Coke_WEB_800x600px.png",
       "desc": "Диетическая Кола",
-
       "price": 120
     },
     {
@@ -193,7 +192,6 @@
       "name": "Fanta",
       "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Main/2008_LargeFanta.png",
       "desc": "Классическая фанта",
-
       "price": 120
     },
     {
@@ -201,7 +199,6 @@
       "name": "Coca-Cola 1 л",
       "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/product/Mobile/HJ00278_Coke_WEB_800x600px.png",
       "desc": "Классическая кола",
-
       "price": 150
     },
     {
@@ -209,7 +206,6 @@
       "name": "Fanta respberry",
       "img": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/Product/Thumbnail/raspberry-fanta-sm_1.png",
       "desc": "Малиновая фанта",
-
       "price": 190
     }
   ],
@@ -220,56 +216,56 @@
     {
       "id": 1,
       "name": "Маргарита",
-      "img": "../Media/pizza/asian.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2839_rw_w500.png",
       "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
       "price": 365
     },
     {
       "id": 2,
       "name": "Азиатская",
-      "img": "../Media/pizza/chiken.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2791_rw_w500.png",
       "desc": "Моцарелла, сладкий перец, томаты, красный лук, фарш из говядины, сушеный перец чили, томатный соус",
       "price": 395
     },
     {
       "id": 3,
       "name": "Чикен комби",
-      "img": "../Media/pizza/italien.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2794_rw_w500.png",
       "desc": "Соус альфредо, моцарелла, лук красный, перец, смесь сыров чеддер и пармезан, куриные кусочки, соус сладкий чили",
       "price": 375
     },
     {
       "id": 4,
       "name": "Пепперони",
-      "img": "t../Media/pizza/margarita.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2841_rw_w500.png",
       "desc": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
       "price": 365
     },
     {
       "id": 5,
       "name": "Карбонара",
-      "img": "../Media/pizza/papperony.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2814_rw_w500.png",
       "desc": "Ветчина из цыпленка, сыры чеддер и пармезан, моцарелла, красный лук, чеснок, соус альфредо, итальянские травы, томаты",
       "price": 365
     },
     {
       "id": 6,
       "name": "Двойной цыпленок",
-      "img": "../Media/pizza/vageterien.svg",
+      "img": "https://pizza-service.ru/upload/images/resized/2806_rw_w500.png",
       "desc": "Цыпленок, моцарелла, альфредо соус",
       "price": 365
     },
     {
       "id": 7,
       "name": "Мексиканская",
-      "img": "typicode",
+      "img": "https://pizza-service.ru/upload/images/resized/2798_rw_w500.png",
       "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
       "price": 365
     },
     {
       "id": 8,
       "name": "Деревенская",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/596181578602410dbd9e9f75d66ee61d_760x760.jpeg",
+      "img": "https://pizza-service.ru/upload/images/resized/2807_rw_w500.png",
       "desc": "Картофель из печи, соленые огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус",
       "price": 365
     }
@@ -278,56 +274,56 @@
     {
       "id": 1,
       "name": "Чизбургер",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/596181578602410dbd9e9f75d66ee61d_760x760.jpeg",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/klassika.png",
       "desc": "Картофель из печи, соленые огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус",
       "price": 395
     },
     {
       "id": 2,
       "name": "Лондон Бургер",
-      "img": "https://nambafood.kg/dish_image/55247.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/slou.png",
       "desc": "Жаренный лук, маринованный огурец, соус лондон, сыр",
       "price": 250
     },
     {
       "id": 3,
       "name": "Калифорния бургер",
-      "img": "https://nambafood.kg/dish_image/55247.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/italjanskii.png",
       "desc": "Перчик Халапеньо, соус Силантро лайм, сыр",
       "price": 250
     },
     {
       "id": 4,
       "name": "Куриный бургер",
-      "img": "https://nambafood.kg/dish_image/55314.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/klassika.png",
       "desc": "Куриная грудка, листья салата, помидор, жареный лук, маринованный огурец, соус Пинк, сыр",
       "price": 240
     },
     {
       "id": 5,
       "name": "Стейк Бургер",
-      "img": "https://nambafood.kg/dish_image/55343.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/samyi-vkusnyi.png",
       "desc": "Котлета из говядины на гриле, овощи на гриле, соус Демигляс, сыр",
       "price": 350
     },
     {
       "id": 6,
       "name": "Мега Чизбургер",
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/596181578602410dbd9e9f75d66ee61d_760x760.jpeg",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/italjanskii.png",
       "desc": "Котлета из говядины на гриле, крафтовый сыр в панировке, ломтик помидора, маринованные огурцы, шпинат, соус Cheese",
       "price": 360
     },
     {
       "id": 7,
       "name": "Токио Бургер куриный",
-      "img": "https://nambafood.kg/dish_image/127663.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/italjanskii.png",
       "desc": "Фирменная булочка, хрустящая куриная грудка ,лист салата,сыр, помидор, маринованный огурец , соус Пинк.",
       "price": 270
     },
     {
       "id": 8,
       "name": "Flame Бургер",
-      "img": "https://nambafood.kg/dish_image/127621.png",
+      "img": "https://blackstarburger.ru/wp-content/uploads/2021/07/samyi-vkusnyi.png",
       "desc": "Фирменная булочка, говяжья котлета, овощи на гриле, сыр, соус BBQ",
       "price": 270
     }
@@ -336,114 +332,114 @@
     {
       "id": 1,
       "name": "Сашими",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+сашими&img_url=https%3A%2F%2Fsun9-59.userapi.com%2FA9scNkkFmbljJQmjzrkgyv43NWUy8jal7LzvgA%2F5ztjFSHtVz0.jpg&pos=0&rpt=simage&stype=image&lr=10309&parent-reqid=1648707197426757-16422502837206302256-sas3-0918-918-sas-l7-balancer-8080-BAL-9950&source=serp",
+      "img": "https://sushiwok.ru/img/80142bc358ca42572776cc2ed356ab06/500x400",
       "desc": "Рыба или моллюски, подаваемые отдельно (без риса)",
       "price": 270
     },
     {
       "id": 2,
       "name": "Маки",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+маки&img_url=https%3A%2F%2Fi1.wp.com%2Fvasabi-sushi.ru%2Fwp-content%2Fuploads%2F2020%2F07%2F1548112378530728_6f35.jpg%3Ffit%3D1280%252C853%26ssl%3D1&pos=1&rpt=simage&stype=image&lr=10309&parent-reqid=1648707234515337-721484021903255042-sas3-0918-918-sas-l7-balancer-8080-BAL-3280&source=serp",
+      "img": "https://sushiwok.ru/img/5cf7a1d0ef788212fcc4a9c83c7b7a9e/500x400",
       "desc": "Рис и начинка, завернутые в морские водоросли",
       "price": 170
     },
     {
       "id": 3,
-      "name": "Урамаки",
-      "img": "https://nambafood.kg/dish_image/127663.png",
-      "desc": "Рис находится снаружи, а морские водоросли обволакивают начинку",
+      "name": "Канимаки",
+      "img": "https://sushiwok.ru/img/8d354d6e187183b2e2153697f246cb33/500x400",
+      "desc": "Краб-крем,омлет тамаго,салат айсберг,медовый соус,кунжут",
       "price": 270
     },
     {
       "id": 4,
-      "name": "Хамачи",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+хашими&img_url=https%3A%2F%2Fscontent-sof1-1.cdninstagram.com%2Ft51.2885-15%2Fe35%2F20686880_123819748251707_3190132988268511232_n.jpg&pos=0&rpt=simage&stype=image&lr=10309&parent-reqid=1648707356130084-14591112627809939718-sas3-0918-918-sas-l7-balancer-8080-BAL-234&source=serp",
+      "name": "Марокко",
+      "img": "https://sushiwok.ru/img/ba09c36515035130ed3429a804ba9ac1/500x400",
       "desc": "Рыба желтохвост, или японская лакедра (сырая)",
       "price": 220
     },
     {
       "id": 5,
-      "name": "Футомаки",
-      "img": "https://nambafood.kg/dish_image/127663.pnghttps://kotosushi.com.ua/storage/content/lv1taq2toiIXGhVhkiY2GNgO0MppwsLxft4hUSE4.jpeg",
-      "desc": "Огурцы,авокадо,редис,томаты.",
+      "name": "Ролл Азия Чикен",
+      "img": "https://sushiwok.ru/img/ea0c3852105faf4b39c961ebb62fc521/350x350",
+      "desc": "Цыпленок, краб-крем, омлет тамаго, сыр сливочный, азиатский соус, шеф-соус, кунжут 219 г",
       "price": 150
     },
     {
       "id": 6,
       "name": "Урамаки",
-      "img": "https://kotosushi.com.ua/storage/content/ZXal6YhrbSp08ctYx3n6zxQeoRd5QLJTrGflCQJ8.png",
+      "img": "https://sushiwok.ru/img/ac495640ee0c3c0b399eb359ce6746c2/500x400",
       "desc": "Начинка заернутая в рис и сверху дольками уложена семга.",
       "price": 270
     },
     {
       "id": 7,
-      "name": "Спринг-роллы.",
-      "img": "https://kotosushi.com.ua/storage/content/XOalWWQQlUqbzzRRcpQlYLTBsnZZeRI2WWuVVez1.jpeg",
-      "desc": "Роллы рисом наружу, которые обернуты в яичный омлет «томаго», блин или рисовую бумагу.",
+      "name": "Ролл Филадельфия в угре",
+      "img": "https://sushiwok.ru/img/766e3215d37ead10957e57107f95c86c/500x400",
+      "desc": " Угорь, авокадо, кунжут, сыр сливочный, унаги соус 214 г",
       "price": 290
     },
     {
       "id": 8,
-      "name": "Темаки",
-      "img": "https://kotosushi.com.ua/storage/content/93Ca31HGu7Y4CxPu1a07Ko6axGwvGgagr3uVgmtk.jpeg",
-      "desc": "Отличаются формой в виде конуса. По виду немного напоминают мороженое в рожке.",
+      "name": "Ролл Сырная креветка",
+      "img": "https://sushiwok.ru/img/9698fe3205ab79dc5e216c5cfa357845/500x400",
+      "desc": "Сыр сливочный, салат айсберг, краб-крем, медовый соус, пармезан, масаго, креветки 232 г",
       "price": 270
     }
   ],
   "roll": [
     {
       "id": 1,
-      "name": "Тигровый ролл",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+сашими&img_url=https%3A%2F%2Fsun9-59.userapi.com%2FA9scNkkFmbljJQmjzrkgyv43NWUy8jal7LzvgA%2F5ztjFSHtVz0.jpg&pos=0&rpt=simage&stype=image&lr=10309&parent-reqid=1648707197426757-16422502837206302256-sas3-0918-918-sas-l7-balancer-8080-BAL-9950&source=serp",
+      "name": "Филадельфия",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/fila.jpg",
       "desc": "Авокадо, креветки темпура, огурец, тобико (икра летучей рыбы)",
       "price": 270
     },
     {
       "id": 2,
-      "name": "Ролл «Филадельфия»",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+маки&img_url=https%3A%2F%2Fi1.wp.com%2Fvasabi-sushi.ru%2Fwp-content%2Fuploads%2F2020%2F07%2F1548112378530728_6f35.jpg%3Ffit%3D1280%252C853%26ssl%3D1&pos=1&rpt=simage&stype=image&lr=10309&parent-reqid=1648707234515337-721484021903255042-sas3-0918-918-sas-l7-balancer-8080-BAL-3280&source=serp",
+      "name": "Нира Маки",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/nira-maki.jpg",
       "desc": "Лосось, авокадо, сливочный сыр",
       "price": 170
     },
     {
       "id": 3,
-      "name": "Ролл «Динамит»",
-      "img": "https://nambafood.kg/dish_image/127663.png",
+      "name": "Острый ролл с угрем",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/ostryi-roll.jpg",
       "desc": "Креветки темпура, желтохвост, ростки фасоли, морковь, авокадо, огурец, чили, острый майонез",
       "price": 270
     },
     {
       "id": 4,
-      "name": "Ролл Калифорния",
-      "img": "https://yandex.ru/images/search?text=картинка+суши+хашими&img_url=https%3A%2F%2Fscontent-sof1-1.cdninstagram.com%2Ft51.2885-15%2Fe35%2F20686880_123819748251707_3190132988268511232_n.jpg&pos=0&rpt=simage&stype=image&lr=10309&parent-reqid=1648707356130084-14591112627809939718-sas3-0918-918-sas-l7-balancer-8080-BAL-234&source=serp",
+      "name": "Бонито",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/bonito.jpg",
       "desc": "Краб или имитация краба, авокадо, огурец, семена кунжута",
       "price": 220
     },
     {
       "id": 5,
-      "name": "Острый ролл с тунцом",
-      "img": "https://nambafood.kg/dish_image/127663.pnghttps://kotosushi.com.ua/storage/content/lv1taq2toiIXGhVhkiY2GNgO0MppwsLxft4hUSE4.jpeg",
+      "name": "Колифорния с креветками",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/kalif-krev.jpg",
       "desc": "Тунец, майонез, соус чили",
       "price": 150
     },
     {
       "id": 6,
-      "name": "Овощной ролл",
-      "img": "https://kotosushi.com.ua/storage/content/ZXal6YhrbSp08ctYx3n6zxQeoRd5QLJTrGflCQJ8.png",
+      "name": "Колифорния с угрем",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/kalif-ugor.jpg",
       "desc": "Огурец, свежая морковь, лук-шалот, авокадо, спаржа, сливочный сыр",
       "price": 270
     },
     {
       "id": 7,
-      "name": "Ролл «Темпура» ",
-      "img": "https://kotosushi.com.ua/storage/content/XOalWWQQlUqbzzRRcpQlYLTBsnZZeRI2WWuVVez1.jpeg",
+      "name": "Ролл сливочный",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/slivochnyi-roll.jpg",
       "desc": "Ролл, обжаренный с нескольких сторон во фритюре в тонком тесте",
       "price": 290
     },
     {
       "id": 8,
-      "name": "Ролл «Вулкан»",
-      "img": "https://kotosushi.com.ua/storage/content/93Ca31HGu7Y4CxPu1a07Ko6axGwvGgagr3uVgmtk.jpeg",
+      "name": "Ролл «Норвежский»",
+      "img": "https://api.online-eda.xyz/media/catalog/menuitem/norvezhskii.jpg",
       "desc": "Содержимое может отличаться, но сверху его будет покрывать шапка, создающая ощущение, что он взрывается",
       "price": 270
     }
@@ -451,116 +447,116 @@
   "desert": [
     {
       "id": 1,
-      "name": "Синнабон с корицей",
-      "img": "https://nambafood.kg/dish_image/49356.png",
-      "desc": "135 гр. Мягкая булочка с корицей",
-      "price": 100
+      "name": "Шоколадный рай",
+      "img": "https://i.pinimg.com/originals/d0/b6/c0/d0b6c0de76722dc58f59b486b61fcd41.png",
+      "desc": "Шоколад,сливки,измельченный орех",
+      "price": 150
     },
     {
       "id": 2,
-      "name": "Пирог сдобный с маком",
-      "img": "https://nambafood.kg/dish_image/84100.png",
-      "desc": "620 гр. Нежный пирог из сдобного теста с добавлением мака",
-      "price": 350
+      "name": "Шоколадное блаженство",
+      "img": "https://images.squarespace-cdn.com/content/v1/538500e4e4b0fa9e95efc7b9/1610646521300-TDYZES3IAN49R4611WRQ/CadillacXTC_Slice2.png?format=1000w",
+      "desc": "Сливочный шоколад,сливки,сливочное масло,яйца,какао",
+      "price": 140
     },
     {
       "id": 3,
-      "name": "Макарон классический",
-      "img": "https://nambafood.kg/dish_image/127663.png",
+      "name": "Десерт Сникерс",
+      "img": "https://www.pngall.com/wp-content/uploads/5/Cheesecake-Slice-PNG-File.png",
       "desc": "75 гр. Французское миндальное печенье с начинкой из белого шоколада и сливочного крема.",
       "price": 190
     },
     {
       "id": 4,
-      "name": "Макарон шоколадный",
-      "img": "https://nambafood.kg/dish_image/84097.png",
-      "desc": "75 гр.Французское миндальное печенье с шоколадной начинкой.",
+      "name": "Сливочный десерт",
+      "img": "https://images.squarespace-cdn.com/content/v1/538500e4e4b0fa9e95efc7b9/1491932021392-6RMLV7KLPOSN2XE6971W/Salted+Caraml+CC+slice+Isolated.png?format=1000w",
+      "desc": "Десерт для любителей сливочного удовольствия",
       "price": 190
     },
     {
       "id": 5,
-      "name": "Десерт «Жизель»",
-      "img": "https://nambafood.kg/dish_image/123507.png",
-      "desc": "Десерт на основе воздушного белкового безе с сливочно-сырным кремом и прослойкой в виде свежих ягод малины. Декорирован клубничным джемом.",
+      "name": "Макарун",
+      "img": "https://www.mcdonalds.be/_webdata/product-images/macarons-chocolade.png",
+      "desc": "Десерт на основе воздушной миндальной муки с сливочно-сырным кремом",
       "price": 150
     },
+
     {
       "id": 6,
-      "name": "Брауни",
-      "img": "https://nambafood.kg/dish_image/44456.png",
-      "desc": "360 гр. Знаменитый Американский десерт. Пирожное с тягучей шоколадной консистенцией с молотыми орехами и неповторимым ароматом шоколада.",
-      "price": 290
-    },
-    {
-      "id": 7,
-      "name": "Профитроли",
-      "img": "https://nambafood.kg/dish_image/44465.png",
+      "name": "Шоколадный брауни",
+      "img": "https://honeybutterdesserts.com/images/BROWNIE.png",
       "desc": "135 гр. Воздушное пирожное из заварного теста, наполнено нежным сливочно-заварным кремом и покрыто черным шоколадом.",
       "price": 130
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Эклер ванильный",
-      "img": "https://nambafood.kg/dish_image/44473.png",
+      "img": "https://www.tellaballsdessertbar.com/uploads/2022/02/49b30d914.png",
       "desc": "5 шт. Французский десерт из заварного теста, наполненный ванильным кремом \"Патисьер\", декорирован ганашом из белого шоколада.",
       "price": 120
+    },{
+      "id": 8,
+      "name": "Мороженое",
+      "img": "https://www.carvel.com/-/media/carvel/menu/ice-cream/soft-serve/2-chocolate-new.png?v=1&d=20180430T193908Z&h=600&w=600&la=en&hash=78EF4BE6817E692ACEDC66FE8FDF5140",
+      "desc": "Нежнейшее мороженное из экологически-чистых молочных продукций",
+      "price": 290
     }
   ],
   "salad": [
     {
       "id": 1,
       "name": "Салат «Нисуаз»",
-      "img": "https://nambafood.kg/dish_image/134791.png",
-      "desc": "Салат айсберг, заправленный соусом нисуаз, помидоры черри, бланшированная стручковая фасоль, перепелиные яйца, маслины без косточек, жареный картофель. Бальзамический уксус придает неповторимый вкус.",
+      "img": "https://www.farmboy.ca/wp-content/uploads/2021/05/detox-salad.png",
+      "desc": "Салат айсберг, заправленный соусом нисуаз, помидоры черри",
       "price": 350
     },
     {
       "id": 2,
-      "name": "Салат с креветками и авокадо",
-      "img": "https://nambafood.kg/dish_image/134789.png",
-      "desc": "Бланшированные тигровые креветки с салатом айсберг и рукколой заправленные оливковым маслом. Дополняются помидорами и авокадо.",
+      "name": "Салат с макаронами",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/macroni_salad.png",
+      "desc": "Салат с макаронами в виде бабочек",
       "price": 450
     },
     {
       "id": 3,
-      "name": "Салат цезарь с нежной грудинкой",
-      "img": "https://nambafood.kg/dish_image/134795.png",
-      "desc": "Филе грудинки домашней курицы приготовленной в собственном соку с листьями салата айсберг. Каперсы, помидоры черри и перепелинные яйца, темпура, соус Цезарь на основе соуса айоли. Посыпается сыром Пармезан",
+      "name": "Салат паста",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/pasta_salad_bowl.png",
+      "desc": "Филе грудинки курицы приготовленной в собственном соку",
       "price": 380
     },
     {
       "id": 4,
-      "name": "Макарон шоколадныйСалат из запеченной свеклы и сыром страчателло",
-      "img": "https://nambafood.kg/dish_image/84097.png",
-      "desc": "Запеченная свекла подается с сыром Страчателло. Украшается кедровыми орехами и тыквенными семенами микрозеленью.",
+      "name": "Зеленое ассорти",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/corn_salad_img.png",
+      "desc": "Салат из гречневой/рисовой муки с зеленью",
       "price": 450
     },
     {
       "id": 5,
-      "name": "Салат с овощами гриль и брынзой",
-      "img": "https://nambafood.kg/dish_image/134794.png",
-      "desc": "Дольки баклажана и цуккини обжаренные на гриле, сыр брынза, помидоры, урашенные кинзой и петрушкой. Дополняется соусом нашараб( на гранатовой основе).",
+      "name": "Салат с лапшой",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/noodle_salad.png",
+      "desc": "Салат из гречневой/рисовой муки с зеленью",
       "price": 210
     },
     {
       "id": 6,
-      "name": "Салат с рукколой",
-      "img": "https://nambafood.kg/dish_image/134790.png",
-      "desc": "Листья рукколы со свежим огурцом заправленные оливковым маслом, редис, помидоры черри и маринованные початки кукурузы дополняются сыром фетакса и бальзамическим кремом",
+      "name": "Салат с огурцами",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/cucumber_salad_bowl.png",
+      "desc": "Листья рукколы со свежим огурцом заправленные оливковым маслом",
       "price": 290
     },
     {
       "id": 7,
-      "name": "Салат из сыра моцарелла и груши",
-      "img": "https://nambafood.kg/dish_image/44465.png",
-      "desc": "Салатные листья руккола и лола росса заправляются медовым соусом. Сыр Моцарелла, пьяная груша, заправленная винным уксусом. Оформляется тыквенными семенами.",
+      "name": "Салат свежий",
+      "img": "https://www.farmboy.ca/wp-content/uploads/2021/05/greek-salad.png",
+      "desc": "Свежие овощи с зеленью",
       "price": 290
     },
     {
       "id": 8,
-      "name": "Салат с креветками и бонито",
-      "img": "https://nambafood.kg/dish_image/44473.pnghttps://nambafood.kg/dish_image/134787.png",
-      "desc": "Зеленые бобы с рукколой, шпинатом и луком порей заправляются креветочным соусом. Бланшированные тигровые креветки дополняют микрозеленью и стружкой из тунца.",
+      "name": "Летний салат",
+      "img": "https://www.tehzeeb.com/wp-content/uploads/2020/06/fruit_chat_big_bowl.png",
+      "desc": "Летний салат со свежими фруктами заправленный греческим йогуртом",
       "price": 280
     }
   ],
@@ -568,50 +564,58 @@
     {
       "id": 1,
       "name": "Coca-Cola zero 1 л",
-      "img": "https://nambafood.kg/dish_image/135885.png",
+      "img": "https://sushiwok.ru/img/feb749e14f1aacb5a7b6ec05259f9578/500x400",
+      "desc": "Диетическая Кола",
       "price": 120
     },
     {
       "id": 2,
-      "name": "Coca-Cola 1 л",
-      "img": "https://nambafood.kg/dish_image/135884.png",
-      "price": 120
+      "name": "Sprite 1 л",
+      "img": "https://sushiwok.ru/img/cf9bff850531d7635e29a3a57fbf9acc/500x400",
+      "desc": "Газировка",
+      "price": 130
     },
     {
       "id": 3,
-      "name": "Shweppes 0,33 л.",
-      "img": "https://nambafood.kg/dish_image/135701.png",
-      "price": 150
+      "name": "Чай Fuze Tea 0,5л",
+      "img": "https://sushiwok.ru/img/7241bd5833ce87fe538c16fade678006/500x400",
+      "desc": "Чай с ягодами",
+      "price": 120
     },
     {
       "id": 4,
-      "name": "Shweppes",
-      "img": "https://nambafood.kg/dish_image/84097.png",
-      "price": 190
+      "name": "Shweppes 0,33 л.",
+      "img": "https://nambafood.kg/dish_image/135701.png",
+      "desc": "Газировка",
+      "price": 150
     },
     {
       "id": 5,
-      "name": "Bonaqua 0,5 л. без газа",
-      "img": "https://nambafood.kg/dish_image/136703.png",
-      "price": 50
+      "name": "Компот",
+      "img": "https://sushiwok.ru/img/9b54a589665d48281122afd78848daf2/500x400",
+      "desc": "Домашний компот",
+      "price": 100
     },
     {
       "id": 6,
-      "name": "Borjomi 0,5 л",
-      "img": "https://nambafood.kg/dish_image/136709.png",
-      "price": 180
+      "name": "BonAqua 0,5 л. без газа",
+      "img": "https://sushiwok.ru/img/39eeb7cf9ee1b8a4795942403aad203b/500x400",
+      "desc": "Вода без газа",
+      "price": 50
     },
     {
       "id": 7,
-      "name": "Red Bull 0.25 л",
-      "img": "https://nambafood.kg/dish_image/136708.png",
-      "price": 220
+      "name": "BonAqua 0,5 л",
+      "img": "https://sushiwok.ru/img/5352460e508e65c74b361424bdffd30b/500x400",
+      "desc": "Вода с газом",
+      "price": 50
     },
     {
       "id": 8,
-      "name": "Sprite 1 л",
-      "img": "https://nambafood.kg/dish_image/136707.png",
-      "price": 150
+      "name": "Burn 0.25 л",
+      "img": "https://sushiwok.ru/img/56347b6ad31fea90207a3819cb62cd31/500x400",
+      "desc": "Энергетический напиток",
+      "price": 220
     }
   ],
   "aboutUs": [
