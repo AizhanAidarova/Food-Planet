@@ -18,6 +18,7 @@ const AdminContacts = () => {
     getData();
   }, []);
 
+
   return (
     <div className={styles.containerContacts}>
       <AdminContainer />

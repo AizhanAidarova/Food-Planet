@@ -1,38 +1,138 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import style from '../Basket/Basket.module.css'
 import PagesHeader from '../Header/PagesHeader';
+import { LOCALHOST_URL } from '../../AdminPage/Constant';
+import deleteImg from '../Media/icon/bin.png'
+import asian from '../Media/pizza/asian.svg'
 
 
 const Basket = () => {
+    const [number, setNumber] = useState(0);
+
+    const increment = () => {
+        setNumber(number + 1);
+    }
+    const decrement = () => {
+        setNumber(number - 1);
+    }
+
+    const [name,setName] = useState("");
+    const [phonenumber, setName] = useState("");
+    const [city, setName] = useState("");
+    const [street, setName] = useState("");
+    const [house, setName] = useState("");
+    const [corpus, setName] = useState("");
+    const [flat, setName] = useState("");
+    const [porch, setName] = useState("");
+    const [floor, setName] = useState("");
+    const [intercom, setName] = useState("");
+    const [deliveryhour, setName] = useState("");
+    const [deliveryminut, setName] = useState("");
+    const [addinfo, setName] = useState("");
+    const [typepay, setName] = useState("");
+    const [deposit, setName] = useState("");
+
+    const getName = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getPhonenumber = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getCity = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getStreet = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getHouse = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getCorpus = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getFlat = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getPorch = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getFloor = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getIntercom = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeliveryhour = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeliveryminut = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getAddinfo = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getTypepay = (event) => {
+        setName(event.currentTarget.value);
+    };
+    const getDeposit = (event) => {
+        setName(event.currentTarget.value);
+    };
+
+    const addOrderinfo = () => {
+        const obj = {
+            name: name,
+            phonenumber: phonenumber,
+            city: city,
+            street: street,
+            house: house,
+            corpus: corpus,
+            flat:flat,
+            porch:porch,
+            floor: floor,
+            intercom: intercom,
+            deliveryhour: deliveryhour,
+            deliveryminut:deliveryminut,
+            addinfo:addinfo,
+            typepay:typepay,
+            deposit:deposit,
+            date: getCurrentDate(),
+        }
+    }
+
+    const url = LOCALHOST_URL + "/orderform";
+
+    const getData = () => {
+        const url = BASE_URL + "/users";
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => setData(data));
+      };
+
+
+
     return (
         <>
             <PagesHeader />
             <div className={style.zakaz}>Заказ</div>
             <div className={style.container}>
                 <div className={style.left}>
-                    <table class="table table-hover table-bordered">
-                        <tbody>
-                            <tr>
-                                <td className={style.imgBasket}></td>
-                                <td className={style.postBasket}></td>
-                                <td className={style.amBasket}>Кол-во</td>
-                                <td className={style.sumBasket} >Итого</td>
-                                <td className={style.delBasket} >Убрать</td>
-                            </tr>
-                            <tr>
-                                <td colSpan={5} className={style.vyZakazali}> Вы заказали</td>
-                            </tr>
-                        </tbody>
+                    <h3 className={style.cartH3}>Корзина</h3>
+                    <table>
+                        <tr className={style.tbody}>
+                            <td className={style.cartImg}><img className={style.asian} src={asian} /></td>
+                            <td className={style.cartFoodName}>Маргарита</td>
+                            <td className={style.price}>270</td>
+                            <td className={style.cartNum}>
+                                <div className={style.btnCart}>
+                                    <button className={style.btn5} onClick={decrement}>-</button>
+                                    <p>{number}</p>
+                                    <button className={style.btn5} onClick={increment}>+</button>
+                                </div>
+                            </td>
+                            <td className={style.price}>270</td>
+                            <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
+                        </tr>
                     </table>
-
-                    <div>Итого: <span id="total-cart-summa">0</span> руб.</div>
-
-                    <button id="order" class="btn btn-info">Оформить заказ</button>
-                    <div className={style.order}>
-                        <table class={style.table}>
-
-                        </table>
-                    </div>
                 </div>
                 <form className={style.right}>
                     <div className={style.first}>
@@ -125,13 +225,9 @@ const Basket = () => {
                     <div className={style.rule}>
                         <p><input className={style.checkBox2} type="checkbox" /> условиями доставки согласен</p>
                     </div>
-                    <button className={style.btnOrder}>Заказать</button>
-
-
-
+                    <button onClick = {getData} className={style.btnOrder}>Заказать</button>
                 </form>
             </div>
-
         </>
     );
 };

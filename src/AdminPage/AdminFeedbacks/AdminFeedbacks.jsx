@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react';
 import styles from "../AdminFeedbacks/AdminFeedbacks.module.css"
 import { LOCALHOST_URL } from '../Constant';
 import AdminContainer from '../AdminContainer/AdminContainer';
+import { getCurrentDate } from '../../helpers';
 
 const AdminFeedbacks = () => {
   const [data, setData] = useState([]);
@@ -17,6 +18,7 @@ const AdminFeedbacks = () => {
   useEffect(()=>{
     getData()
   },[])
+
 
     return (
         <div className={styles.mainFeedbacks}>
