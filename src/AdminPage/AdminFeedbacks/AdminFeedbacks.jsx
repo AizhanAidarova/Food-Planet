@@ -19,7 +19,7 @@ const AdminFeedbacks = () => {
     getData()
   },[])
 
-
+  
     return (
         <div className={styles.mainFeedbacks}>
     <AdminContainer/>
