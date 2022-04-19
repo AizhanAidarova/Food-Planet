@@ -18,48 +18,84 @@ const AdminContacts = () => {
     getData();
   }, []);
 
+  
 
   return (
     <div className={styles.containerContacts}>
       <AdminContainer />
       <div>
-      <button className={styles.editButton}>Редактировать</button>
-      <button className={styles.deleteButton}>Удалить</button>
-      {
-        data.map((item) => {
-                    return <>
-        <h4>Контакты</h4>
-        {/* Контакты для связи */}
-        <div className={styles.mainContacts}>
-          <div className={styles.contacts}>
-            <h2>Номер</h2>
-            <p>{item.number}</p>
+        <div className={styles.buttons}>
+          <div >
+            <h4>Контакты</h4>
           </div>
-          <div className={styles.contacts}>
-            <h2>Почта</h2>
-            <p>{item.email}</p>
-          </div>
-          <div className={styles.contacts}>
-            <h2>Адрес</h2>
-            <p>{item.adress}</p>
+          <div>
+            <button className={styles.editButton}>Редактировать</button>
+            <button className={styles.saveButton}>Сохранить</button>
+            <button className={styles.deleteButton}>Удалить</button>
           </div>
         </div>
-        {/* Социальные сети */}
-        <h4>Социальные сети</h4>
-        <div className={styles.mainContacts}>
-          <div className={styles.contacts}>
-            <h2>Instagram</h2>
-            <p>{item.instagram}</p>
-          </div>
-          <div className={styles.contacts}>
-            <h2>Telegram</h2>
-            <p>{item.telegram}</p>
-          </div>
-          <div className={styles.contacts}>
-            <h2>Facebook</h2>
-            <p>{item.facebook}</p>
-          </div>
-        </div> </> })} 
+
+        {data.map((item) => {
+          return (
+            <>
+              {/* Контакты для связи */}
+              <div className={styles.mainContacts}>
+                <div className={styles.contacts}>
+                  <h2>Номер</h2>
+                  <input
+                    style={{ minWidth: "120px", maxWidth: "120px" }}
+                    type="text"
+                    value={item.number}
+                  />
+                </div>
+                <div className={styles.contacts}>
+                  <h2>Почта</h2>
+                  <input
+                    style={{ minWidth: "170px", maxWidth: "170px" }}
+                    type="text"
+                    value={item.email}
+                  />
+                </div>
+                <div className={styles.contacts}>
+                  <h2>Адрес</h2>
+                  <input
+                    style={{ minWidth: "270px", maxWidth: "270px" }}
+                    type="text"
+                    value={item.adress}
+                  />
+                </div>
+              </div>
+              {/* Социальные сети */}
+              <h4>Социальные сети</h4>
+              <div className={styles.mainContacts}>
+                <div className={styles.contacts}>
+                  <h2>Instagram</h2>
+                  <input
+                    style={{ minWidth: "200px", maxWidth: "200px" }}
+                    type="text"
+                    value={item.instagram}
+                  />
+                </div>
+                <div className={styles.contacts}>
+                  <h2>Telegram</h2>
+                  <input
+                    style={{ minWidth: "175px", maxWidth: "175px" }}
+                    type="text"
+                    value={item.telegram}
+                  />
+                </div>
+                <div className={styles.contacts}>
+                  <h2>Facebook</h2>
+                  <input
+                    style={{ minWidth: "175px", maxWidth: "175px" }}
+                    type="text"
+                    value={item.facebook}
+                  />
+                </div>
+              </div>{" "}
+            </>
+          );
+        })}
       </div>
     </div>
   );
