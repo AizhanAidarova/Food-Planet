@@ -3,11 +3,11 @@ import {LOCALHOST_URL} from "../Constant";
 import styles from "../Administrators/Administrators.module.css";
 import AdminContainer from "./AdminContainer";
 
-const AdminBurger = () => {
+const AdminDrinks = () => {
     const [data, setData] = useState([]);
 
     const getData = () => {
-        const url = LOCALHOST_URL + "/burger";
+        const url = LOCALHOST_URL + "/drinks";
 
         fetch(url)
             .then((response) => response.json())
@@ -41,7 +41,7 @@ const AdminBurger = () => {
                                     <tr>
                                         <td><input style={{ minWidth: "30px" , maxWidth:"30px", minHeight:"30px", maxHeight:"30px" }} type="text" value={item.id}/></td>
                                         <td><img style={{ minWidth: "140px" , maxWidth:"140px" }} src={item.img} alt=""/></td>
-                                        <td><input  style={{ minWidth: "80px" , maxWidth:"120px",textAlign:"center"}} type="text" value={item.name}/></td>
+                                        <td><input  style={{ minWidth: "80px" , maxWidth:"80px"}} type="text" value={item.name}/></td>
                                         <td> <textarea style={{ minWidth: "200px" , maxWidth:"200px", minHeight:"90px", maxHeight:"110px" }} >{item.desc}</textarea></td>
                                         <td><input style={{ minWidth: "148px" , maxWidth:"148px", textAlign:"center"}}  type="text" value={item.price}/></td>
 
@@ -60,4 +60,5 @@ const AdminBurger = () => {
         </div>
     );
 };
-export default AdminBurger;
+
+export default AdminDrinks;

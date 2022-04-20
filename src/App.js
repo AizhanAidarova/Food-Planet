@@ -12,6 +12,11 @@ import AdminFeedbacks from './AdminPage/AdminFeedbacks/AdminFeedbacks';
 import Administrators from './AdminPage/Administrators/Administrators';
 import AdminPizza from "./AdminPage/AdminContainer/AdminPizza";
 import AdminBurger from "./AdminPage/AdminContainer/AdminBurger";
+import AdminSushi from "./AdminPage/AdminContainer/AdminSushi";
+import AdminRoll from "./AdminPage/AdminContainer/AdminRoll";
+import AdminSalad from "./AdminPage/AdminContainer/AdminSalad";
+import AdminDessert from "./AdminPage/AdminContainer/AdminDessert";
+import AdminDrinks from "./AdminPage/AdminContainer/AdminDrinks";
 
 
 const App = () => {
@@ -30,6 +35,11 @@ const App = () => {
                     <Route path="administrators" element={<Administrators/>}/>
                     <Route path="adminPizza" element={<AdminPizza/>}/>
                     <Route path="adminBurger" element={<AdminBurger/>}/>
+                    <Route path="adminSushi" element={<AdminSushi/>}/>
+                    <Route path="adminRoll" element={<AdminRoll/>}/>
+                    <Route path="adminSalad" element={<AdminSalad/>}/>
+                    <Route path="adminDessert" element={<AdminDessert/>}/>
+                    <Route path="adminDrinks" element={<AdminDrinks/>}/>
                 </Routes>
             </BrowserRouter>
   );

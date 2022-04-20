@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import styles from "../Administrators/Administrators.module.css";
 import AdminContainer from "../AdminContainer/AdminContainer";
 import {LOCALHOST_URL} from "../Constant";
+import toast from "react-hot-toast";
 
 const AdminPizza = () => {
     const [data, setData] = useState([]);
@@ -17,6 +18,24 @@ const AdminPizza = () => {
     useEffect(() => {
         getData();
     }, []);
+
+    // const deleteUser = () => {
+    //     const url = LOCALHOST_URL + "/feedbacks";
+    //
+    //     const options = {
+    //         method: "DELETE"
+    //     }
+    //     fetch(url,options)
+    //         .then((response) => {
+    //             if (response.status === 200){
+    //                 toast.success("Пользователь успешно удален")
+    //             } else if (response.status ===404){
+    //                 toast.error ('Данный пользователь не найден')
+    //             } else {
+    //                 toast.error ('Пожалуйста, повторите попытку')
+    //             }
+    //         })
+    // }
 
     return (
         <div className={styles.mainAdministrators}>
@@ -50,6 +69,7 @@ const AdminPizza = () => {
                                     </td>
                                     <td>
                                         <button className={styles.deleteButton}>Удалить</button>
+                                        {/*<button className={styles.deleteButton} onClick={deleteUser}>Удалить</button>*/}
                                     </td>
                                 </tr>
                             </>
