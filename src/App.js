@@ -26,11 +26,6 @@ import AdminNoveltiesRoll from "./AdminPage/AdminNovelties/AdminNoveltiesRoll";
 import AdminNoveltiesSalad from "./AdminPage/AdminNovelties/AdminNoveltiesSalad";
 import AdminNoveltiesSushi from "./AdminPage/AdminNovelties/AdminNoveltiesSushi";
 
-<<<<<<<<< Temporary merge branch 1
-
-import "./index.css";
-=========
->>>>>>>>> Temporary merge branch 2
 
 const App = () => {
     return (
@@ -62,6 +57,7 @@ const App = () => {
                     <Route path="adminNewSalad" element={<AdminNoveltiesSalad/>}/>
                     <Route path="adminNewDessert" element={<AdminNoveltiesDessert/>}/>
                     <Route path="adminNewDrinks" element={<AdminNoveltiesDrinks/>}/>
+                    <Route path="administrators" element={<Administrators/>}/>
                 </Routes>
             </BrowserRouter>
   );
