@@ -1,6 +1,6 @@
 import React from 'react';
 import style from "../../Pages/Menu/PagesMenu.module.css";
-import phone2 from "../../Pages/Media/Icons/phone.svg";
+import phone2 from "../../Pages/Media/Icons/phone.svg"
 
 const Delivery = (props) => {
     return (

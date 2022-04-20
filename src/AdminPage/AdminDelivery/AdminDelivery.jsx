@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import {LOCALHOST_URL} from "../Constant";
 import styles from "../Administrators/Administrators.module.css";
-import AdminContainer from "./AdminContainer";
+import AdminContainer from "../AdminContainer/AdminContainer";
 
-const AdminBurger = () => {
+const AdminDelivery = () => {
     const [data, setData] = useState([]);
 
     const getData = () => {
-        const url = LOCALHOST_URL + "/burger";
+        const url = LOCALHOST_URL + "/delivery";
 
         fetch(url)
             .then((response) => response.json())
@@ -22,28 +22,30 @@ const AdminBurger = () => {
         <div className={styles.mainAdministrators}>
             <AdminContainer />
             <div className={styles.administrators}>
-                <button className={styles.addButton}>Добавить</button>
+                <div className={styles.mainAdministrators}>
+                    <h2 className={styles.administratorh1}>Доставка</h2>
+                    <button className={styles.addButton}>Добавить</button>
+                </div>
                 <table>
                     <tr className={styles.background}>
                         <th>№</th>
                         <th>Картинка</th>
                         <th>Название</th>
                         <th>Описание</th>
-                        <th>Цена</th>
+                        <th>Номер</th>
                         <th>Редактировать</th>
                         <th>Удалить</th>
                     </tr>
-
                     {
                         data.map((item) => {
                             return (
                                 <>
                                     <tr>
                                         <td><input style={{ minWidth: "30px" , maxWidth:"30px", minHeight:"30px", maxHeight:"30px" }} type="text" value={item.id}/></td>
-                                        <td><img style={{ minWidth: "140px" , maxWidth:"140px" }} src={item.img} alt=""/></td>
-                                        <td><input  style={{ minWidth: "80px" , maxWidth:"120px",textAlign:"center"}} type="text" value={item.name}/></td>
-                                        <td> <textarea style={{ minWidth: "200px" , maxWidth:"200px", minHeight:"90px", maxHeight:"110px" }} >{item.desc}</textarea></td>
-                                        <td><input style={{ minWidth: "148px" , maxWidth:"148px", textAlign:"center"}}  type="text" value={item.price}/></td>
+                                        <td><img style={{ minWidth: "140px" , maxWidth:"140px" }} src={item.imgUrl} alt=""/></td>
+                                        <td><input  style={{ minWidth: "80px" , maxWidth:"120px",textAlign:"center"}} type="text" value={item.title}/></td>
+                                        <td> <textarea style={{ minWidth: "200px" , maxWidth:"200px", minHeight:"90px", maxHeight:"110px" }} >{item.titleDesc}</textarea></td>
+                                        <td><input style={{ minWidth: "148px" , maxWidth:"148px", textAlign:"center"}}  type="text" value={item.phone}/></td>
 
                                         <td>
                                             <button className={styles.editButton}>Редактировать</button>
@@ -60,4 +62,5 @@ const AdminBurger = () => {
         </div>
     );
 };
-export default AdminBurger;
+
+export default AdminDelivery;

@@ -25,6 +25,7 @@ import AdminNoveltiesDessert from "./AdminPage/AdminNovelties/AdminNoveltiesDess
 import AdminNoveltiesRoll from "./AdminPage/AdminNovelties/AdminNoveltiesRoll";
 import AdminNoveltiesSalad from "./AdminPage/AdminNovelties/AdminNoveltiesSalad";
 import AdminNoveltiesSushi from "./AdminPage/AdminNovelties/AdminNoveltiesSushi";
+import AdminDelivery from "./AdminPage/AdminDelivery/AdminDelivery";
 
 import "../src/index.css"
 
@@ -59,6 +60,8 @@ const App = () => {
                     <Route path="adminNewDessert" element={<AdminNoveltiesDessert/>}/>
                     <Route path="adminNewDrinks" element={<AdminNoveltiesDrinks/>}/>
                     <Route path="administrators" element={<Administrators/>}/>
+                    <Route path="adminDelivery" element={<AdminDelivery/>}/>
+                    <Route path="adminContacts" element={<AdminContacts/>}/>
                 </Routes>
             </BrowserRouter>
   );

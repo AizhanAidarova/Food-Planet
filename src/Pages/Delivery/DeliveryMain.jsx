@@ -1,11 +1,26 @@
-import React from 'react';
-import {delivery} from "../../AdminPage/Constant";
+import React, {useEffect, useState} from 'react';
+import {delivery, LOCALHOST_URL} from "../../AdminPage/Constant";
 import style from "../../Pages/Menu/PagesMenu.module.css";
 import Delivery from "../Delivery/Delivery";
 import PagesHeader from "../Header/PagesHeader";
 import PagesFooter from "../Footer/PagesFooter";
 
 const DeliveryMain = () => {
+
+    const [data, setData] = useState([]);
+
+    const getData = () => {
+        const url = LOCALHOST_URL + "/delivery";
+
+        fetch(url)
+            .then((response) => response.json())
+            .then((data) => setData(data));
+    };
+
+    useEffect(()=>{
+        getData()
+    },[])
+
     return (
         <>
             <PagesHeader/>
@@ -16,7 +31,7 @@ const DeliveryMain = () => {
                 </div>
                 <div className={style.display}>
                     {
-                        delivery.map((item) => {
+                        data.map((item) => {
                             return <Delivery
                                 key={item.id}
                                 imgUrl={item.imgUrl}

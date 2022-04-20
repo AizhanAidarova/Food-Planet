@@ -49,25 +49,33 @@ const AdminContainer = () => {
             <div className={style.adminBlockDiv}>
             <label htmlFor="" className={style.hoverEffect}>
               <img className={style.adminBlockImg} src={contact} alt="" />
-              <li className={style.adminBlockLi}>Контакты</li>
+              <Link to={`/contact`} className={style.adminBlockLi}>
+                  Контакты
+              </Link>
               </label>
             </div>
             <div className={style.adminBlockDiv}>
             <label htmlFor="" className={style.hoverEffect}>
               <img className={style.adminBlockImg} src={feedback} alt="" />
-              <li className={style.adminBlockLi}>Отзывы</li>
+                <Link to={`/feedbacks`} className={style.adminBlockLi}>
+                    Отзывы
+                </Link>
               </label>
             </div>
             <div className={style.adminBlockDiv}>
             <label htmlFor="" className={style.hoverEffect}>
               <img className={style.adminBlockImg} src={feedback} alt="" />
-              <li className={style.adminBlockLi}>Доставка</li>
+                <Link to={`/adminDelivery`} className={style.adminBlockLi}>
+                    Доставка
+                </Link>
               </label>
             </div>
             <div className={style.adminBlockDiv}>
             <label htmlFor="" className={style.hoverEffect}>
               <img className={style.adminBlockImg} src={cart} alt="" />
-              <li className={style.adminBlockLi}>О нас</li>
+                <Link to={`/aboutus`} className={style.adminBlockLi}>
+                    О нас
+                </Link>
               </label>
             </div>
             <div className={style.adminBlockDiv}>
