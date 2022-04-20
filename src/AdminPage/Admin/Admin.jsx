@@ -8,7 +8,7 @@ const Admin = () => {
     return (
            <div className={style.admin}>
                <AdminContainer/>
-               <div>
+               <div className={style.menuMarginRight}>
                    <div className={style.container}>
                        <h2>Меню</h2>
                        <div>

@@ -26,3 +26,7 @@
     border-radius: 9.25rem;
 }
 
+.col-form-label:hover{
+    background-color: transparent;
+}
+
