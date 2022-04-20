@@ -101,7 +101,7 @@ const AdminFeedbacks = (props) => {
                   </td>
                   <td>
                     <input
-                      style={{ minWidth: "90px", maxWidth: "90px" }}
+                      style={{ minWidth: "80px", maxWidth: "80px" }}
                       type="text"
                       value={item.name}
                     
@@ -109,21 +109,21 @@ const AdminFeedbacks = (props) => {
                   </td>
                   <td>
                     <input
-                      style={{ minWidth: "120px", maxWidth: "120px" }}
+                      style={{ minWidth: "105px", maxWidth: "105px" }}
                       type="text"
                       value={item.surname}
                     />
                   </td>
                   <td>
                     <input
-                      style={{ minWidth: "115px", maxWidth: "115px" }}
+                      style={{ minWidth: "108px", maxWidth: "108px" }}
                       type="text"
                       value={item.number}
                     />
                   </td>
                   <td>
                     <input
-                      style={{ minWidth: "155px", maxWidth: "155px" }}
+                      style={{ minWidth: "150px", maxWidth: "150px" }}
                       type="text"
                       value={item.email}
                     />
@@ -132,8 +132,8 @@ const AdminFeedbacks = (props) => {
                     {" "}
                     <textarea
                       style={{
-                        minWidth: "270px",
-                        maxWidth: "270px",
+                        minWidth: "265px",
+                        maxWidth: "265px",
                         minHeight: "90px",
                         maxHeight: "90px",
                       }}
