@@ -178,41 +178,41 @@ const Contacts = (props) => {
         </h6>
         <div className={styles.complainantsInformation}>
           <div>
-            <label className={styles.hoverEffect} htmlFor="">
+            {/* <label className={styles.hoverEffect} htmlFor=""> */}
               {" "}
               Имя:
               <input onChange={getName} type="text" />
-            </label>
+            {/* </label> */}
           </div>
           <div>
-            <label className={styles.hoverEffect} htmlFor="">
+            {/* <label className={styles.hoverEffect} htmlFor=""> */}
               Фамилие:
               <input onChange={getSurname} type="text" />
-            </label>
+            {/* </label> */}
           </div>
         </div>
         <div className={styles.complainantsInformation}>
           <div>
-            <label className={styles.hoverEffect} htmlFor="">
+            {/* <label className={styles.hoverEffect} htmlFor=""> */}
               Номер:
               <input onChange={getNumber} type="number" />
-            </label>
+            {/* </label> */}
           </div>
           <div>
-            <label className={styles.hoverEffect} htmlFor="">
+            {/* <label className={styles.hoverEffect} htmlFor=""> */}
               Почта:
               <input onChange={getEmail} type="email" />
-            </label>
+            {/* </label> */}
           </div>
         </div>
-        <label className={styles.hoverEffect} htmlFor="">
+        {/* <label className={styles.hoverEffect} htmlFor=""> */}
           Отзывы/жалобы:
           <input
             onChange={getComment}
             className={styles.complaints}
             type="text"
           />{" "}
-        </label>{" "}
+        {/* </label>{" "} */}
         <br />
         <div className={styles.button}>
           <button onClick={addComment}>оставить</button>

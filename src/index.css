@@ -26,10 +26,21 @@
     border-radius: 9.25rem;
 }
 
-.col-form-label:hover{
+/* .col-form-label:hover{
     background-color: transparent;
-}
+} */
 
 th {
     text-align: center;
 }
+
+label:hover {
+    background: #9FA2B4;
+    width: 273px;
+}
+
+
+/* label:not(.adminBlockDiv){
+    display: 0;
+    display: initial;
+} */
