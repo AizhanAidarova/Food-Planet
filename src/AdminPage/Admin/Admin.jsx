@@ -11,10 +11,6 @@ const Admin = () => {
                <div>
                    <div className={style.container}>
                        <h2>Меню</h2>
-                       <div>
-                           <input  className={style.search} type="search"/>
-                           <img src={search} alt=""/>
-                       </div>
                    </div>
                    <div className={style.adminBlock1}>
                        <div>
