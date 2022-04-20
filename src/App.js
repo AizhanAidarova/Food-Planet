@@ -33,7 +33,7 @@ const App = () => {
     return (
             <BrowserRouter>
                 <Routes>
-                    <Route path="index" element={<AllPages/>}/>
+                    <Route path="/" element={<AllPages/>}/>
                     <Route path="delivery" element={<DeliveryMain/>}/>
                     <Route path="admin" element={<Admin/>}/>
                     <Route path="contact" element={<AdminContacts/>}/>
