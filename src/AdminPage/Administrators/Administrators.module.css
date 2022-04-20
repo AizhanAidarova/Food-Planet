@@ -32,7 +32,7 @@
     font-weight: 700;
     font-size: 16px;
     position: relative;
-    left: 766px;
+    left: 767px;
     margin: 10px;
 }
 
@@ -74,4 +74,8 @@
 }
 .administratorh1{
     padding-left: 20px;
+}
+
+input{
+    border:none;
 }

@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {LOCALHOST_URL} from "../Constant";
-import styles from "../Administrators/Administrators.module.css";
 import AdminContainer from "../AdminContainer/AdminContainer";
-
+import styles from "../AdminDelivery/AdminDelivery.module.css"
 const AdminDelivery = () => {
     const [data, setData] = useState([]);
 
@@ -43,8 +42,8 @@ const AdminDelivery = () => {
                                     <tr>
                                         <td><input style={{ minWidth: "30px" , maxWidth:"30px", minHeight:"30px", maxHeight:"30px" }} type="text" value={item.id}/></td>
                                         <td><img style={{ minWidth: "140px" , maxWidth:"140px" }} src={item.imgUrl} alt=""/></td>
-                                        <td><input  style={{ minWidth: "80px" , maxWidth:"120px",textAlign:"center"}} type="text" value={item.title}/></td>
-                                        <td> <textarea style={{ minWidth: "200px" , maxWidth:"200px", minHeight:"90px", maxHeight:"110px" }} >{item.titleDesc}</textarea></td>
+                                        <td><input  style={{ minWidth: "130px" , maxWidth:"130px",textAlign:"center"}} type="text" value={item.title}/></td>
+                                        <td> <textarea style={{ minWidth: "160px" , maxWidth:"160px", minHeight:"90px", maxHeight:"110px" }} >{item.titleDesc}</textarea></td>
                                         <td><input style={{ minWidth: "148px" , maxWidth:"148px", textAlign:"center"}}  type="text" value={item.phone}/></td>
 
                                         <td>

@@ -21,7 +21,11 @@ const AdminAboutUs = () => {
   return <div className={styles.mainAbouUs}>
     <AdminContainer/>
     <div className={styles.abouUs}>
+      <div className={styles.text}>
+         <h4>О нас/ Почему выбирают нас</h4>
       <button className={styles.addButton}>Добавить</button>
+      </div>
+     
       <table >
         <tr className={styles.background}>
           <th>№</th>
