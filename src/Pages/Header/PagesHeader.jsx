@@ -4,6 +4,7 @@ import logo from '../Media/icon/Logo.svg';
 import phone from '../Media/icon/phone.svg';
 import cart from '../Media/icon/cart.svg';
 import { Link } from "react-router-dom"
+import key from "../Media/Icons/key.svg"
 
 
 const PagesHeader = () => {
@@ -28,9 +29,10 @@ const PagesHeader = () => {
                         <Link to={`/delivery`}><li><a href="#">Доставка</a></li></Link>
                         <Link to={`/contacts`}><li><a href="#">Контакты</a></li></Link>
                         <img className="phone" src={phone} />
-                        <li><a href="#">+996500405988</a></li>
+                        <li><a href="#">+996500405988</a></li> 
+                        
                         <Link to={`/basket`}><li className={style.num}><span><img className={style.cart} src={cart} /></span></li></Link>
-                    </ul>
+                  <Link to={`/menu`}><img className="phone" src={key} /> </Link> </ul>
                 </nav>
             </header>
         </>
