@@ -40,6 +40,7 @@ const App = () => {
                     <Route path="adminSalad" element={<AdminSalad/>}/>
                     <Route path="adminDessert" element={<AdminDessert/>}/>
                     <Route path="adminDrinks" element={<AdminDrinks/>}/>
+                    <Route path="menu" element={<Admin/>}/>
                 </Routes>
             </BrowserRouter>
   );

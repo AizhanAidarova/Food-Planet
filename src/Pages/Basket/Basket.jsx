@@ -5,6 +5,7 @@ import { LOCALHOST_URL } from '../../AdminPage/Constant';
 import deleteImg from '../Media/icon/bin.png'
 import asian from '../Media/pizza/asian.svg';
 import Card from "./Card";
+import PagesFooter from '../Footer/PagesFooter';
 
 
 const Basket = () => {
@@ -216,7 +217,8 @@ const Basket = () => {
                                 <div className={style.street}>
                                     <div className={style.stree1}>Улица</div>
                                     <div className={style.streetOption}>
-                                        <select className={style.street2} onChange={getStreet}>
+                                        <input type="text" className={style.street2} />
+                                        {/* <select className={style.street2} onChange={getStreet}>
                                             <option hidden disabled selected value>Улица</option>
                                             <optgroup label="ТЦ «Азия Молл»" class="optgroup">
                                                 <option class="color-choose" value="2"> пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
@@ -236,7 +238,7 @@ const Basket = () => {
                                             <optgroup label="ТРЦ «Аламедин Гранд»" className="optgroup">
                                                 <option class="color-choose" value="2">  пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж</option>
                                             </optgroup>
-                                        </select>
+                                        </select> */}
                                     </div>
                                 </div>
                                 <div className={style.street}>
@@ -278,7 +280,8 @@ const Basket = () => {
                                 </div>
                                 <button onClick={addOrderinfo} className={style.btnOrder}>Заказать</button>
                             </form>
-                </div>
+                           
+                </div> <PagesFooter/>
             </>
         );
     };
