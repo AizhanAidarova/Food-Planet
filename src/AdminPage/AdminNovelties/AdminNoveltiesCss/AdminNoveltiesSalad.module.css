@@ -1,0 +1,81 @@
+.mainAdministrators{
+    display: flex;
+}
+
+.administrators th{
+    border: 1px solid black;
+    /* padding: 10px 32px; */
+}
+
+.administrators td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.administrators table{
+    border-collapse:collapse;
+    margin-left: 25px;  
+}
+
+.background{
+    background-color:#363740;
+    color: white;
+    padding: 10px;
+}
+
+.addButton {
+    padding: 10px 40px;
+    border:none;
+    border-radius: 18px;
+    background-color: #3751FF;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    left: 973px;
+    margin: 10px;
+}
+
+.addButton:hover{
+    background-color: #51ba4f;
+    cursor: pointer;
+}
+
+.editButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #363740;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.deleteButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #ff4e4e;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px; 
+}
+
+.editButton:hover{
+    background-color: #51ba4f;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: #3751FF;
+    cursor: pointer;
+}
+.administratorh1{
+    padding-left: 20px;
+}
+
+input{
+    border:none;
+}
