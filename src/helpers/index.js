@@ -11,5 +11,6 @@ export const getCurrentDate = () => {
     const date = new Date();
     const currentDate = twoDigits(date.getDate()) + '.' + twoDigits((date.getMonth()+1)) + '.' + twoDigits(date.getFullYear()) ;
     console.log(currentDate);
+    
 }
 

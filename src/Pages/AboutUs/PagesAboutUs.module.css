@@ -20,6 +20,8 @@
     font-size: 20px;
     color: #254F4C;
     margin-bottom: 8px;
+    margin-top: 10px;
+    
 }
 .aboutUs p{
     font-size: 14px;
@@ -35,4 +37,6 @@
 .aboutUsWidth h5{
     font-size: 25px;
     color: #254F4C ;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }

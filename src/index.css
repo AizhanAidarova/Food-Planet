@@ -9,3 +9,20 @@
 .slick-prev {
     left: -45px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #363740;
+    border-color: #363740;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    color: #fff;
+    background-color: #363740;
+    border-color: #363740;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
