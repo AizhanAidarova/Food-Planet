@@ -38,6 +38,10 @@
 .container{
     display: flex;
 }
+
+.container img{
+    padding-right: 10px;
+}
 .adminBlockLi{
     list-style-type: none;
     padding: 20px 5px 10px 5px;
@@ -57,9 +61,7 @@
     width: 304px;
 }
 .adminBlockLi:hover{
-    background: #9FA2B4;
-    width: 233px;
-    height: 30px;
+    color:white;
 }
 .adminBlockImg{
     padding-right: 22px;
@@ -69,3 +71,20 @@
     display: flex;
 }
 
+label{
+    display: flex;
+}
+
+label:hover{
+   color:red;
+   background: #9FA2B4;
+   width: 273px;
+}
+
+Link:hover{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
