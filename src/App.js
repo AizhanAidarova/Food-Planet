@@ -48,6 +48,7 @@ const App = () => {
                     <Route path="adminSalad" element={<AdminSalad/>}/>
                     <Route path="adminDessert" element={<AdminDessert/>}/>
                     <Route path="adminDrinks" element={<AdminDrinks/>}/>
+                    <Route path="menu" element={<Admin/>}/>
                     <Route path="adminNovelties" element={<AdminNovelties/>}/>
                     <Route path="adminNewPizza" element={<AdminNoveltiesPizza/>}/>
                     <Route path="adminNewBurger" element={<AdminNoveltiesBurger/>}/>
@@ -56,7 +57,7 @@ const App = () => {
                     <Route path="adminNewSalad" element={<AdminNoveltiesSalad/>}/>
                     <Route path="adminNewDessert" element={<AdminNoveltiesDessert/>}/>
                     <Route path="adminNewDrinks" element={<AdminNoveltiesDrinks/>}/>
-                    <Route path="menu" element={<Admin/>}/>
+                    <Route path="administrators" element={<Administrators/>}/>
                 </Routes>
             </BrowserRouter>
   );

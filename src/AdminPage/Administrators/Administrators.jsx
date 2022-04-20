@@ -42,11 +42,11 @@ const Administrators = () => {
                 <tr>
                   <td>{item.id}</td>
                   <td style={{ minWidth: "140px" , maxWidth:"140px" }}>{item.name}</td>
-                  <td style={{ minWidth: "50px" , maxWidth:"50px" }}>{item.position}</td>
-                  <td style={{ minWidth: "75px" , maxWidth:"75px" }}>{item.number}</td>
-                  <td style={{ minWidth: "135px" , maxWidth:"135px" }}>{item.email}</td>
-                  <td style={{ minWidth: "50px" , maxWidth:"50px" }}>{item.login}</td>
-                  <td style={{ minWidth: "50px" , maxWidth:"50px" }}>{item.password}</td>
+                  <td style={{ minWidth: "115px" , maxWidth:"150px" }}>{item.position}</td>
+                  <td style={{ minWidth: "75px" , maxWidth:"135px" }}>{item.number}</td>
+                  <td style={{ minWidth: "190px" , maxWidth:"220px" }}>{item.email}</td>
+                  <td style={{ minWidth: "50px" , maxWidth:"80px" }}>{item.login}</td>
+                  <td style={{ minWidth: "50px" , maxWidth:"100px" }}>{item.password}</td>
                   <td>
                     <button className={styles.editButton}>Редактировать</button>
                   </td>
