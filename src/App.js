@@ -27,6 +27,7 @@ import AdminNoveltiesSalad from "./AdminPage/AdminNovelties/AdminNoveltiesSalad"
 import AdminNoveltiesSushi from "./AdminPage/AdminNovelties/AdminNoveltiesSushi";
 import AdminDelivery from "./AdminPage/AdminDelivery/AdminDelivery";
 
+import "../src/index.css"
 
 const App = () => {
     return (
