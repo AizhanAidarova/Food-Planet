@@ -39,11 +39,12 @@ const AdminPizza = () => {
                         return (
                             <>
                                 <tr>
-                                    <td>{item.id}</td>
+                                    <td><input style={{ minWidth: "30px" , maxWidth:"30px", minHeight:"30px", maxHeight:"30px" }} type="text" value={item.id}/></td>
                                     <td><img style={{ minWidth: "140px" , maxWidth:"140px" }} src={item.img} alt=""/></td>
-                                    <td style={{ minWidth: "50px" , maxWidth:"100px" }}> {item.name}</td>
-                                    <td style={{ minWidth: "335px" , maxWidth:"135px" }}>{item.desc}</td>
-                                    <td style={{ minWidth: "50px" , maxWidth:"50px" }}>{item.price}</td>
+                                    <td><input  style={{ minWidth: "80px" , maxWidth:"80px"}} type="text" value={item.name}/></td>
+                                    <td> <textarea style={{ minWidth: "200px" , maxWidth:"200px", minHeight:"90px", maxHeight:"110px" }} >{item.desc}</textarea></td>
+                                    <td><input style={{ minWidth: "148px" , maxWidth:"148px", textAlign:"center"}}  type="text" value={item.price}/></td>
+
                                     <td>
                                         <button className={styles.editButton}>Редактировать</button>
                                     </td>

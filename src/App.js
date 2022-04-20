@@ -1,7 +1,7 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DeliveryMain from "./Pages/Delivery/DeliveryMain";
 import Contacts from './Pages/Contacts/Contacts';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AllPages from './Pages/AllPages/AllPages'
 import Basket from './Pages/Basket/Basket';
 import Admin from "./AdminPage/Admin/Admin";
@@ -11,6 +11,7 @@ import AdminContacts from './AdminPage/AdminContacts/AdminContacts';
 import AdminFeedbacks from './AdminPage/AdminFeedbacks/AdminFeedbacks';
 import Administrators from './AdminPage/Administrators/Administrators';
 import AdminPizza from "./AdminPage/AdminContainer/AdminPizza";
+import AdminBurger from "./AdminPage/AdminContainer/AdminBurger";
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
                     <Route path="login" element={<LogInAndLogOut/>}/>
                     <Route path="administrators" element={<Administrators/>}/>
                     <Route path="adminPizza" element={<AdminPizza/>}/>
+                    <Route path="adminBurger" element={<AdminBurger/>}/>
                 </Routes>
             </BrowserRouter>
   );
