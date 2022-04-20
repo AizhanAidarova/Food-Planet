@@ -477,7 +477,6 @@
       "desc": "Десерт на основе воздушной миндальной муки с сливочно-сырным кремом",
       "price": 150
     },
-
     {
       "id": 6,
       "name": "Шоколадный брауни",
@@ -491,7 +490,8 @@
       "img": "https://www.tellaballsdessertbar.com/uploads/2022/02/49b30d914.png",
       "desc": "5 шт. Французский десерт из заварного теста, наполненный ванильным кремом \"Патисьер\", декорирован ганашом из белого шоколада.",
       "price": 120
-    },{
+    },
+    {
       "id": 8,
       "name": "Мороженое",
       "img": "https://www.carvel.com/-/media/carvel/menu/ice-cream/soft-serve/2-chocolate-new.png?v=1&d=20180430T193908Z&h=600&w=600&la=en&hash=78EF4BE6817E692ACEDC66FE8FDF5140",
@@ -709,31 +709,26 @@
       "date": "Mon Apr 11 2022"
     },
     {
-      "name": "Meerim",
-      "surname": "Egemberdieva",
-      "number": "0707797979",
-      "email": "meerim@gmail.com",
-      "feedback": "test",
+      "id": 7,
       "status": 0,
-      "id": 7
+      "img": "https://i.shgcdn.com/015387a4-2f5c-47ca-802a-49086703998e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "name": "Ольга",
+      "surname": "Гарская",
+      "number": "0556 56 56 56",
+      "email": "garskaya@gmail.com",
+      "feedback": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+      "date": "Mon Apr 11 2022"
     },
     {
-      "name": "Aijan",
-      "surname": "Aidarova",
-      "number": "0707777777",
-      "email": "aijan@gmail.com",
-      "feedback": "test",
+      "id": 8,
       "status": 0,
-      "id": 8
-    },
-    {
-      "name": "Aigerim",
-      "surname": "Bekbolotova",
-      "number": "707767676",
-      "email": "aigerim@gmail.com",
-      "feedback": "testing feedbacks",
-      "status": 0,
-      "id": 9
+      "img": "https://i.shgcdn.com/015387a4-2f5c-47ca-802a-49086703998e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "name": "Ольга",
+      "surname": "Гарская",
+      "number": "0556 56 56 56",
+      "email": "garskaya@gmail.com",
+      "feedback": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+      "date": "Mon Apr 11 2022"
     }
   ],
   "contacts": [

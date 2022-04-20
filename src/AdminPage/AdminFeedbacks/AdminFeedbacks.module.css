@@ -1,3 +1,20 @@
+input{
+    border: none;
+    font-size: 15px;
+    margin: 0;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    font-size: 15px;
+}
+
+.feedback h2{
+    margin-left: 25px;
+    color:#363740;
+}
+
 .mainFeedbacks{
     display: flex;
 }
@@ -12,15 +29,18 @@
 }
 .feedback td{
     border: 1px solid black;
-    padding: 10px ;
+     padding: 0;
+     padding-left: 5px ;
+   
 }
 
 .feedback table{
      border-collapse:collapse;
      margin-left: 25px;  
+ 
 }
 
-.addButton {
+/* .addButton {
     padding: 10px 40px;
     border:none;
     border-radius: 18px;
@@ -31,12 +51,8 @@
     position: relative;
     left: 990px; 
     margin: 10px;
-}
+} */
 
-.addButton:hover{
-    background-color: #51ba4f;
-    cursor: pointer;
-}
 
 .editButton{
     padding: 10px 20px;
@@ -47,6 +63,22 @@
     font-weight: 700;
     font-size: 14px;
     margin: 10px;
+}
+
+.saveButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 18px;
+    background-color: #51ba4f;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.saveButton:hover{
+    background-color: #3751FF;
+    cursor: pointer;
 }
 
 .deleteButton{
@@ -61,7 +93,7 @@
 }
 
 .editButton:hover{
-    background-color: #51ba4f;
+    background-color: #3751FF;
     cursor: pointer;
 }
 

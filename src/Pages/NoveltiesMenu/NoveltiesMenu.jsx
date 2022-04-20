@@ -74,7 +74,7 @@ const NoveltiesMenu = () => {
             </div>
             {
                 food.map((item) => {
-                   return <GoodsCard item={item}/> 
+                   return <GoodsCard key={item.id} item={item}/> 
                 })
             }
         </>
