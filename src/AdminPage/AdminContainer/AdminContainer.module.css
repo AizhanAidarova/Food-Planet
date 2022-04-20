@@ -53,8 +53,8 @@
     display: flex;
     text-align: center;
     position: relative;
-    right: 40px;
-    width: 233px;
+    right: 25px;
+    width: 304px;
 }
 .adminBlockLi:hover{
     background: #9FA2B4;
@@ -68,3 +68,4 @@
 .admin{
     display: flex;
 }
+

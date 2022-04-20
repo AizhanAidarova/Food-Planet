@@ -17,8 +17,11 @@ const AdminContainer = () => {
                 <nav className={style.adminBlock2}>
                     <ul>
                         <div className={style.container}>
-                            <img src={logoD} alt=""/>
-                            <h2 className={style.adminBlockLogo}>Food Planet</h2>
+                            <label htmlFor="" className={style.hoverEffect}>
+                               <img src={logoD} alt=""/>
+                            <h2 className={style.adminBlockLogo}>Food Planet</h2> 
+                            </label>
+                            
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={vectore} alt=""/>
@@ -54,7 +57,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
-                            <Link to={`/administrators`} className={style.adminBlockLi}><a>Сотрудники</a></Link>
+                            <Link to={`/administrators`} className={style.adminBlockLi}>Сотрудники</Link>
                         </div>
                     </ul>
                 </nav>
