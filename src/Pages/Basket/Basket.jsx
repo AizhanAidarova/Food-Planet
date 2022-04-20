@@ -13,7 +13,9 @@ const Basket = () => {
         setNumber(number + 1);
     }
     const decrement = () => {
-        setNumber(number - 1);
+        if (number >0){
+            setNumber(number - 1)
+        }
     }
 
     const [name, setName] = useState("");
