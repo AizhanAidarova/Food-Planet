@@ -7,19 +7,19 @@ import PagesAboutUs from '../AboutUs/PagesAboutUs';
 import PagesFeedbacks from '../Feedbacks/PagesFeedbacks';
 import PagesFooter from '../Footer/PagesFooter';
 
-const AllPages = () => {
+const AllPages = (/*{addToBasket,removeInBasket}*/) => {
     return (
-        <div>
+        <>
             <div>
                 <PagesHeader/>
                 <PagesMain/>
                 <Novelties/>
-                <PagesMenu/>
+                <PagesMenu{/* addToBasket={addToBasket} removeInBasket ={removeInBasket}*/}/>
                 <PagesAboutUs/>
                 <PagesFeedbacks/>
                 <PagesFooter/>
             </div>
-        </div>
+        </>
     );
 };
 

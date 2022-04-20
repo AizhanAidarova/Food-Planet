@@ -1,18 +1,44 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import style from "./PagesMenu.module.css";
 import {LOCALHOST_URL} from "../../AdminPage/Constant";
 
+
 const GoodsCard = ({item}) => {
     const [count, setCount] = useState(0);
+
+    const addCart = () => {
+        let cartStorage = localStorage.getItem('cart');
+
+        const id = item.id;
+        let object = {
+            [id]: {
+                ...item,
+                count
+            }
+        }
+
+        if(cartStorage){
+            cartStorage = JSON.parse(cartStorage);
+            object = {
+                ...object,
+                ...cartStorage
+            }
+
+        }
+        localStorage.setItem("cart", JSON.stringify(object));
+    };
+
     const increment = () => {
         setCount(count + 1)
     }
     const decrement = () => {
-        if (count >0){
+        if (count > 1){
             setCount(count - 1)
         }
     }
+    // const {deleteFromBasket,card} = useContext(AddContext)
     return (
+
         <div key={item.id} className={style.margarita}>
             <img className={style.pizzaPic} src={item.img} alt="Pizza"/>
             <div>
@@ -25,7 +51,8 @@ const GoodsCard = ({item}) => {
                 <p className={style.countP}>{count}</p>
                 <button className={style.countBtn2} onClick={increment}> + </button>
             </div>
-            <button className={style.basketBtn}>В КОРЗИНУ</button>
+            <button className={style.basketBtn} /*onClick={() => deleteFromBasket(item.id)}*/>В КОРЗИНУ</button>
+            <button className={style.basketBtn} onClick={() => addCart(item)}>В КОРЗИНУ</button>
         </div>
     )
 }
@@ -37,14 +64,21 @@ const MenuHeader = () => {
             const url = LOCALHOST_URL + foodUrl;
 
             fetch(url)
-                .then((response) => response.json())
+                .then(response => {
+                    if(response.status === 200){
+                        return response.json();
+                    }else {
+                        alert('Smth wrong');
+                    }
+                })
                 .then ((data) => setFood(data))
         }
-
         useEffect(() => {
             getFood('/burger');
         }, [])
+
     return (
+
         <>
             <div className={style.noveltiesNavbar}>
                 <div><h2 className={style.noveltiesH2}>Меню</h2></div>

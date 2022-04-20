@@ -5,14 +5,6 @@
     flex-wrap: wrap;
 }
 .margarita{
-   /*
-    width: 264px;
-    height: 350px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    border-radius: 40px;
-
-    margin-right: 32px;*/
     border: none;
     margin-top: 100px;
     border-bottom: 1px solid darkgrey;
@@ -39,6 +31,7 @@
     margin-top: 0;
     margin-bottom: 5px;
     text-align: center;
+    font-weight: bold;
 }
 .price1{
     margin-top: 52px;
@@ -46,6 +39,7 @@
     font-size: 20px;
     color: #254F4C;
     text-align: center;
+    font-weight: bold;
 }
 .pizzaPic{
     margin-top: -90px;
@@ -62,7 +56,6 @@
     margin-right: 10px;
     height: 39px;
     text-align: center;
-
 }
 /*.button{
     background-color: #254F4C;
@@ -99,6 +92,11 @@
 .noveltiesNavbar ul {
     display: flex;
 }
+.noveltiesNavbar li:hover{
+    margin-right: 32px;
+    cursor: pointer;
+    color: red;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -125,7 +123,9 @@
     right: 15px;
     align-items:center;
     margin-bottom: 45px;
-
+}
+.basketBtn:hover{
+    cursor: pointer;
 }
 
 .countBtn1{
@@ -235,7 +235,7 @@
 }
 
 .countP{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     text-align: center;
     margin: 10px 16px 10px 16px;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import style from '../Basket/Basket.module.css'
 import PagesHeader from '../Header/PagesHeader';
 import { LOCALHOST_URL } from '../../AdminPage/Constant';
@@ -106,21 +106,21 @@ const Basket = () => {
             typepay: typepay,
             deposit: deposit
         }
+
+        const url = LOCALHOST_URL + "/orderform";
+
+        const options = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(obj)
+        };
+        fetch(url,options)
+         .then((response) => response.json())
     }
-    console.log(obj)
 
-    const url = LOCALHOST_URL + "/orderform";
 
-    const options = {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(obj)
-    };
-
-    //   fetch(url,options)
-    //   .then((response) => response.json())
      
 
 
@@ -130,7 +130,9 @@ const Basket = () => {
         //         .then((response) => response.json())
         //         .then((data) => setData(data));
         // };
+
         return (
+
             <>
                 <PagesHeader />
                 <div className={style.zakaz}>Заказ</div>
@@ -203,7 +205,7 @@ const Basket = () => {
                                             <optgroup label="ТЦ «Беш-Сары Сити» " class="optgroup">
                                                 <option class="color-choose" value="2"> Бейшеналиева 42А, ТЦ «Беш-Сары Сити»</option>
                                             </optgroup>
-                                            <optgroup label="ТРЦ «Аламедин Гранд»" class="optgroup">
+                                            <optgroup label="ТРЦ «Аламедин Гранд»" className="optgroup">
                                                 <option class="color-choose" value="2">  пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж</option>
                                             </optgroup>
                                         </select>
@@ -248,9 +250,6 @@ const Basket = () => {
                                 </div>
                                 <button onClick={addOrderinfo} className={style.btnOrder}>Заказать</button>
                             </form>
-                        
-                    
-                    
                 </div>
             </>
         );

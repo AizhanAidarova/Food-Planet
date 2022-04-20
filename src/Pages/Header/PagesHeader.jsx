@@ -29,8 +29,7 @@ const PagesHeader = () => {
                         <Link to={`/contacts`}><li><a href="#">Контакты</a></li></Link>
                         <img className="phone" src={phone} />
                         <li><a href="#">+996500405988</a></li>
-                        <Link to={`/basket`}><li className={style.num}><span><img className={style.cart} src={cart} /></span>1</li></Link>
-
+                        <Link to={`/basket`}><li className={style.num}><span><img className={style.cart} src={cart} /></span></li></Link>
                     </ul>
                 </nav>
             </header>

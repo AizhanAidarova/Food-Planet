@@ -8,6 +8,7 @@ import contact from "../../Pages/Media/icon/4. contacts.svg";
 import feedback from "../../Pages/Media/icon/5. agents.svg";
 import cart from "../../Pages/Media/icon/Vector.svg";
 import search from "../../Pages/Media/icon/search.svg";
+import Admin from "../Admin/Admin";
 
 const AdminContainer = () => {
     return (
@@ -32,6 +33,10 @@ const AdminContainer = () => {
                             <li className={style.adminBlockLi}>Меню</li>
                         </div>
                         <div className={style.adminBlockDiv}>
+                            <img className={style.adminBlockImg} src={menu} alt=""/>
+                            <li className={style.adminBlockLi}>Новинки</li>
+                        </div>
+                        <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={contact} alt=""/>
                             <li className={style.adminBlockLi}>Контакты</li>
                         </div>
@@ -40,12 +45,21 @@ const AdminContainer = () => {
                             <li className={style.adminBlockLi}>Отзывы</li>
                         </div>
                         <div className={style.adminBlockDiv}>
+                            <img className={style.adminBlockImg} src={feedback} alt=""/>
+                            <li className={style.adminBlockLi}>Доставка</li>
+                        </div>
+                        <div className={style.adminBlockDiv}>
+                            <img className={style.adminBlockImg} src={cart} alt=""/>
+                            <li className={style.adminBlockLi}>О нас</li>
+                        </div>
+                        <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
                             <li className={style.adminBlockLi}>Сотрудники</li>
                         </div>
                     </ul>
                 </nav>
             </div>
+            <Admin/>
         </div>
     );
 };
