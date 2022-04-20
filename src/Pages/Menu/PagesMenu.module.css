@@ -78,13 +78,23 @@
 .noveltiesNavbar {
     display: flex;
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 180px;
     font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     width: 1200px;
     justify-content: space-around;
+    color: #254F4C;
+    font-size: 25px;
+    color: #254F4C;
+    
 }
 
+.noveltiesNavbar h2{
+    
+    font-size: 25px;
+    color: #254F4C;
+    font-weight: 900;
+}
 .noveltiesNavbar ul {
     display: flex;
 }
