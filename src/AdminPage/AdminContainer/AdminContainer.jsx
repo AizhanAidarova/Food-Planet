@@ -30,11 +30,11 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={menu} alt=""/>
-                            <Link to={`/admin`} className={style.adminBlockLi}><a>Меню</a></Link>
+                            <Link to={`/admin`} className={style.adminBlockLi}>Меню</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={menu} alt=""/>
-                            <Link to={`/adminNovelties`} className={style.adminBlockLi}><a>Новинки</a></Link>
+                            <Link to={`/adminNovelties`} className={style.adminBlockLi}>Новинки</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={contact} alt=""/>
