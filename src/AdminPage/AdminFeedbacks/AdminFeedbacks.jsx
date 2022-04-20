@@ -188,7 +188,18 @@ const AdminFeedbacks = (props) => {
                                     htmlFor="message-text"
                                     className="col-form-label"
                                   >
-                                    Сообщение:
+                                    Имя:
+                                  </label>
+                                  <textarea
+                                    className="form-control"
+                                    id="message-text"
+                                    defaultValue={""}
+                                  />
+                                  <label
+                                    htmlFor="message-text"
+                                    className="col-form-label"
+                                  >
+                                    Отзыв:
                                   </label>
                                   <textarea
                                     className="form-control"

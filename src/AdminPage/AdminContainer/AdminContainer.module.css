@@ -3,7 +3,7 @@
 
 .adminBlock{
     border: 1px solid black;
-    width: 230px;
+    width: 296px;
     height: 150px;
     margin: 10px;
     border-radius: 10px;
@@ -76,7 +76,6 @@ label{
 }
 
 label:hover{
-   color:red;
    background: #9FA2B4;
    width: 273px;
 }
@@ -87,4 +86,8 @@ Link:hover{
 
 a:hover{
     color: white;
+}
+
+.menuMarginRight{
+    margin-left: 30px;
 }

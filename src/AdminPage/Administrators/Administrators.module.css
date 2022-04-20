@@ -9,7 +9,7 @@
 
 .administrators td{
     border: 1px solid black;
-    /* padding: 10px 32px; */
+    padding: 15px;
 }
 
 .administrators table{
@@ -32,7 +32,7 @@
     font-weight: 700;
     font-size: 16px;
     position: relative;
-    left: 820px;
+    left: 767px;
     margin: 10px;
 }
 
@@ -74,4 +74,8 @@
 }
 .administratorh1{
     padding-left: 20px;
+}
+
+input{
+    border:none;
 }

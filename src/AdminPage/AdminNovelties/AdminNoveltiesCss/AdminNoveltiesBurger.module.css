@@ -1,28 +1,26 @@
-.mainAbouUs{
+.mainAdministrators{
     display: flex;
 }
 
-.abouUs th{
+.administrators th{
     border: 1px solid black;
     /* padding: 10px 32px; */
 }
 
-.abouUs td{
+.administrators td{
     border: 1px solid black;
-    /* padding: 10px 32px; */
+    padding: 12px;
+}
+
+.administrators table{
+    border-collapse:collapse;
+    margin-left: 25px;  
 }
 
 .background{
     background-color:#363740;
     color: white;
     padding: 10px;
-}
-
-
-
-.abouUs table{
-     border-collapse:collapse;
-     margin-left: 25px;  
 }
 
 .addButton {
@@ -34,7 +32,7 @@
     font-weight: 700;
     font-size: 16px;
     position: relative;
-    left: 606px; 
+    left: 959px;
     margin: 10px;
 }
 
@@ -44,7 +42,7 @@
 }
 
 .editButton{
-    padding: 9px 20px;
+    padding: 10px 20px;
     border:none;
     border-radius: 18px;
     background-color: #363740;
@@ -74,10 +72,10 @@
     background-color: #3751FF;
     cursor: pointer;
 }
-
-.text{
-    display: flex;
-    align-items: center;
-    margin-left: 23px;
+.administratorh1{
+    padding-left: 20px;
 }
 
+input{
+    border:none;
+}

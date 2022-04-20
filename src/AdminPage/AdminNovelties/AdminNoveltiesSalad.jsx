@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {LOCALHOST_URL} from "../Constant";
-import styles from "../Administrators/Administrators.module.css";
 import AdminContainer from "../AdminContainer/AdminContainer";
+import styles from "../AdminNovelties/AdminNoveltiesCss/AdminNoveltiesSalad.module.css"
 
 const AdminNoveltiesSalad = () => {
     const [data, setData] = useState([]);

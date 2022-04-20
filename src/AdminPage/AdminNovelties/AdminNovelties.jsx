@@ -8,7 +8,7 @@ const AdminNovelties = () => {
     return (
         <div className={style.admin}>
             <AdminContainer/>
-            <div>
+            <div className={style.menuMarginRight}>
                 <div className={style.container}>
                     <h2>Новинки</h2>
                     <div>
