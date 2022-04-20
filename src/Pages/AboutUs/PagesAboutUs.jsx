@@ -24,7 +24,7 @@ const PagesAboutUs = () => {
           <div className={styles.fourAboutUs}>
             {data.map((item) => {
               return (
-                  <div className={styles.aboutUs}>
+                  <div key={item.id} className={styles.aboutUs}>
                     <img src={item.img} alt="" />
                     <h2>{item.reasons}</h2>
                     <p>{item.reasonsInDetail}</p>

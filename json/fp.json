@@ -707,6 +707,28 @@
       "email": "garskaya@gmail.com",
       "feedback": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
       "date": "Mon Apr 11 2022"
+    },
+    {
+      "id": 7,
+      "status": 0,
+      "img": "https://i.shgcdn.com/015387a4-2f5c-47ca-802a-49086703998e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "name": "Ольга",
+      "surname": "Гарская",
+      "number": "0556 56 56 56",
+      "email": "garskaya@gmail.com",
+      "feedback": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+      "date": "Mon Apr 11 2022"
+    },
+    {
+      "id": 8,
+      "status": 0,
+      "img": "https://i.shgcdn.com/015387a4-2f5c-47ca-802a-49086703998e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "name": "Ольга",
+      "surname": "Гарская",
+      "number": "0556 56 56 56",
+      "email": "garskaya@gmail.com",
+      "feedback": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+      "date": "Mon Apr 11 2022"
     }
   ],
   "contacts": [

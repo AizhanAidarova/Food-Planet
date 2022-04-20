@@ -27,7 +27,7 @@ const MenuHeader = () => {
         }, [])
     return (
         <>
-            <div className={style.noveltiesNavbar}>
+            <div  className={style.noveltiesNavbar}>
                 <div><h2 className={style.noveltiesH2}>Меню</h2></div>
                 <div className={style.menu}>
                 <nav>
@@ -47,7 +47,7 @@ const MenuHeader = () => {
                 {
                     food.map((item) => {
                         return(
-                            <div className={style.margarita}>
+                            <div key={item.id} className={style.margarita}>
                                 <img className={style.pizzaPic} src={item.img} alt="Pizza"/>
                                 <div>
                                     <h3 className={style.price}>{item.name}</h3>

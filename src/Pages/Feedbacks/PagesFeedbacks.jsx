@@ -44,7 +44,7 @@ const PagesFeedbacks = () => {
           <Slider {...settings} className={styles.scroll}>
           {/* <div className={styles.fourFeedbacks}> */}
             {data.map((item) => {
-              return  <div className={styles.oneFeedback}>
+              return  <div key={item.id} className={styles.oneFeedback}>
               <img src={border}/>
               <div className={styles.firstFeedback}>
                 <img className={styles.firstFeedbackImage} src={greyEllipse} alt="" />

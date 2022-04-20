@@ -38,26 +38,26 @@ const AdminFeedbacks = (props) => {
         })
   }
 
-  const getCommentsByPostId = () => {
-    const url = LOCALHOST_URL + "/feedbacks?postId=" +props.postId;
+//   const getCommentsByPostId = () => {
+//     const url = LOCALHOST_URL + "/feedbacks?postId=" +props.postId;
 
-    const status = {
-      status: "1"
-    }
-    const options = {
-      method: "PUT",
-      headers:{
-        "Content-Type":"application/json"
-      },
-      body: JSON.stringify(status)
-    }
-    fetch(url,options)
-    .then((response) => console.log(response))
-}
+//     const status = {
+//       status: "1"
+//     }
+//     const options = {
+//       method: "PUT",
+//       headers:{
+//         "Content-Type":"application/json"
+//       },
+//       body: JSON.stringify(status)
+//     }
+//     fetch(url,options)
+//     .then((response) => console.log(response))
+// }
 
-useEffect(() => {
-  getCommentsByPostId();
-},[])
+// useEffect(() => {
+//   getCommentsByPostId();
+// },[])
   
     return (
         <div className={styles.mainFeedbacks}>
