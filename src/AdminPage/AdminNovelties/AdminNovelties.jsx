@@ -10,7 +10,7 @@ const AdminNovelties = () => {
             <AdminContainer/>
             <div className={style.menuMarginRight}>
                 <div className={style.container}>
-                    <h2>Новинкиd</h2>
+                    <h2>Новинки</h2>
                 </div>
                 <div className={style.adminBlock1}>
                     <div>
