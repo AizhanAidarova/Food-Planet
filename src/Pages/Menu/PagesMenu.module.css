@@ -207,15 +207,19 @@
     color: black;
 }
 .deliveryh1{
-    color: #254f4c;
+    color: #FF583E;
+    font-family: 'Roboto';
     font-size: 55px;
     margin-bottom: 0;
     padding-top: 40px;
+    padding-left: 20px;
 }
 .deliveryP{
-    color: #254f4c;
+    font-family: 'Roboto';
+    color: #FF583E;
     font-size: 25px;
     margin: 0 auto;
+    padding-left: 20px;
 }
 .pizzaMap{
     width: 1200px;
