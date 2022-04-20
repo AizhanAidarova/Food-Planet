@@ -22,7 +22,10 @@ const Administrators = () => {
     <div className={styles.mainAdministrators}>
       <AdminContainer />
       <div className={styles.administrators}>
-        <button className={styles.addButton}>Добавить</button>
+        <div className={styles.mainAdministrators}>
+          <h2 className={styles.administratorh1}>Сотрудники</h2>
+          <button className={styles.addButton}>Добавить</button>
+        </div>
         <table>
           <tr className={styles.background}>
             <th>№</th>
