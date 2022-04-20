@@ -86,7 +86,7 @@ const MenuHeader = () => {
                     <ul>
                         <li onClick={() => getFood("/pizza") }>Пицца</li>
                         <li onClick={() => getFood("/burger")}>Бургер</li>
-                        <li onClick={() => getFood("/sushi")}>Суши</li>
+                        <li onClick={() => getFood("/sushi")}>Сушил</li>
                         <li onClick={() => getFood("/roll")}>Роллы</li>
                         <li onClick={() => getFood("/salad")}>Салаты</li>
                         <li onClick={() => getFood("/desert")}>Десерты</li>
