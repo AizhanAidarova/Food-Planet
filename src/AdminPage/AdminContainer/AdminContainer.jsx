@@ -42,7 +42,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={feedback} alt=""/>
-                            <li className={style.adminBlockLi}>Отзывы</li>
+                            <Link to={`/feedbacks`} className={style.adminBlockLi}>Отзывы</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={feedback} alt=""/>
@@ -50,7 +50,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
-                            <li className={style.adminBlockLi}>О нас</li>
+                            <Link to={`/aboutus`} className={style.adminBlockLi}>О нас</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
