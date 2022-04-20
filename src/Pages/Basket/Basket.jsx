@@ -4,6 +4,7 @@ import PagesHeader from '../Header/PagesHeader';
 import { LOCALHOST_URL } from '../../AdminPage/Constant';
 import deleteImg from '../Media/icon/bin.png'
 import asian from '../Media/pizza/asian.svg'
+import PagesFooter from '../Footer/PagesFooter';
 
 
 const Basket = () => {
@@ -13,7 +14,7 @@ const Basket = () => {
         setNumber(number + 1);
     }
     const decrement = () => {
-        if (number >0){
+        if (number > 0) {
             setNumber(number - 1)
         }
     }
@@ -109,153 +110,122 @@ const Basket = () => {
             deposit: deposit
         }
 
-         console.log(obj)
+        console.log(obj)
 
-    const url = LOCALHOST_URL + "/orderform";
+        const url = LOCALHOST_URL + "/orderform";
 
-    const options = {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(obj)
-    };
+        const options = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(obj)
+        };
 
-      fetch(url,options)
-      .then((response) => response.json()) 
+        fetch(url, options)
+            .then((response) => response.json())
     }
-  
-     
 
-
-        // const getData = () => {
-        //     const url = LOCALHOST_URL + "/users";
-        //     fetch(url)
-        //         .then((response) => response.json())
-        //         .then((data) => setData(data));
-        // };
-        return (
-            <>
-                <PagesHeader />
-                <div className={style.zakaz}>Заказ</div>
-                <div className={style.container}>
-                    <div className={style.left}>
-                        <h3 className={style.cartH3}>Корзина</h3>
-                        <table>
-                            <tr className={style.tbody}>
-                                <td className={style.cartImg}><img className={style.asian} src={asian} /></td>
-                                <td className={style.cartFoodName}>Маргарита</td>
-                                <td className={style.price}>270</td>
-                                <td className={style.cartNum}>
-                                    <div className={style.btnCart}>
-                                        <button className={style.btn5} onClick={decrement}>-</button>
-                                        <p>{number}</p>
-                                        <button className={style.btn5} onClick={increment}>+</button>
-                                    </div>
-                                </td>
-                                <td className={style.price}>270</td>
-                                <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
-                            </tr>
-                        </table>
-                    </div>
-                    
-                            <form className={style.right}>
-                                <div className={style.first}>
-                                    <div className={style.name}>Имя:</div>
-                                    <div className={style.divLeft}> <input onChange={getName} className={style.input1} type="text" onChange={getName} /></div>
+    return (
+        <>
+            <PagesHeader />
+            <div className={style.zakaz}>Заказ</div>
+            <div className={style.container}>
+                <div className={style.left}>
+                    <h3 className={style.cartH3}>Корзина</h3>
+                    <table>
+                        <tr className={style.tbody}>
+                            <td className={style.cartImg}><img className={style.asian} src={asian} /></td>
+                            <td className={style.cartFoodName}>Маргарита</td>
+                            <td className={style.price}>270</td>
+                            <td className={style.cartNum}>
+                                <div className={style.btnCart}>
+                                    <button className={style.btn5} onClick={decrement}>-</button>
+                                    <p>{number}</p>
+                                    <button className={style.btn5} onClick={increment}>+</button>
                                 </div>
-                                <div className={style.second}>
-                                    <div className={style.phone}>Телефон:</div>
-                                    <div> <input className={style.input1} type="number" placeholder='Введите ваш номер телефона' onChange={getPhonenumber} /> </div>
-                                </div>
-                                <div className={style.typeOrder2}>
-                                    <p>Тип заказа:</p>
-                                    <div className={style.typeOrder}>
-                                        <p>С доставкой<input className={style.checkBox} type="checkbox" onChange={getTypeorder1} /></p>
-                                    </div>
-                                    <div>
-                                        <p>На вынос<input className={style.checkBox} type="checkbox" onChange={getTypeorder2} /></p>
-                                    </div>
-                                </div>
-                                <div className={style.city1}>
-                                    <div className={style.city}>Город</div>
-                                    <div className={style.city}>
-                                        <select className={style.city2} onChange={getCity}>
-                                            <option>Бишкек</option>
-                                            <option>Кант</option>
-                                            <option>Кара-Балта</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div className={style.street}>
-                                    <div className={style.street1}>Улица:</div>
-                                    <div> <input className={style.input1} type="text" onChange={getStreet}/> </div>
-                                </div>
-                                
-                                <div className={style.street}>
-                                    <div className={style.house}>Дом:<input className={style.inputStreet} type="text" onChange={getHouse} /></div>
-                                    <div className={style.house}>Корпус:<input className={style.inputKorpus} type="text" onChange={getCorpus} /></div>
-                                </div>
-                                <div className={style.street}>
-                                    <div className={style.house}>Кв.офис:<input className={style.inputOffice} type="text" onChange={getFlat} /></div>
-                                    <div className={style.house}>Подъезд:<input className={style.inputPorch} type="text" onChange={getPorch} /></div>
-                                </div>
-                                <div className={style.street}>
-                                    <div className={style.house}>Этаж:<input className={style.inputFloor} type="text" onChange={getFloor} /></div>
-                                    <div className={style.house}>Домофон:<input className={style.inputPhone} type="text" onChange={getIntercom} /></div>
-                                </div>
-                                <div className={style.street}>
-                                    <div className={style.house}>Доставить<br /> через:<input className={style.inputGet} type="number" onChange={getDeliveryhour} /></div>
-                                    <div className={style.house}>час<input className={style.inputTime} type="number" onChange={getDeliveryminut} />мин</div>
-                                </div>
-                                <div className={style.addInfo}>
-                                    <div className={style.dopInfo}>Дополнительная <br /> информация:</div>
-                                    <div><input className={style.inputDopInfo} type="text" onChange={getAddinfo} /></div>
-                                </div>
-                                <div className={style.pay}>
-                                    <div className={style.typePay}>Способ оплаты:</div>
-                                    <div className={style.city}>
-                                        <select className={style.city3} onChange={getTypepay}>
-                                            <option>Наличные</option>
-                                            <option>Элсом</option>
-                                            <option>OptimaBank</option>
-                                            <option>KicbBank</option>
-                                            <option>DemirBank</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div className={style.addInfo}>Вносимая сумма:<input className={style.total} type="text" /></div>
-                                <div className={style.condition}><p>укажите купюру, которой Вы будете вносить оплату, чтобы курьер заранее взял с собой сдачу</p></div>
-                                <div className={style.rule}>
-                                    <p><input className={style.checkBox2} type="checkbox" onChange={getDeposit} /> условиями доставки согласен</p>
-                                </div>
-                                <button onClick={addOrderinfo} className={style.btnOrder}>Заказать</button>
-                            </form>
-                        
-                    
-                    
+                            </td>
+                            <td className={style.price}>270</td>
+                            <td style={{ minWidth: "20px", maxWidth: "30px" }}><img className={style.trash} src={deleteImg} /></td>
+                        </tr>
+                    </table>
                 </div>
-            </>
-        );
-    };
-export default Basket;
 
-// const obj = {
-//     name: name,
-//     phonenumber: phonenumber,
-//     typeorder1: typeorder1,
-//     typeorder2: typeorder2,
-//     city: city,
-//     street: street,
-//     house: house,
-//     corpus: corpus,
-//     flat: flat,
-//     porch: porch,
-//     floor: floor,
-//     intercom: intercom,
-//     deliveryhour: deliveryhour,
-//     deliveryminut: deliveryminut,
-//     addinfo: addinfo,
-//     typepay: typepay,
-//     deposit: deposit
-// }
+                <form className={style.right}>
+                    <div className={style.first}>
+                        <div className={style.name}>Имя:</div>
+                        <div className={style.divLeft}> <input onChange={getName} className={style.input1} type="text" onChange={getName} /></div>
+                    </div>
+                    <div className={style.second}>
+                        <div className={style.phone}>Телефон:</div>
+                        <div> <input className={style.input1} type="number" placeholder='Введите ваш номер телефона' onChange={getPhonenumber} /> </div>
+                    </div>
+                    <div className={style.typeOrder2}>
+                        <p>Тип заказа:</p>
+                        <div className={style.typeOrder}>
+                            <p>С доставкой<input className={style.checkBox} type="checkbox" onChange={getTypeorder1} /></p>
+                        </div>
+                        <div>
+                            <p>На вынос<input className={style.checkBox} type="checkbox" onChange={getTypeorder2} /></p>
+                        </div>
+                    </div>
+                    <div className={style.city1}>
+                        <div className={style.city}>Город</div>
+                        <div className={style.city}>
+                            <select className={style.city2} onChange={getCity}>
+                                <option>Бишкек</option>
+                                <option>Кант</option>
+                                <option>Кара-Балта</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div className={style.street}>
+                        <div className={style.street1}>Улица:</div>
+                        <div> <input className={style.input1} type="text" onChange={getStreet} /> </div>
+                    </div>
+
+                    <div className={style.street}>
+                        <div className={style.house}>Дом:<input className={style.inputStreet} type="text" onChange={getHouse} /></div>
+                        <div className={style.house}>Корпус:<input className={style.inputKorpus} type="text" onChange={getCorpus} /></div>
+                    </div>
+                    <div className={style.street}>
+                        <div className={style.house}>Кв.офис:<input className={style.inputOffice} type="text" onChange={getFlat} /></div>
+                        <div className={style.house}>Подъезд:<input className={style.inputPorch} type="text" onChange={getPorch} /></div>
+                    </div>
+                    <div className={style.street}>
+                        <div className={style.house}>Этаж:<input className={style.inputFloor} type="text" onChange={getFloor} /></div>
+                        <div className={style.house}>Домофон:<input className={style.inputPhone} type="text" onChange={getIntercom} /></div>
+                    </div>
+                    <div className={style.street}>
+                        <div className={style.house}>Доставить<br /> через:<input className={style.inputGet} type="number" onChange={getDeliveryhour} /></div>
+                        <div className={style.house}>час<input className={style.inputTime} type="number" onChange={getDeliveryminut} />мин</div>
+                    </div>
+                    <div className={style.addInfo}>
+                        <div className={style.dopInfo}>Дополнительная <br /> информация:</div>
+                        <div><input className={style.inputDopInfo} type="text" onChange={getAddinfo} /></div>
+                    </div>
+                    <div className={style.pay}>
+                        <div className={style.typePay}>Способ оплаты:</div>
+                        <div className={style.city}>
+                            <select className={style.city3} onChange={getTypepay}>
+                                <option>Наличные</option>
+                                <option>Элсом</option>
+                                <option>OptimaBank</option>
+                                <option>KicbBank</option>
+                                <option>DemirBank</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div className={style.addInfo}>Вносимая сумма:<input className={style.total} type="text" /></div>
+                    <div className={style.condition}><p>укажите купюру, которой Вы будете вносить оплату, чтобы курьер заранее взял с собой сдачу</p></div>
+                    <div className={style.rule}>
+                        <p><input className={style.checkBox2} type="checkbox" onChange={getDeposit} /> условиями доставки согласен</p>
+                    </div>
+                    <button onClick={addOrderinfo} className={style.btnOrder}>Заказать</button>
+                </form>
+            </div>
+            <PagesFooter/>
+        </>
+    );
+};
+export default Basket;
