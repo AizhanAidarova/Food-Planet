@@ -6,7 +6,7 @@
 }
 .margarita{
     border: none;
-    margin-top: 100px;
+    margin-top: 150px;
     border-bottom: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
@@ -132,7 +132,7 @@
     position: relative;
     right: 15px;
     align-items:center;
-    margin-bottom: 45px;
+    margin-bottom: 80px;
 }
 .basketBtn:hover{
     cursor: pointer;
@@ -194,7 +194,7 @@
     width: 540px;
     height: 215px;
     margin-right: 40px;
-    margin-left: 20px;
+    margin-left: 100px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
@@ -217,15 +217,19 @@
     color: black;
 }
 .deliveryh1{
-    color: #254f4c;
+    color: #FF583E;
+    font-family: 'Roboto';
     font-size: 55px;
     margin-bottom: 0;
     padding-top: 40px;
+    padding-left: 20px;
 }
 .deliveryP{
-    color: #254f4c;
+    font-family: 'Roboto';
+    color: #FF583E;
     font-size: 25px;
     margin: 0 auto;
+    padding-left: 20px;
 }
 .pizzaMap{
     width: 1200px;

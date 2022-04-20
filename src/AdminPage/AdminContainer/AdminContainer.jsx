@@ -34,7 +34,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={menu} alt=""/>
-                            <li className={style.adminBlockLi}>Новинки</li>
+                            <Link to={`/adminNovelties`} className={style.adminBlockLi}><a>Новинки</a></Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={contact} alt=""/>
