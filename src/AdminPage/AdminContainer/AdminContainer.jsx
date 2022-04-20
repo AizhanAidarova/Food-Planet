@@ -7,8 +7,7 @@ import menu from "../../Pages/Media/icon/ideas.svg";
 import contact from "../../Pages/Media/icon/4. contacts.svg";
 import feedback from "../../Pages/Media/icon/5. agents.svg";
 import cart from "../../Pages/Media/icon/Vector.svg";
-import search from "../../Pages/Media/icon/search.svg";
-import Admin from "../Admin/Admin";
+
 
 const AdminContainer = () => {
     return (

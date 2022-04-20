@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import DeliveryMain from "./Pages/Delivery/DeliveryMain";
 import Contacts from './Pages/Contacts/Contacts';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -10,6 +10,7 @@ import AdminAboutUs from './AdminPage/AdminAboutUs/AdminAboutUs';
 import AdminContacts from './AdminPage/AdminContacts/AdminContacts';
 import AdminFeedbacks from './AdminPage/AdminFeedbacks/AdminFeedbacks';
 import Administrators from './AdminPage/Administrators/Administrators';
+import AdminPizza from "./AdminPage/AdminContainer/AdminPizza";
 
 
 const App = () => {
@@ -26,9 +27,9 @@ const App = () => {
                     <Route path="basket" element={<Basket/>}/>
                     <Route path="login" element={<LogInAndLogOut/>}/>
                     <Route path="administrators" element={<Administrators/>}/>
+                    <Route path="adminPizza" element={<AdminPizza/>}/>
                 </Routes>
             </BrowserRouter>
-        /*</AddContext.Provider>*/
   );
 }
 
