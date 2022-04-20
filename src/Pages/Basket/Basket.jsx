@@ -1,14 +1,14 @@
-import React, {useState, useEffect, useContext} from 'react';
+import React, {useState} from 'react';
 import style from '../Basket/Basket.module.css'
 import PagesHeader from '../Header/PagesHeader';
 import { LOCALHOST_URL } from '../../AdminPage/Constant';
 import deleteImg from '../Media/icon/bin.png'
 import asian from '../Media/pizza/asian.svg';
-import Card from "./Card";
 import PagesFooter from '../Footer/PagesFooter';
 
 
 const Basket = () => {
+
     const [number, setNumber] = useState(0);
 
     const increment = () => {
@@ -121,46 +121,10 @@ const Basket = () => {
         fetch(url,options)
          .then((response) => response.json())
 
-        // const card = localStorage.getItem('cart')
-        // const object = JSON.parse(card)
 
-        // const item= Object.keys(object)
-        // const del = () => {
-        //
-        // }
     }
 
         return (
-            // <>
-            //     <table className={table}>
-            //         <tbody>
-            //         <tr>
-            //             <td>№</td>
-            //             <td>Название</td>
-            //             <td>Количество</td>
-            //             <td>-</td>
-            //             <td>+</td>
-            //             <td>Сумма</td>
-            //             <td>Удалить</td>
-            //         </tr>
-            //
-            //         {
-            //             items.map((item,index) =>{
-            //                 return(
-            //                     <Card
-            //                         key={object[item].id}
-            //                         id={object[item].id}
-            //                         name={object[item].name}
-            //                         price={object[item].price}
-            //                         count={object[item].count}
-            //                         del={index}
-            //                     />
-            //                 )
-            //             })
-            //         }
-            //         </tbody>
-            //     </table>
-
 
             <>
             <PagesHeader />
@@ -185,7 +149,6 @@ const Basket = () => {
                             </tr>
                         </table>
                     </div>
-                    
                             <form className={style.right}>
                                 <div className={style.first}>
                                     <div className={style.name}>Имя:</div>
@@ -218,7 +181,7 @@ const Basket = () => {
                                     <div className={style.stree1}>Улица</div>
                                     <div className={style.streetOption}>
                                         <input type="text" className={style.street2} />
-                                        {/* <select className={style.street2} onChange={getStreet}>
+                                         <select className={style.street2} onChange={getStreet}>
                                             <option hidden disabled selected value>Улица</option>
                                             <optgroup label="ТЦ «Азия Молл»" class="optgroup">
                                                 <option class="color-choose" value="2"> пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
@@ -238,7 +201,7 @@ const Basket = () => {
                                             <optgroup label="ТРЦ «Аламедин Гранд»" className="optgroup">
                                                 <option class="color-choose" value="2">  пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж</option>
                                             </optgroup>
-                                        </select> */}
+                                        </select>
                                     </div>
                                 </div>
                                 <div className={style.street}>
