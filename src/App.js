@@ -17,6 +17,15 @@ import AdminRoll from "./AdminPage/AdminContainer/AdminRoll";
 import AdminSalad from "./AdminPage/AdminContainer/AdminSalad";
 import AdminDessert from "./AdminPage/AdminContainer/AdminDessert";
 import AdminDrinks from "./AdminPage/AdminContainer/AdminDrinks";
+import AdminNovelties from "./AdminPage/AdminNovelties/AdminNovelties";
+import AdminNoveltiesPizza from "./AdminPage/AdminNovelties/AdminNoveltiesPizza";
+import AdminNoveltiesBurger from "./AdminPage/AdminNovelties/AdminNoveltiesBurger";
+import AdminNoveltiesDrinks from "./AdminPage/AdminNovelties/AdminNoveltiesDrinks";
+import AdminNoveltiesDessert from "./AdminPage/AdminNovelties/AdminNoveltiesDessert";
+import AdminNoveltiesRoll from "./AdminPage/AdminNovelties/AdminNoveltiesRoll";
+import AdminNoveltiesSalad from "./AdminPage/AdminNovelties/AdminNoveltiesSalad";
+import AdminNoveltiesSushi from "./AdminPage/AdminNovelties/AdminNoveltiesSushi";
+
 
 
 const App = () => {
@@ -40,6 +49,14 @@ const App = () => {
                     <Route path="adminSalad" element={<AdminSalad/>}/>
                     <Route path="adminDessert" element={<AdminDessert/>}/>
                     <Route path="adminDrinks" element={<AdminDrinks/>}/>
+                    <Route path="adminNovelties" element={<AdminNovelties/>}/>
+                    <Route path="adminNewPizza" element={<AdminNoveltiesPizza/>}/>
+                    <Route path="adminNewBurger" element={<AdminNoveltiesBurger/>}/>
+                    <Route path="adminNewSushi" element={<AdminNoveltiesSushi/>}/>
+                    <Route path="adminNewRoll" element={<AdminNoveltiesRoll/>}/>
+                    <Route path="adminNewSalad" element={<AdminNoveltiesSalad/>}/>
+                    <Route path="adminNewDessert" element={<AdminNoveltiesDessert/>}/>
+                    <Route path="adminNewDrinks" element={<AdminNoveltiesDrinks/>}/>
                 </Routes>
             </BrowserRouter>
   );

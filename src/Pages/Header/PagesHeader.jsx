@@ -16,7 +16,7 @@ const PagesHeader = () => {
                         <Link to={`/index`}><li><a className={style.glavnaya} >Главная </a></li></Link>
                         <li>
                             <select className={style.menuSelect} id="header-menu" >
-                                <option className={style.selectMenu} value="0">Меню</option>
+                                <option className={style.selectMenu} value="0"> Меню</option>
                                 <option value="1">Бургер</option>
                                 <option value="2">Суши</option>
                                 <option value="3">Роллы</option>
