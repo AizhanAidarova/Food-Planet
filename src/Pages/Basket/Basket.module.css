@@ -48,7 +48,7 @@ table {
 }
 
 .input1{
-    width: 400px;
+    width: 385px;
     height: 25px;
     padding-left: 10px;
     /* border:none; */
@@ -94,8 +94,8 @@ table {
 .city{
     margin-right: 45px;
 }
-.stree1{
-    margin-right: 43px;
+.street1{
+    margin-right: 37px;
 }
 
 .city2, .street2{
@@ -180,15 +180,15 @@ table {
     padding-left: 10px;
 }
 .inputDopInfo  {
-    width: 229px;
+    width: 348px;
     height: 30px;
     border-radius:12px;
     border: 1px solid #2B4241; 
-    padding-left: 10px;
+   
 }
 
 .dopInfo{
-    margin-right: 20px;
+    margin-right: 12px;
 }
 
 .typePay{
@@ -229,7 +229,7 @@ table {
 }
 
 .city3 {
-    width: 363px;
+    width: 352px;
     height: 30px;
     border-radius:12px;
 }

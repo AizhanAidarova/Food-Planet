@@ -477,7 +477,6 @@
       "desc": "Десерт на основе воздушной миндальной муки с сливочно-сырным кремом",
       "price": 150
     },
-
     {
       "id": 6,
       "name": "Шоколадный брауни",
@@ -491,7 +490,8 @@
       "img": "https://www.tellaballsdessertbar.com/uploads/2022/02/49b30d914.png",
       "desc": "5 шт. Французский десерт из заварного теста, наполненный ванильным кремом \"Патисьер\", декорирован ганашом из белого шоколада.",
       "price": 120
-    },{
+    },
+    {
       "id": 8,
       "name": "Мороженое",
       "img": "https://www.carvel.com/-/media/carvel/menu/ice-cream/soft-serve/2-chocolate-new.png?v=1&d=20180430T193908Z&h=600&w=600&la=en&hash=78EF4BE6817E692ACEDC66FE8FDF5140",
@@ -784,15 +784,47 @@
       "password": "meerim"
     }
   ],
-"orderform": [
-  {
-    "id": 1,
-    "number": "+996500405988",
-    "email": "food-planet@gmail.com",
-    "adress": "Суюмбаева 123, Бишкек, Кыргызстан",
-    "telegram": "food-planet",
-    "instagram": "food-planet",
-    "facebook": "food-planet"
-  }
-]
+  "orderform": [
+    {
+      "name": "test",
+      "phonenumber": "",
+      "typeorder1": "",
+      "typeorder2": "",
+      "city": "",
+      "street": "",
+      "house": "",
+      "corpus": "",
+      "flat": "",
+      "porch": "",
+      "floor": "",
+      "intercom": "",
+      "deliveryhour": "",
+      "deliveryminut": "",
+      "addinfo": "",
+      "typepay": "",
+      "deposit": "",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "phonenumber": "9999999",
+      "typeorder1": "",
+      "typeorder2": "on",
+      "city": "Кант",
+      "street": "2",
+      "house": "12",
+      "corpus": "5",
+      "flat": "23",
+      "porch": "",
+      "floor": "2",
+      "intercom": "",
+      "deliveryhour": "-2",
+      "deliveryminut": "",
+      "addinfo": "ytn",
+      "typepay": "",
+      "deposit": "",
+      "id": 2
+    }
+    
+  ]
 }

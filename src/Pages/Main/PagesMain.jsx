@@ -3,6 +3,7 @@ import style from '../Main/PagesMain.module.css';
 import combo from '../Media/img/combo.svg';
 import arrow2 from '../Media/icon/arrow2.svg'
 
+
 const PagesMain = () => {
     return (
         <div className={style.main}>
