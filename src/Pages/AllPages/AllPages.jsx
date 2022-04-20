@@ -9,7 +9,7 @@ import PagesFooter from '../Footer/PagesFooter';
 
 const AllPages = () => {
     return (
-        <div>
+        <>
             <div>
                 <PagesHeader/>
                 <PagesMain/>
@@ -19,7 +19,7 @@ const AllPages = () => {
                 <PagesFeedbacks/>
                 <PagesFooter/>
             </div>
-        </div>
+        </>
     );
 };
 

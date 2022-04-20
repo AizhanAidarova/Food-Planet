@@ -55,8 +55,8 @@ const PagesFeedbacks = () => {
                   <img src={pencil} alt="" />
                 </div>
                 <p>{item.feedback}</p>
-                <h4>{getCurrentDate}</h4>            
-                {/* <h4>{item.dateOfPublication}</h4>             */}
+                {/* <h4>{getCurrentDate}</h4>             */}
+                <h4>21.04.2022</h4>            
               </div>
             </div> 
             })}

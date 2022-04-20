@@ -3,6 +3,7 @@ import {delivery} from "../../AdminPage/Constant";
 import style from "../../Pages/Menu/PagesMenu.module.css";
 import Delivery from "../Delivery/Delivery";
 import PagesHeader from "../Header/PagesHeader";
+import PagesFooter from "../Footer/PagesFooter";
 
 const DeliveryMain = () => {
     return (
@@ -27,6 +28,7 @@ const DeliveryMain = () => {
                     }
                 </div>
             </div>
+            <PagesFooter/>
         </>
     );
 };

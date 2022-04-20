@@ -756,5 +756,16 @@
       "login": "meerim",
       "password": "meerim"
     }
-  ]
+  ],
+"orderform": [
+  {
+    "id": 1,
+    "number": "+996500405988",
+    "email": "food-planet@gmail.com",
+    "adress": "Суюмбаева 123, Бишкек, Кыргызстан",
+    "telegram": "food-planet",
+    "instagram": "food-planet",
+    "facebook": "food-planet"
+  }
+]
 }
