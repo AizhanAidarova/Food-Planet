@@ -3,7 +3,7 @@ import styles from "./PagesFeedbacks.module.css";
 import border from "../Media/Icons/FeedbackBorder.svg";
 import greyEllipse from "../Media/Icons/GreyEllipse.svg";
 import pencil from "../Media/Icons/Pencil.svg";
-import { feedbacks } from "../../Constant/Constant";
+// import { feedbacks } from "../../Constant/Constant";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -15,7 +15,7 @@ import { LOCALHOST_URL } from "../../AdminPage/Constant";
 //https://github.com/akiran/react-slick
 
 const PagesFeedbacks = () => {
-    var settings = {
+    let settings = {
       dots: true,
       infinite: true,
       speed: 500,
@@ -36,6 +36,8 @@ const PagesFeedbacks = () => {
   useEffect(()=>{
     getData()
   },[])
+
+ 
 
   return (
     <>

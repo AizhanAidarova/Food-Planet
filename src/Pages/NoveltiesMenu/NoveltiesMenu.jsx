@@ -7,6 +7,28 @@ import { LOCALHOST_URL } from '../../AdminPage/Constant';
 const GoodsCard = ({item}) => {
     const [number, setNumber] = useState(0);
 
+    const addCart = () => {
+        let cartStorage = localStorage.getItem('cart');
+    
+        const id = item.id;
+        let object = {
+          [id]: {
+            ...item,
+            number
+        }
+        }
+    
+        if(cartStorage){
+          cartStorage = JSON.parse(cartStorage);
+          object = {
+            ...object,
+            ...cartStorage
+          }
+        
+        }
+        localStorage.setItem("cart", JSON.stringify(object));
+      };
+
     const increment = () => {
         setNumber(number + 1)
     }
@@ -31,7 +53,7 @@ const GoodsCard = ({item}) => {
                 <p>{number}</p>
                 <button className={style.btn2} onClick={increment}>+</button>
             </div>
-            <button className={style.btn3}>В КОРЗИНУ</button>
+            <button className={style.btn3} onClick={() => addCart(item)}>В КОРЗИНУ</button>
         </div>
     )
 }

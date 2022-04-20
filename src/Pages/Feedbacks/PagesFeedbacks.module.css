@@ -54,6 +54,8 @@
     font-size: 14px;
     color: #3B7976;
     margin: 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .oneFeedback p{
@@ -67,4 +69,8 @@
 
 .slick-slide img {
     display: none; 
+}
+
+.firstFeedback{
+    font-size: 13px;
 }

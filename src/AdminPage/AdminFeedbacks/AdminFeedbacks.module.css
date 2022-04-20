@@ -1,5 +1,5 @@
-input{
-    border: none;
+.feedback input{
+    border: none!important;
     font-size: 15px;
     margin: 0;
 }
@@ -11,8 +11,10 @@ textarea{
 }
 
 .feedback h2{
-    margin-left: 25px;
-    color:#363740;
+    margin-left: 25px!important;
+    font-size: 25px;
+    margin-top: 10px!important;
+    color:#363740!important;
 }
 
 .mainFeedbacks{
@@ -30,7 +32,8 @@ textarea{
 .feedback td{
     border: 1px solid black;
      padding: 0;
-     padding-left: 5px ;
+     padding-left: 7px ;
+     padding-right: 7px;
    
 }
 
@@ -101,3 +104,4 @@ textarea{
     background-color: #3751FF;
     cursor: pointer;
 }
+
