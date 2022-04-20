@@ -30,11 +30,11 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={menu} alt=""/>
-                            <Link to={`/admin`} className={style.adminBlockLi}><a>Меню</a></Link>
+                            <Link to={`/admin`} className={style.adminBlockLi}>Меню</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={menu} alt=""/>
-                            <Link to={`/adminNovelties`} className={style.adminBlockLi}><a>Новинки</a></Link>
+                            <Link to={`/adminNovelties`} className={style.adminBlockLi}>Новинки</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={contact} alt=""/>
@@ -46,7 +46,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={feedback} alt=""/>
-                            <li className={style.adminBlockLi}>Доставка</li>
+                            <Link to={`/adminDelivery`} className={style.adminBlockLi}>Доставка</Link>
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
@@ -54,7 +54,7 @@ const AdminContainer = () => {
                         </div>
                         <div className={style.adminBlockDiv}>
                             <img className={style.adminBlockImg} src={cart} alt=""/>
-                            <Link to={`/administrators`} className={style.adminBlockLi}><a>Сотрудники</a></Link>
+                            <Link to={`/administrators`} className={style.adminBlockLi}>Сотрудники</Link>
                         </div>
                     </ul>
                 </nav>
