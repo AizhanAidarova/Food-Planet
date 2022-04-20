@@ -3,7 +3,23 @@ import AdminContainer from "../AdminContainer/AdminContainer";
 import styles from "../AdminAboutUs/AdminAboutUs.module.css";
 import { LOCALHOST_URL } from "../Constant";
 
+// const initialValue= {
+//   name: '',
+//   img: '',
+//   price: ''
+// }
 const AdminAboutUs = () => {
+
+
+  // const   [userData,setUserData] = useState(initialValue);
+  // console.log(userData);
+  // const   [users,setUsers] = useState([]);
+  //
+  // const handleSubmitUser = (e) =>{
+  //   e.preventDefault()
+  //
+  // }
+
   const [data, setData] = useState([]);
 
   const getData = () => {
@@ -42,6 +58,7 @@ const AdminAboutUs = () => {
           {data.map((item) => {
             return (
               <>
+                {/*onSubmit={(e) => handleSubmitUser(e)}*/}
                 {" "}
                 <tr>
                   <td>{item.id}</td>

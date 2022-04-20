@@ -6,8 +6,14 @@ import deleteImg from '../Media/icon/bin.png'
 import asian from '../Media/pizza/asian.svg';
 import PagesFooter from '../Footer/PagesFooter';
 
-
+/*const initialValue= {
+    name:'',
+    img:'',
+    price:''
+}*/
 const Basket = () => {
+    /*const   [userData,setUserData] = useState(initialValue);*/
+   /* console.log(userData);*/
 
     const [number, setNumber] = useState(0);
 
