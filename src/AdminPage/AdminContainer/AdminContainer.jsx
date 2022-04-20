@@ -59,7 +59,6 @@ const AdminContainer = () => {
                     </ul>
                 </nav>
             </div>
-            <Admin/>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const GoodsCard = ({item}) => {
         setNumber(number + 1)
     }
     const decrement = () => {
-        if (number >0){
+        if (number >1){
             setNumber(number - 1)
         }
     }

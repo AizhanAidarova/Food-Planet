@@ -36,7 +36,6 @@ const GoodsCard = ({item}) => {
             setCount(count - 1)
         }
     }
-    // const {deleteFromBasket,card} = useContext(AddContext)
     return (
 
         <div key={item.id} className={style.margarita}>
@@ -51,7 +50,6 @@ const GoodsCard = ({item}) => {
                 <p className={style.countP}>{count}</p>
                 <button className={style.countBtn2} onClick={increment}> + </button>
             </div>
-            <button className={style.basketBtn} /*onClick={() => deleteFromBasket(item.id)}*/>В КОРЗИНУ</button>
             <button className={style.basketBtn} onClick={() => addCart(item)}>В КОРЗИНУ</button>
         </div>
     )
@@ -74,7 +72,7 @@ const MenuHeader = () => {
                 .then ((data) => setFood(data))
         }
         useEffect(() => {
-            getFood('/burger');
+            getFood('/pizza');
         }, [])
 
     return (

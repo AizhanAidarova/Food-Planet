@@ -3,7 +3,8 @@ import style from '../Basket/Basket.module.css'
 import PagesHeader from '../Header/PagesHeader';
 import { LOCALHOST_URL } from '../../AdminPage/Constant';
 import deleteImg from '../Media/icon/bin.png'
-import asian from '../Media/pizza/asian.svg'
+import asian from '../Media/pizza/asian.svg';
+import Card from "./Card";
 
 
 const Basket = () => {
@@ -118,23 +119,50 @@ const Basket = () => {
         };
         fetch(url,options)
          .then((response) => response.json())
+
+        // const card = localStorage.getItem('cart')
+        // const object = JSON.parse(card)
+
+        // const item= Object.keys(object)
+        // const del = () => {
+        //
+        // }
     }
 
-
-     
-
-
-        // const getData = () => {
-        //     const url = LOCALHOST_URL + "/users";
-        //     fetch(url)
-        //         .then((response) => response.json())
-        //         .then((data) => setData(data));
-        // };
-
         return (
+            // <>
+            //     <table className={table}>
+            //         <tbody>
+            //         <tr>
+            //             <td>№</td>
+            //             <td>Название</td>
+            //             <td>Количество</td>
+            //             <td>-</td>
+            //             <td>+</td>
+            //             <td>Сумма</td>
+            //             <td>Удалить</td>
+            //         </tr>
+            //
+            //         {
+            //             items.map((item,index) =>{
+            //                 return(
+            //                     <Card
+            //                         key={object[item].id}
+            //                         id={object[item].id}
+            //                         name={object[item].name}
+            //                         price={object[item].price}
+            //                         count={object[item].count}
+            //                         del={index}
+            //                     />
+            //                 )
+            //             })
+            //         }
+            //         </tbody>
+            //     </table>
+
 
             <>
-                <PagesHeader />
+            <PagesHeader />
                 <div className={style.zakaz}>Заказ</div>
                 <div className={style.container}>
                     <div className={style.left}>
