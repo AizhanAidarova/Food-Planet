@@ -1,10 +1,11 @@
+/*
 import React, { useEffect, useState} from 'react';
 import style from "./PagesMenu.module.css";
 import {LOCALHOST_URL} from "../../AdminPage/Constant";
 
 
 const GoodsCard = ({item}) => {
-      const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);
 
     const addCart = () => {
         let cartStorage = localStorage.getItem('cart');
@@ -36,7 +37,6 @@ const GoodsCard = ({item}) => {
             setCount(count - 1)
         }
     }
-
     return (
 
         <div key={item.id} className={style.margarita}>
@@ -57,24 +57,24 @@ const GoodsCard = ({item}) => {
 }
 const MenuHeader = () => {
 
-        const [food, setFood] = useState([]);
+    const [food, setFood] = useState([]);
 
-        const getFood = (foodUrl) => {
-            const url = LOCALHOST_URL + foodUrl;
+    const getFood = (foodUrl) => {
+        const url = LOCALHOST_URL + foodUrl;
 
-            fetch(url)
-                .then(response => {
-                    if(response.status === 200){
-                        return response.json();
-                    }else {
-                        alert('Smth wrong');
-                    }
-                })
-                .then ((data) => setFood(data))
-        }
-        useEffect(() => {
-            getFood('/pizza');
-        }, [])
+        fetch(url)
+            .then(response => {
+                if(response.status === 200){
+                    return response.json();
+                }else {
+                    alert('Smth wrong');
+                }
+            })
+            .then ((data) => setFood(data))
+    }
+    useEffect(() => {
+        getFood('/pizza');
+    }, [])
 
     return (
 
@@ -82,17 +82,17 @@ const MenuHeader = () => {
             <div className={style.noveltiesNavbar}>
                 <div><h2 className={style.noveltiesH2}>Меню</h2></div>
                 <div className={style.menu}>
-                <nav>
-                    <ul>
-                        <li onClick={() => getFood("/pizza") }>Пицца</li>
-                        <li onClick={() => getFood("/burger")}>Бургер</li>
-                        <li onClick={() => getFood("/sushi")}>Суши</li>
-                        <li onClick={() => getFood("/roll")}>Роллы</li>
-                        <li onClick={() => getFood("/salad")}>Салаты</li>
-                        <li onClick={() => getFood("/desert")}>Десерты</li>
-                        <li onClick={() => getFood("/drinks")}>Напитки</li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li onClick={() => getFood("/pizza") }>Пицца</li>
+                            <li onClick={() => getFood("/burger")}>Бургер</li>
+                            <li onClick={() => getFood("/sushi")}>Суши</li>
+                            <li onClick={() => getFood("/roll")}>Роллы</li>
+                            <li onClick={() => getFood("/salad")}>Салаты</li>
+                            <li onClick={() => getFood("/desert")}>Десерты</li>
+                            <li onClick={() => getFood("/drinks")}>Напитки</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
             <div className={style.menuHead}>
@@ -107,4 +107,4 @@ const MenuHeader = () => {
     );
 };
 
-export default MenuHeader;
+export default MenuHeader;*/
